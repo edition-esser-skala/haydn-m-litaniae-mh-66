@@ -4,7 +4,7 @@
 
 \paper {
 	indent = 1\cm
-	#(define (page-post-process layout pages) (ly:create-toc-file layout pages))
+	#(define (page-post-process layout pages) (ly:create-ref-file layout pages))
 }
 
 #(set-global-staff-size 15.87)
@@ -13,10 +13,10 @@
 	\bookpart {
 		\header {
 			number = "1"
-			title = "F I R S T"
+			title = "K Y R I E   E L E I S O N"
 		}
 		\paper { indent = 3\cm }
-		\tocSection "1" "Kyrie eleison"
+		\tocLabel "kyrie" "1" "Kyrie eleison"
 		\score {
 			<<
 				\new StaffGroup <<
@@ -98,7 +98,7 @@
 				\new FiguredBass { \KyrieBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 90 }
+			\midi { \tempo 4 = 70 }
 		}
 	}
 }
