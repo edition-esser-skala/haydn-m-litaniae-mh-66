@@ -87,6 +87,91 @@ KyrieBassoLyrics = \lyricmode {
 	bis. %45 finis
 }
 
+PanisVivusBassoNotes = {
+	\relative c {
+		\clef bass
+		\key f \major \time 4/4 \autoBeamOff \tempoPanisVivus
+		R1*12 %12
+		\mvTr c'4.\pE^\solo c8 \appoggiatura b a4^\critnote g
+		f4. f8 b8.([ c32 d)] c4
+		d,2 c %15
+		b a4 r
+		d4. g8 e4 f8([ a)]
+		c4( b)\trill a r
+		a f8 a c8. c,16 c4
+		f4. g8 e8.([ f16)] g4 %20
+		a,2 g
+		f' e
+		a4. d8 h[ a g f]
+		e16[ c' h a] g4~ g16[ c h a] g4~
+		g16[ c h a] g8 c g2\trill %25
+		c,4 r r2
+		R1*6 %32
+		r8 c g'4. g8 g4~
+		g8 a16([ f)] g4. g8 g4~
+		g16[ f] g([ a)] b8 a16([ g)] f8.([ g16)] a4 %35
+		b4. d,8 cis4 d8([ a')]
+		a4( g)\trill f r
+		r a4. a8 a4~
+		a8 b16 g a4. b16([ g)] a4
+		r8 a([ f)] d b'8.([ a16)] g4 %40
+		r8 g([ c)] b a8.([ g16)] f4
+		d2 c
+		b a
+		a' g
+		f e4 f8 c %45
+		d[ b16 d] e8[ c16 e] f8[ d16 f] g8[ e16 g]
+		a4 a16[ g a b] c4 f,16[ g a b]
+		c8[ e, f] b, c2
+		h4 r c'4. c8
+		\appoggiatura b! a4^\critnote g f4. f8 %50
+		b8.([ c32 d)] c4 r8 b([ c)] d
+		e,([ c' a)] f c2
+		f4 r r2
+		R1*99 %152
+		R1\fermataMarkup \bar "|." %153 finis
+	}
+}
+
+PanisVivusBassoLyrics = \lyricmode {
+	Pa -- nis vi -- vus, %13
+	qui de coe -- lo
+	de -- scen -- %15
+	di -- sti,
+	mi -- se -- re -- re
+	no -- bis,
+	De -- us ab -- scon -- di -- tus
+	et Sal -- va -- tor, %20
+	mi -- se --
+	re -- re,
+	mi -- se -- re --
+	_ _ _
+	_ re no -- %25
+	bis.
+
+	Fru -- men -- tum e -- %33
+	le -- cto -- rum, mi --
+	se -- re -- re no -- bis, %35
+	mi -- se -- re -- re
+	no -- bis,
+	vi -- num ger --
+	mi -- nans vir -- gi -- nes,
+	mi -- se -- re -- re, %40
+	mi -- se -- re -- re,
+	mi -- se --
+	re -- re,
+	mi -- se --
+	re -- re, mi -- se -- %45
+	re -- _ _ _
+	_ _ _ _
+	_ re no --
+	bis, mi -- se --
+	re -- re, mi -- se -- %50
+	re -- re, mi -- se --
+	re -- re no --
+	bis. %53 finis
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

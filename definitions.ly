@@ -673,6 +673,7 @@ tocLabelLong = #(define-music-function
 
 
 tempoKyrie = \tempoMarkup "Adagio ma non troppo"
+tempoPanisVivus = \tempoMarkup "Vivace"
 
 
 \include "notes/trb1.ly"
