@@ -56,3 +56,89 @@ KyrieTromboneII = {
     d1\fermata \bar "|." %45 finis
 	}
 }
+
+PanisSuperTromboneII = {
+	\relative c' {
+		\clef "treble_8"
+		\key g \dorian \time 3/4 \tempoPanisSuper
+		R2.*19 %19
+		r4 d2~\fE %20
+		d4 cis e~
+		e d f~
+		f e d
+		cis2 e4
+		d a a %25
+		a2.
+		b4 r r
+		r d d
+		d g,8 b b a16 b
+		c8. b16 a8 c c8.(\trill b32 c) %30
+		d8. c16 b8 d d8.(\trill c32) d
+		es4 g,2
+		a8. b16 c4 c~
+		c b b
+		b a r %35
+		r b\p b
+		d2 d4
+		b2.
+		b2 r4
+		g4. g8 g4 %40
+		es f2
+		f4 b2~
+		b4. b8 b4
+		b c2
+		c4 r r %45
+		R2.
+		r4 f,\f f'
+		e2.
+		f4 c c
+		b2 b4~ %50
+		b b a
+		b r r
+		R2.*3 %55
+		r4 d d8 d
+		c2 c4
+		d8 d b4 b
+		c c r
+		r d d %60
+		c2 c4
+		d b2
+		c4 c r
+		r a a
+		g2. %65
+		d'4 d2
+		c4 a a
+		c2.
+		a4 a\p a
+		c2. %70
+		a4 r r
+		r r b\fE
+		c2 fis,8 fis
+		d'2 g,8 g
+		es'2 c4 %75
+		a a a
+		g d'2
+		c4 g a
+		a d d
+		es d2 %80
+		d4 d d
+		d2.
+		g,
+		b2 g4
+		a a a %85
+		c2.
+		a4 a\p a
+		c2.
+		a4 r r
+		r g\fE g' %90
+		fis2 fis,4
+		g d'2
+		c4 r r
+		r a d
+		d2 es4~ %95
+		es d2
+		d4 r r
+		R2.*5 %102
+		R2.\fermataMarkup \bar "|." %103 finis
+	}
+}

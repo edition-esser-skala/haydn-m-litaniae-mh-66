@@ -212,6 +212,107 @@ PanisVivusViolinoI = {
 	}
 }
 
+PanisSuperViolinoI = {
+	\relative c' {
+		\clef treble
+		\key g \dorian \time 3/4 \tempoPanisSuper
+		R2.*9
+		r4 d'2~\fE
+		d4 cis e~
+		e d f~
+		f e d
+		cis2.
+		d2 c4
+		b8. a16 g8 b b8.(\trill a32 b)
+		c8. b16 a8 c c8.(\trill b32 c)
+		d8. c16 b8 d d8.(\trill c32 d)
+		es2 e4
+		a, r8 d16 c b8 a
+		g4 r8 e'16 d cis8 b!
+		a4 r8 f'16 e d8 c
+		b4 b r
+		e,2 a4
+		a d d
+		es2.
+		d4 d d
+		c2.
+		b2 d4
+		c es4. es8
+		d4 d, r
+		r r es'~
+		es f es
+		d2 d4
+		d c r
+		r f\p \appoggiatura es8 d4
+		\appoggiatura c4 b2 as4
+		as2( g4)
+		f d'( f,)
+		es4. f8 es4 %40
+		g f es
+		d b'' f
+		c4. d8 c4
+		des c b
+		a f\f f' %45
+		e!2 e4
+		f c c
+		R2.
+		r4 es, es'
+		d2 c4~ %50
+		c c2
+		b8 b16 c d8 b b, b'
+		c, c'16 d es8 c c, c'
+		d, d'16 es? f8 d d, d'
+		es, c f e? f f %55
+		b,4 f'' f8 f
+		f2 c4
+		b4. d8 c b
+		a8. b16 c4 r
+		r f f %60
+		f2 c4
+		b4. d8 c b
+		a8. b16 c4 r
+		r es es
+		es d d~ %65
+		d8 c c4 b
+		a d d
+		es2.
+		d4 d\p d
+		es2. %70
+		d4 r r
+		R2.
+		r4 c2~\fE
+		c4 b8 c d4~
+		d c8 d es4~ %75
+		es d c
+		h2 h4
+		c2 c4
+		c2 b!4~
+		b8 c b4 a %80
+		g b b
+		h2.
+		c
+		cis
+		d4 d d %85
+		es2.
+		d4 d\p d
+		es2.
+		d4 r r
+		R2.*2 %91
+		r4 f,!\fE f'
+		es es r
+		r d c
+		b2 a4~ %95
+		a a2
+		g8 g16 a b8 g g, g'
+		a, a'16 b c8 a a, a'
+		b, b'16 c d8 b b, b'
+		c, c'16 d es8 c c, c' %100
+		d, d'16 c d8 fis, g d
+		es c d c d d
+		g,4 r r\fermata \bar "|." %103 finis
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

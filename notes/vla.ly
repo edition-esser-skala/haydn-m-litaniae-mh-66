@@ -189,3 +189,113 @@ PanisVivusViola = {
 		b4 r r2\fermata \bar "|." %153 finis
 	}
 }
+
+PanisSuperViola = {
+	\relative c' {
+		\clef alto
+		\key g \dorian \time 3/4 \tempoPanisSuper
+		g8\fE g'16 a b8 g g, g'
+		a, a'16 b c8 a a, a'
+		b, b'16 c d8 b b, b'
+		c, c'16 d es8 c c, c'
+		fis, d g es c d %5
+		g, g'16 a b8 g g, g'
+		a, a'16 b c8 a a, a'
+		b, b'16 c d8 b b, b'
+		c, c'16 b c8 c, cis a
+		d, d'16 e f8 d d, d' %10
+		e, e'16 f g8 e e, e'
+		f, f'16 g a8 f f, f'
+		g, g'16 a b8 g g, g'
+		a, a'16 g a8 a a, a'
+		d, d'16 cis d8 d, e fis %15
+		g g16 f es8 d c b
+		a a'16 g fis8 es d c
+		b b'16 a g8 f es d
+		c c'16 b c8 c, cis a
+		d f16 e d8 f d,^\critnote d' %20
+		e g16 f e8 g e, e'
+		f a16 g f8 a f, f'
+		g b16 a g8 b g, g'
+		a, a'16 g a8 a, cis a
+		d d'16 cis d8 d d, d' %25
+		c,! es'16 d c8 c c, c'
+		b, d'16 c b8 b b, b'
+		fis, a'16 g fis8 fis fis, fis'
+		g, g'16 a b8 g g, g'
+		a, a'16 b c8 a a, a' %30
+		b, b'16 c d8 b b, b'
+		c, c'16 d es8 c c, c'
+		f,,! f'16 g a8 f f, f'
+		b, b'16 c d8 b b, b'
+		f4 r8 f16 es d8 c %35
+		b b b[\p b b b]
+		d d d d d d
+		b b b b b b
+		b b b b b b
+		g g g g g g %40
+		es es f f f f
+		f f f f b b
+		b b b b b b
+		b b c c c c
+		c f16\f g a8 f f, f' %45
+		g, g'16 a b8 g g, g'
+		f, f'16 g a8 f f, f'
+		c c'16 h? c8 c c, c'
+		a, a'16 g a8 a a, a'
+		b, b b' b es, es %50
+		e e f f f, f
+		b b'16 c d8 b b, b'
+		c, c'16 d es8 c c, c'
+		d, d16 es f8 d d, d'
+		es c f e f f, %55
+		b b'16 c d8 b b, b'
+		a, a'16 b c8 a a, a'
+		g, g'16 a b8 g g, g'
+		f, f'16 g a8 f f, f'
+		b, b'16 c d8 b b, b' %60
+		a, a'16 b c8 a a, a'
+		g, g'16 a b8 g g, g'
+		f, f'16 g a8 f f, f'
+		fis, fis'16 g a8 fis fis, fis'
+		g, g'16 a b8 g g, g' %65
+		d fis16 d g8 g, b g
+		d' d'16 cis d8 d d, d'
+		c, c'16 h c8 c c, c'
+		d, d'16 cis d8\p d d, d'
+		c, c'16 h? c8 c c, c' %70
+		d, d' d,[\f c b a]
+		g g'16 a b8 g g, g'
+		a, a'16 b c8 a a, a'
+		b, b'16 c d8 b b, b'
+		c, c'16 d es8 c c, c' %75
+		d, d'16 c d8 d d, d'
+		g,, g'16 fis g8 g g, g'
+		c, c'16 h c8 c c, c'
+		d, d'16 c d8 d g, f!
+		es c d c d d, %80
+		g g' g g g g
+		f! f f f f f
+		e! e e e e e
+		es es es es es es
+		d d'16 cis d8 d d, d' %85
+		c, c'16 h c8 c c, c'
+		d, d'16 cis d8\p d d, d'
+		c, c'16 h? c8 c c, c'
+		d, d'16 cis d8\f d d, d'
+		a, a'16 gis? a8 a a, a' %90
+		d, d'16 cis  d8 d d, d'
+		g,, g'16 f g8 g g, g'
+		c, c'16 b c8 c c, c'
+		fis, fis16 e fis8 fis fis, fis'
+		g g g, g c c %95
+		a a d d d, d
+		g g'16 a b8 g g, g'
+		a, a'16 b c8 a a, a'
+		b, b'16 c d8 b b, b'
+		c, c'16 d es8 c c, c' %100
+		d, d'16 c d8 fis, g d
+		es c d c d d,
+		g4 r r\fermata \bar "|." %103 finis
+	}
+}

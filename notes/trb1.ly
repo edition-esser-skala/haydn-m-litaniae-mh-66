@@ -56,3 +56,102 @@ KyrieTromboneI = {
     a\fermata \bar "|." %45 finis
 	}
 }
+
+PanisSuperTromboneI = {
+	\relative c' {
+		\clef treble
+		\key g \dorian \time 3/4 \tempoPanisSuper
+		R2.*5 %5
+		r4 g'2~\fE
+		g4 fis a~
+		a g b~
+		b a g
+		f!8. e16 d8 f f8.(\trill e32 f) %10
+		g8. f16 e8 g g8.(\trill f32 g)
+		a8. g16 f8 a a8.(\trill g32 a)
+		b8. a16 g8 b b8.(\trill a32 b)
+		e,4. f16 g a8 g
+		f4 fis g8 a %15
+		d,4 r8 g16 f es8 d
+		c4 r8 a'16 g fis8 es
+		d4 r8 b'16 a g8 f
+		g4 a2
+		a8. g16 f4 r %20
+		R2.*2
+		r4 r b~
+		b a g
+		fis fis fis8 fis8 %25
+		fis2.
+		g4 g g
+		a2.
+		g4 g2~
+		g4 fis a~ %30
+		a g \once \tieDashed b~
+		b c a
+		a2 a4
+		f2.
+		f2 r4 %35
+		r d\p f
+		f2 f4
+		f2 es4
+		d2 r4
+		c4. d8 c4 %40
+		c c2
+		b4 r r
+		g'4. g8 g4
+		g g2
+		f4 r r %45
+		r b,\f b'
+		a2.
+		g
+		c,4 f2
+		f2 g4~ %50
+		g f2
+		f4 r r
+		R2.*3 %55
+		r4 b b8 b
+		c2 f,4
+		f8 f e!4 e
+		f f r
+		r b, b' %60
+		c2 f,4
+		f e e
+		f f r
+		r c' c
+		c b b %65
+		a a g
+		fis fis fis
+		g2.
+		fis4 fis\p fis
+		g2. %70
+		fis4 r r
+		r g2\fE
+		g4 fis8 g a4~
+		a g8 a b4~
+		b a g %75
+		fis2 fis4
+		f2.
+		es
+		fis2 g4~
+		g8 a g4 fis %80
+		g g g
+		as2.
+		g
+		g
+		fis4 fis fis %85
+		g2.
+		fis4 fis\p fis
+		g2.
+		fis4 r r
+		R2. %90
+		r4 c\fE c'
+		h2 g4
+		g r r
+		r a a
+		g2 g4~ %95
+		g g fis
+		g r r
+		R2.*5 %102
+		R2.\fermataMarkup \bar "|." %103 finis
+	}
+}
