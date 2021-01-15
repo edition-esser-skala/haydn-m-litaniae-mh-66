@@ -316,3 +316,155 @@ PanisSuperViolinoII = {
 		g,4 r r\fermata \bar "|." %103 finis
 	}
 }
+
+PraecelsumViolinoII = {
+	\relative c' {
+		\clef treble
+		\key es \major \time 3/4 \tempoPraecelsum
+		\mvTr g8\p-\markup \remark "con sordino" g g g g g
+		as as as as as as
+		as as f' f f f
+		f f es es es es
+		b b b b b b %5
+		c c d d es es
+		es es es es d d
+		es b b b b b
+		des des des des des des
+		des des c4 r %10
+		f8 f f f f f
+		f f f b, b d
+		es g r g d b
+		b g r g' f b,
+		b' g r g d b %15
+		b g r g' f b,
+		b es es es d d
+		es es es es es es
+		f f f f f f
+		es es es-\critnote es d d %20
+		es es[\f b b] as8.(\trillE g32 as)
+		g8 b es es f8.(\trillE g32 as)
+		g8 es b b as8.(\trillE g32 as)
+		g8 es' b' b b8.(\trillE c32 des)
+		c4~ c16 es d f es b as g %25
+		c as g f es g as b as f es d
+		es8 es es es d d
+		es8 b es4 r
+		r8 es[\p b b] as8.(\trillE g32 as)
+		g8 b es es f8.(\trillE g32 as) %30
+		g8 es b b as8.(\trill g32 as)
+		g4 r r\fermata
+		g'8 g g g g g
+		es es d d d d
+		f f f f f f %35
+		f f es es es es
+		es es es es es es
+		es es f f g b
+		c c f, f f f
+		g es[\f b b] as8.(\trill g32 as) %40
+		g8 g' g[\p g g g]
+		f f f f f f
+		es es es es es es
+		es es es es es es
+		d b'[\f f f] es8.(\trillE d32 es) %45
+		d4 r8 d\p es c
+		b b b b b b
+		b b b b b b
+		b b b b b b
+		b b b b b b %50
+		b b b b b b
+		b b a a a a
+		a' a a a a a
+		b b f f g g
+		c,4 r8 c d es %55
+		f4 r8 f' es c
+		d f r f es a,
+		b f r f' es c
+		d f r f es a,
+		b b b b b b %60
+		b b b b b b
+		b b b b a a
+		b d, d d d d
+		as'! as as as as as
+		as as g4 r %65
+		b8 b g g g g
+		g g f f f f
+		es! es es es es es
+		es es es es es es
+		d d c c c c %70
+		b b'[\f f f] es8.(\trill d32 es)
+		d8 f b b c8.(\trillE d32 es)
+		d8 b f f es8.(\trill d32 es)
+		d8 b' f' f f8.(\trillE g32 as!)
+		g4~ g16 f g a b f es d %75
+		g es d c b d es f es c b a
+		b8 b b b a a
+		b8 f b4 r
+		f8\p f f f f f
+		f f es es f f %80
+		g g es es d c
+		c c h h c f
+		es es es es es es
+		c c h h h h
+		c' c h h h h %85
+		c4 r r
+		R2.
+		r8 g,[ c c] d8.(\trillE es32 f)
+		es4 r r
+		r8 g,[\f c c] d8.(\trillE es32 f) %90
+		es8 es es[\pE es es es]
+		e e e e e e
+		f f as as g g
+		g g f f es4
+		es d8 d16 es f d b as %95
+		g8 es' es es es es
+		es es d d d d
+		f f f f f f
+		f f es es es es
+		b b b b b b %100
+		c c d d es es
+		es es es es d d
+		es b b b b b
+		es es es es es es
+		es-\critnote es f f es es %105
+		as, as b b b b
+		es g g g g g
+		f f f f f f
+		es es es es es es
+		f f d d es es %110
+		es4 d r
+		b8 b b b b b
+		b4 r r
+		b8 b b b b b
+		b4 r r %115
+		b8 b b b b b
+		es4 r r
+		g r r
+		g' r r
+		R2. %120
+		r8 es,[\f as, as] as8.(\trillE g32 as)
+		r8 f'[ as, as] as8.(\trillE g32 as)
+		g8\p b r g' d b
+		b g r g' d b
+		b' g r g d b %125
+		b g r b' b b
+		c c f, f f f
+		g g\f b, b b b
+		des\p des des des des des
+		des des c4 r %130
+		f8 f f f f f
+		f f f b, b d
+		es g r g d b
+		b g r g' d b
+		b' g r g d b %135
+		b g r g' d b
+		b es es es d d
+		es es es es es es
+		f f f f f f
+		es es es es d d %140
+		es es[\f b b] b8.(\trillE as32 b)
+		c8 es c' c c8.(\trill b32 c)
+		b,2\fermata r4
+		r r d\p
+		es4 r r\fermata \bar "|." %145 finis
+	}
+}

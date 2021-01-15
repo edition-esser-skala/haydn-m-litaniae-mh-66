@@ -632,6 +632,304 @@ PanisSuperBassFigures = \figuremode {
 	r2. %103 finis
 }
 
+PraecelsumOrgano = {
+	\relative c {
+		\clef bass
+		\key es \major \time 3/4 \tempoPraecelsum
+		\mvTr es8\pE-\solo es es es es es
+		f f f f f f
+		b, b b b b b
+		es es es es es es
+		g g g g g g %5
+		as as as as g g
+		f f b b b b
+		es, es es es es es
+		g, g g g g g
+		as as as as as as %10
+		as as a a a a
+		b b b' as! g f
+		r es g es f as
+		r es g es f as
+		r es g es f as %15
+		r es g es f as
+		g g, as as b b
+		c c c c c c
+		d d d d d d
+		es c' as f b b, %20
+		es4 r8 g\f f b,
+		es4 r8 g d b
+		es4 r8 g f b,
+		es4 r8 g g g
+		as as as as g g %25
+		as as b b b, b
+		g' as b b b, b
+		es2 r4
+		es\p r8 g f b,
+		es4 r8 g d^\critnote b %30
+		es4 r8 g f b,
+		es2 r4\fermata
+		es8 es es es es es
+		f f f f f f
+		b, b b b b b %35
+		es es es es es es
+		g, g g g g g
+		as as as as g g
+		as as b b b b
+		es4 r8 g\f f b, %40
+		es es es[\pE es es es]
+		d d d d d d
+		c c c c c c
+		f, f f f f f
+		b4 r8 d\f c f, %45
+		b4 r r
+		r8 d\p d d d d
+		es es es es es es
+		es es es es es es
+		d d d d d d %50
+		d d d d d d
+		c c c c c c
+		f, f f f f f
+		b b d d es es
+		f4 f8 es d c %55
+		r b d b c es
+		r b d b c es
+		r b d b c es
+		r b d b c es
+		d d d d d d %60
+		es es es es es es
+		f f f f f f
+		b,4 r r
+		d8 d d d d d
+		es es es es es es %65
+		e e e e e e
+		f f f f f f
+		g g g g g g
+		a a a a a a
+		b g es c f f, %70
+		b4 r8 d'\f c f,
+		b4 r8 d a f
+		b4 r8 d c f,
+		b4 r8 d, d d
+		es es es es d d %75
+		es es f f f, f
+		d' es f f f, f
+		b4 r r
+		h8\p h h h h h
+		c c c c d d %80
+		es es es es f f
+		g g g f es d
+		c c c c c c
+		d d d d d d
+		g, g g g g g %85
+		c4 c, r
+		c' r8 es d g,
+		c4 r8 es h g
+		c4 r8 es d g,
+		c4 r8 es\fE h g %90
+		c c c[\pE c c c]
+		b! b b b b b
+		as as as as b b
+		c c d d es es
+		b4 r d %95
+		es8 es es es es es
+		f f f f f f
+		b, b b b b b
+		es es es es es es
+		g g g g g g %100
+		as as as as g g
+		f f b b b b
+		es, es es es es es
+		g,4 r r
+		R2.*2 %106
+		r8 es' es es es es
+		d d d d d d
+		c c c c c c
+		b b b b a a %110
+		b4 r8 d c f,
+		b4 r r
+		r r8 g' f b,
+		es4 r r
+		r r8 d c f, %115
+		b4 r r
+		es8 es es es es es
+		as, as as as as as
+		a a a a a a
+		b b b b b b %120
+		c\f c c c c c
+		d d d d d d
+		es\p es g es f as
+		r es g es f as
+		r es g es f as %125
+		r g g g g g
+		as as b b b, b
+		es4 r r
+		g,8 g g g g g
+		as as as as as as %13
+		a a a a a a
+		b b b' as! g f
+		r es g es f as
+		r es g es f as
+		r es g es f as %135
+		r es g es f as
+		g g, as as b b
+		c c c c c c
+		d d d d d d
+		es c' as f b b, %140
+		es4 r g\f
+		as r a
+		b b,2\fermata
+		es8.\pE g16 b4 b,
+		es, r r\fermata \bar "|." %145 finis
+	}
+}
+
+PraecelsumBassFigures = \figuremode {
+	r2.
+	<7>4 <6>2
+	<7>2.
+	<9 4>4 <[8] 3>2
+	<[6]>2. %5
+	r4 <[4 3]> <6>
+	<7> \bo <[7] 4> \bc <[\t] 3>
+	r2.
+	<5->
+	<9 4->4 <[8] 3>8 <5!>4 <6>8 %10
+	<6 5>4 <\t \t>2
+	<9 4>4 \bo <[8 3]>8 <2> <6> \bc <[6 \l]>
+	r2 <6>4
+	r2 <[6]>4
+	r2 q4 %15
+	r2 q4
+	\bo <[6 \l]> \bc <[6 5]>2
+	<6>2.
+	<[6 5]>
+	r4 <[6 5]>2 %20
+	r4. \bo <[6]>4 \bc <[7]>8
+	r4. \bo <[6]>8 \bc q4
+	r4. \bo <[6]>4 \bc <[7]>8
+	r4. <[6]>
+	<6>4 <4 2> <[6]> %25
+	\bo <[5]>8 \bc <[6]> <6 4>4 <[5] 3>
+	<[6]> <6 4> <7 [3]>
+	r2.
+	r4. \bo <[6]>8 <6> \bc <[7]>
+	r4. \bo <[6]>8 \bc q4 %30
+	r4. \bo <[6]>8 <6> \bc <[7]>
+	r2.
+	r
+	<7>4 <6>2
+	<7>2. %35
+	<9 4>4 <[8] 3>2
+	<6 3>2 <\t _!>4
+	\bo <[5 3]> <6 \t>8 \bc <[\t 4]> <6>4
+	<6 5>2.
+	r4. \bo <[6]>4 \bc <[7]>8 %40
+	r2.
+	<[6]>
+	<7>
+	<[7] _!>
+	r4. \bo <[6 \l]>4 \bc <[7 _!]>8 %45
+	r2.
+	r8 <[6]> r2
+	r2.
+	r
+	<[6]> %50
+	r
+	<7>4 <6!>2
+	<[7 _!]>2.
+	r4 <[6]>2
+	\bo <[_!]>4. <4!>8 <6> \bc <[6!]> %55
+	r2 <6!>4
+	r2 q4
+	r2 <[6!]>4
+	r2 q4
+	\bo <[6]>2 \bc <[5-]>4 %60
+	r2.
+	<6 4>4 <5 \t> <\t _!>
+	r2.
+	<6 5->
+	<9 4->4 <[8 3]>8 <5!>4 <6>8 %65
+	<[6] 5->2.
+	<9 4>4 <[8 _!]>2
+	<6->2.
+	<6 5>
+	r4 \bo <[6 5]> \bc <[_! \l]> %70
+	r4. \bo <[6]>4 \bc <[7] _!>8
+	r4. \bo <[6]>8 <6> \bc <[_!]>
+	r4. \bo <[6 \l]>4 \bc <[7 _!]>8
+	r4. <[6]>
+	<6>4 <4! 2> <[6]> %75
+	\bo <[5 \l]>8 <6> <6 4>4 \bc <[7 _!]>
+	\bo <[6 \l]> <6 4> \bc <[5 _!]>
+	r2.
+	<7->
+	<6 4>4 <[5 3]> <6!> %80
+	<[6]>2 <8 6>8 <7 [5]>
+	<6 4>4 <[5] _!>8 \bo <[4! 3]> <6> \bc <[6! \l]>
+	r2.
+	<7>4 <6!>2
+	\bo <[7 4]>4 \bc <[\t _!]>2 %85
+	<4>4 <3>2
+	r4. \bo <[6 \l]>8 <6!> \bc <[7 _!]>
+	r4. \bo <[6]>8 <6> \bc <[_!]>
+	r4. \bo <[6 \l]>8 <6!> \bc <[7 _!]>
+	r4. \bo <[6]>8 <6> \bc <[_!]> %90
+	r2.
+	<4! _->
+	<6>2 q4
+	\bo <[7]>4 \bc <[6 5]>2
+	\bo <[6 4]>4 <5 3> \bc <[6 5]> %95
+	r2.
+	<7>4 <6>2
+	<[7]>2.
+	<9 4>4 <[8] 3>2
+	<[6]>2. %100
+	r4 <[4 3]> <6>
+	<7> \bo <7 [4]> \bc <\t [3]>
+	r2.
+	r
+	r2.*2 %106
+	r4 <6>2
+	<7>4 <6>2
+	<7>4 <6>2
+	<7>2 <7>4 %110
+	<6 4> \bo <[5] 3>8 <6> <6!> \bc <[7] _!>
+	r2.
+	r4. \bo <[6]>8 <6> \bc <[7]>
+	r2.
+	r4. \bo <[6 \l]>8 <6!> \bc <[7 _!]> %115
+	r2.
+	r
+	<7>
+	<\t>
+	<6 4>4 <[5] 3>2 %120
+	<6>2.
+	<6 5>
+	r2 <6>4
+	r2 <[6]>4
+	r2 q4 %125
+	r8 q r2
+	r4 \bo <[4]> \bc <[3]>
+	r2.
+	<6 5->
+	<9 4->4 <[8] 3>8 <5!>4 <6>8 %130
+	<6 5>2.
+	<9 4>4 \bo <[8] 3>8 <2> <6> \bc <[6]>
+	r2 <[6]>4
+	r2 q4
+	r2 q4 %135
+	r2 q4
+	q <6 5>2
+	<6>2.
+	<6 5>
+	r4 <[6 5]>2 %140
+	r2 <[6]>4
+	r2.
+	<6 4>4 <\t \t> <[5] 3>
+	r <6 4> <[7] 3>
+	r2. %145 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

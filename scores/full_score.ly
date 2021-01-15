@@ -167,83 +167,133 @@
 	% 		\midi { \tempo 4 = 90 }
 	% 	}
 	% }
+	% \bookpart {
+	% 	\header {
+	% 		number = "3"
+	% 		title = "P A N I S   S U P E R S U B S T A N T I A L I S"
+	% 	}
+	% 	\tocLabel "panissuper" "3" "Panis supersubstantialis"
+	% 	\score {
+	% 		<<
+	% 			\new StaffGroup <<
+	% 				\new GrandStaff <<
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = \markup \center-column { "trb" "1" }
+	% 						\PanisSuperTromboneI
+	% 					}
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "2"
+	% 						\PanisSuperTromboneII
+	% 					}
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "3"
+	% 						\PanisSuperTromboneIII
+	% 					}
+	% 				>>
+	% 			>>
+	% 			\new StaffGroup <<
+	% 				\new GrandStaff \with { \smallGroupDistance } <<
+	% 					\set GrandStaff.instrumentName = "vl"
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "1"
+	% 						\PanisSuperViolinoI
+	% 					}
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "2"
+	% 						\PanisSuperViolinoII
+	% 					}
+	% 				>>
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "vla"
+	% 					\PanisSuperViola
+	% 				}
+	% 			>>
+	% 			\new ChoirStaff <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "S"
+	% 					\new Voice = "Soprano" { \dynamicUp \PanisSuperSopranoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Soprano \PanisSuperSopranoLyrics
+	%
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "A"
+	% 					\new Voice = "Alto" { \dynamicUp \PanisSuperAltoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Alto \PanisSuperAltoLyrics
+	%
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "T"
+	% 					\new Voice = "Tenore" { \dynamicUp \PanisSuperTenoreNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Tenore \PanisSuperTenoreLyrics
+	%
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "B"
+	% 					\new Voice = "Basso" { \dynamicUp \PanisSuperBassoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Basso \PanisSuperBassoLyrics
+	% 			>>
+	% 			\new StaffGroup <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = \markup \center-column { "org" "b" }
+	% 					% \transpose c c,
+	% 					\PanisSuperOrgano
+	% 				}
+	% 			>>
+	% 			\new FiguredBass { \PanisSuperBassFigures }
+	% 		>>
+	% 		\layout { }
+	% 		\midi { \tempo 4 = 100 }
+	% 	}
+	% }
 	\bookpart {
 		\header {
-			number = "3"
-			title = "P A N I S   S U P E R S U B S T A N T I A L I S"
+			number = "4"
+			title = "P R Æ C E L S U M"
 		}
-		\tocLabel "panissuper" "3" "Panis supersubstantialis"
+		\paper { systems-per-page = #2 }
+		\tocLabel "praecelsum" "4" "Præcelsum"
 		\score {
 			<<
-				\new StaffGroup <<
-					\new GrandStaff <<
-						\new Staff {
-							\set Staff.instrumentName = \markup \center-column { "trb" "1" }
-							\PanisSuperTromboneI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "2"
-							\PanisSuperTromboneII
-						}
-						\new Staff {
-							\set Staff.instrumentName = "3"
-							\PanisSuperTromboneIII
-						}
-					>>
-				>>
+				\new Staff {
+					\set Staff.instrumentName = "trb 1"
+					\PraecelsumTromboneI
+				}
 				\new StaffGroup <<
 					\new GrandStaff \with { \smallGroupDistance } <<
 						\set GrandStaff.instrumentName = "vl"
 						\new Staff {
 							\set Staff.instrumentName = "1"
-							\PanisSuperViolinoI
+							\PraecelsumViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "2"
-							\PanisSuperViolinoII
+							\PraecelsumViolinoII
 						}
 					>>
 					\new Staff {
 						\set Staff.instrumentName = "vla"
-						\PanisSuperViola
+						\PraecelsumViola
 					}
 				>>
 				\new ChoirStaff <<
 					\new Staff {
-						\set Staff.instrumentName = "S"
-						\new Voice = "Soprano" { \dynamicUp \PanisSuperSopranoNotes }
-					}
-					\new Lyrics \lyricsto Soprano \PanisSuperSopranoLyrics
-
-					\new Staff {
 						\set Staff.instrumentName = "A"
-						\new Voice = "Alto" { \dynamicUp \PanisSuperAltoNotes }
+						\new Voice = "Alto" { \dynamicUp \PraecelsumAltoNotes }
 					}
-					\new Lyrics \lyricsto Alto \PanisSuperAltoLyrics
-
-					\new Staff {
-						\set Staff.instrumentName = "T"
-						\new Voice = "Tenore" { \dynamicUp \PanisSuperTenoreNotes }
-					}
-					\new Lyrics \lyricsto Tenore \PanisSuperTenoreLyrics
-
-					\new Staff {
-						\set Staff.instrumentName = "B"
-						\new Voice = "Basso" { \dynamicUp \PanisSuperBassoNotes }
-					}
-					\new Lyrics \lyricsto Basso \PanisSuperBassoLyrics
+					\new Lyrics \lyricsto Alto \PraecelsumAltoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = \markup \center-column { "org" "b" }
 						% \transpose c c,
-						\PanisSuperOrgano
+						\PraecelsumOrgano
 					}
 				>>
-				\new FiguredBass { \PanisSuperBassFigures }
+				\new FiguredBass { \PraecelsumBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 100 }
+			\midi { \tempo 4 = 70 }
 		}
 	}
 }

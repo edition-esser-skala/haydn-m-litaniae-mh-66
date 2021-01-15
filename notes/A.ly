@@ -285,6 +285,189 @@ PanisSuperAltoLyrics = \lyricmode {
 	bis. %97 finis
 }
 
+PraecelsumAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key es \major \time 3/4 \autoBeamOff \tempoPraecelsum
+		R2.*27 %27
+		r4 r \mvTr es\pE^\solo
+		b'2.~
+		b~ %30
+		b~
+		b4. \appoggiatura as16 g8 \appoggiatura f16 es8\fermata r
+		r4 r es
+		as4.( g8) f([ es)]
+		d4 d as' %35
+		as8. g16 g4 r
+		b b h
+		c4. d8 es4
+		f,4.( c'8) b([ as)]
+		g8.([ f16)] es4 r %40
+		r g b
+		b4.( c8) d f,
+		es8. d16 es4 r
+		c'4. a8 f es
+		d8. es16 f4 r %45
+		r8 b([ f)] f es8.([\trill d32 es)]
+		d4 b b
+		g'16[ f g es] b'8[ b] b[ a16 b]
+		g8 es4 b g'8
+		f16[ es f d] b'8[ b] b8.([\trill a?32 b)] %50
+		f8 d4 b f'8
+		es16[ g f es] c'8[ c] c[ b16 c]
+		es,8 c4 a es'8
+		d[ f b^\critnote d] c([ b])
+		a8.[( g16]) f4 r %55
+		r f a
+		b8. f16 f4 f~
+		f8. f16 f4 a
+		b8. f16 f4 r
+		r b8([ as!)] as([ g)] %60
+		g8.([ a32 b] a8[ g)] f([ es)]
+		d[( c16 b] c2)
+		b4 r r
+		R2.*14 %77
+		r4 f' g
+		as! as8 as as as
+		as8. g16 g4 g %80
+		c4. g8 f es
+		es4 d r
+		R2.
+		f4 f8([ es)] d c
+		c8. h16 h4 h' %85
+		c g g8 g
+		g2.~
+		g~
+		g
+		g4 r r %90
+		r c c
+		des2 e,4
+		f( c') b
+		b( as) g
+		g f r %95
+		r r es
+		as4.( g8) f es
+		d8. es16 f4 as
+		as g r
+		R2.*4 %103
+		b4 b, h
+		c4.( d8) es4 %105
+		f4.( c'8) b[( as])
+		g16[ b as g] c8[ c] c[ b16 c]
+		f,[ as g f] b8[ b] b[ as16 b]
+		es,[ g f es] as8[ as] as[ g16 as]
+		d,[ f es d] as'4 g %110
+		g\trill f r
+		f( g) as
+		g8.([ as16)] b4 r
+		g( b) g
+		f8.([ g16)] f4 r %115
+		f( g) as
+		g2.
+		g
+		g~
+		g4 f2\trill %120
+		es4 r r
+		R2.
+		es4.( f16[ g]) as[( f es d])
+		b'4. c16[ b] as8[ g16 f]
+		es4. f16[ g] as[ f es d] %125
+		b'4. c16[ d] es[ b as g]
+		c[ as] g([ f)] f2\trill
+		es4 r r
+		R2.*14 %142
+		R2.\fermataMarkup
+		R
+		R\fermataMarkup \bar "|." %145 finis
+	}
+}
+
+PraecelsumAltoLyrics = \lyricmode {
+	Prae -- %28
+	cel --
+
+	_ sum, %32
+	prae --
+	cel -- sum
+	et ve -- ne -- %35
+	ra -- bi -- le,
+	et ve -- ne --
+	ra -- bi -- le
+	Sa -- cra --
+	men -- tum, %40
+	sa -- cri --
+	fi -- ci -- um
+	o -- mni -- um,
+	o -- mni -- um san --
+	ctis -- si -- mum, %45
+	mi -- se -- re --
+	re, mi -- se --
+	re -- _ _
+	_ _ _ _
+	_ _ _ %50
+	_ _ _ _
+	_ _ _
+	_ _ _ _
+	_ re
+	no -- bis, %55
+	sa -- cri --
+	fi -- ci -- um o --
+	mni -- um san --
+	ctis -- si -- mum,
+	mi -- se -- %60
+	re -- re
+	no --
+	bis.
+
+	Ve -- re, %78
+	ve -- re pro -- pi -- tia --
+	to -- ri -- um pro %80
+	vi -- vis et de --
+	fun -- ctis,
+
+	pro -- pi -- ti -- a --
+	to -- ri -- um pro %85
+	vi -- vis et de --
+	fun --
+
+	ctis, %90
+	mi -- se --
+	re -- re,
+	mi -- se --
+	re -- re
+	no -- bis, %95
+	coe --
+	le -- ste an --
+	ti -- do -- tum, coe --
+	le -- ste,
+
+	quo a pec -- %104
+	ca -- tis %105
+	prae -- ser --
+	va -- _ _
+	_ _ _
+	_ _ _
+	_ _ _ %110
+	_ mur,
+	mi -- se --
+	re -- re,
+	mi -- se --
+	re -- re, %115
+	mi -- se --
+	re --
+	re
+	no --
+	_ %120
+	bis,
+
+	mi -- se --
+	re -- _ _
+	_ _ _ %125
+	_ _ _
+	_ re no --
+	bis. %128 finis
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

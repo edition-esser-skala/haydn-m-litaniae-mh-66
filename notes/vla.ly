@@ -299,3 +299,141 @@ PanisSuperViola = {
 		g4 r r\fermata \bar "|." %103 finis
 	}
 }
+
+PraecelsumViola = {
+	\relative c' {
+		\clef alto
+		\key es \major \time 3/4 \tempoPraecelsum
+		\mvTr b8\p-\markup \remark "con sordino" b b b b b
+		as as f' f f f
+		f f d d d d
+		b b b b b b
+		g g g g g g %5
+		as as as as b b
+		c c b f' f f
+		es es es es es es
+		es, es es es es es
+		es es es4 r %10
+		es'8 es es es es es
+		es es d f b, as
+		g4 r b
+		es, r b'
+		es r b %15
+		es, r b'
+		es r r
+		c8 c c c c c
+		b b b b b b
+		b c c c b b %20
+		b4 r8 b\f c d
+		es4 r8 b b b
+		b4 r8 b c d
+		es4 r8 es es es
+		es es f f b, es %25
+		es f g g as as
+		g as b b b, as
+		g2 r4
+		g\p r8 es' d d
+		es4 r8 b b b %30
+		b4 r8 es d d
+		es4 r r\fermata
+		es8 es es es es es
+		c c as as as as
+		b d d d d d %35
+		b b b b b b
+		es,4 r r
+		R2.*2
+		r4 r8 b'\f c d %40
+		es4 r r
+		R2.*3
+		r4 r8 f,\f g a %45
+		b4 r8 d\p c f,
+		b4 r r
+		R2.*7 %54
+		r4 r8 a b c %55
+		d4 r8 d' c a
+		b d r d c f,
+		f d r d' c a
+		b d r d c f,
+		f4 r r %60
+		R2.*2
+		r8 b,\p b b b b
+		b b b b b b
+		b4 r r %65
+		c8 c c c c c
+		c4 r8 c c c
+		b b g g g g
+		f f f f f f
+		f d' g es f f %70
+		f4 r8 f,\f g a
+		b4 r8 f' f f
+		f4 r8 f, g a
+		b4 r8 b b b
+		b b c c f, b %75
+		b c d d es es
+		d es f f f es
+		d4 r r
+		d8\pE d d d d d
+		c4 r r %80
+		R2.
+		r4 r8 f es d
+		c c c c c c
+		as as f f d' d
+		d4 r r %85
+		R2.*2
+		r4 r8 c g g
+		g4 r r
+		r r8 c\f g g %90
+		g g g[\p g g g]
+		g g g g g g
+		as as c c d! d
+		es es b b b b
+		b4 r b %95
+		b8 g g g g g
+		as as as as as as
+		d d d d d d
+		b b b b b b
+		g g g g g g %110
+		as as as as b b
+		c c b f' f f
+		es es es es es es
+		g,\pocoF g g g g g
+		as as as as g g %106
+		es'4 r r
+		R2.*4 %110
+		b8\pE b b b b b
+		b4 r r
+		b8 b b b b b
+		b4 r r
+		b8 b b b b b %115
+		b4 r r
+		es r r
+		es r r
+		es' r r
+		R2. %120
+		es,8\f es es es es es
+		b b b b b b
+		b4\p r b
+		es r b
+		es, r r %125
+		es r r
+		R2.
+		es8 es\f es es es es
+		es\p es es es es es-\critnote
+		es-\critnote es es4 r %130
+		es'8 es es es es es
+		es es d f b, as
+		g4 r b
+		es, r b'
+		es r b %135
+		es, r b'
+		es r r
+		c8 c c c c c
+		b b b b b b
+		b c c c b b %140
+		b4 r es\fE
+		es r es
+		g2\fermata r4
+		r r f,\p
+		es r r\fermata \bar "|." %145
+	}
+}
