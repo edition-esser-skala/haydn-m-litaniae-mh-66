@@ -468,6 +468,164 @@ PraecelsumAltoLyrics = \lyricmode {
 	bis. %128 finis
 }
 
+StupendumAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 4/4 \autoBeamOff \tempoStupendum
+		R1*2
+		r4 r8. \mvTr f16\fE^\tuttiE b8 b, r b'~
+		b a16([ g)] a8. a16 f4 b~
+		b8 a16([ g)] a8 a g4. g8 %5
+		f4 r8. a16 a8 a, r8. a'16
+		a8 a, r4 r2
+		r r8 f'4 f8
+		f8. f16 f8 f fis fis16 fis fis8 fis
+		fis2 g8 g g g %10
+		a4. a8 g4 d8 d
+		f!4 f es8 es es es
+		cis2 d \noBreak
+		R1\fermataMarkup \bar "|"
+		\tempoDonum \newSpacingSection R1*45 %59
+		\mvTr d4\pE^\solo d es2 %60
+		d8 d d d es4. es8
+		d4 d8 d c'8. c16 b8 a
+		b8. a16 g4 r2
+		r fis4 fis
+		g2 fis4 fis %65
+		g4. g8 fis4 r
+		R1*2
+		e4. d'8 c4. f,8
+		g8. b16 a8 g a16([ g)] f8 r4 %70
+		r f8. b,16 b4 r
+		r2 r8 b'([ c)] d
+		g,4 a b2
+		a4 r r2
+		c4. a8 f4. es8 %75
+		d8.([ es16)] f4 r2
+		R1
+		c'8. f,16 f4 f8 f f f
+		f1~
+		f~ %80
+		f8[ b] as4. f16[ d] b8[ as']
+		g8.[ f16] es4 r2
+		R1
+		r2 r4 g~
+		g8 c es, g f2~ %85
+		f8[b d, f] es2~
+		es8[ c' a es] d4. es8
+		d4 c b r
+		h'8 h h4 c r
+		a8 a a4 b b~ %90
+		b b b b
+		b4. g16[ a] a2\trill
+		b4 r r2
+		R1*4 %97
+		b4. b8 b4 d,
+		d1^\critnote \noBreak
+		c2 r\fermata \bar "|" %100
+		\tempoTremendum \newSpacingSection R1*2
+		r4 r8. \mvTr f16\f^\tutti b8 b, b' b
+		b a16 g a8 a f8. f16 b4
+		b8([ a16 g] a8) a g2 %105
+		f4 r8. a16 a8 a, r8. a'16
+		a8 a, r4 r2
+		r r4 a'
+		a8 a a a fis4 fis8 fis
+		fis2 g4 g8 g %110
+		es4 d r8 d4 d8
+		es4 es e2
+		d r
+		r4 fis8 fis f4 f
+		f16([ es! d c] h8) h' c8. g16 g4 %115
+		f8 d d4 c c'8 b
+		a!4. a8 b f r4
+		r r8. f16 b8 b, b' b
+		b a16 g a8 a f2
+		f4 f8 a g g g4 %120
+		f a8 a r a16 a a8 a
+		r2 r4 es
+		d f f8 f f f
+		f2 f
+		R1 %125
+		R\fermataMarkup \bar "|." %126 finis
+	}
+}
+
+StupendumAltoLyrics = \lyricmode {
+	Stu -- pen -- dum %3
+	su -- pra o -- mni -- a, o --
+	mni -- a mi -- ra -- cu -- %5
+	la, stu -- pen -- dum, stu --
+	pen -- dum,
+	Sa -- cra --
+	tis -- si -- ma Do -- mi -- ni -- cae pas -- si --
+	o -- nis com -- me -- mo -- %10
+	ra -- ti -- o, mi -- se --
+	re -- re, mi -- se -- re -- re
+	no -- bis.
+
+	Sa -- cro -- san -- %60
+	ctum et au -- gu -- stis -- si --
+	mum, au -- gu -- stis -- si -- mum my --
+	ste -- ri -- um,
+	sa -- cro --
+	san -- ctum my -- %65
+	ste -- ri -- um,
+
+	mi -- se -- re -- re, %69
+	mi -- se -- re -- re no -- bis, %70
+	phar -- ma -- cum
+	im -- mor --
+	ta -- li -- ta --
+	tis,
+	mi -- se -- re -- re %75
+	no -- bis,
+
+	phar -- ma -- cum im -- mor -- ta -- li --
+	ta --
+	%80
+	_ _ _
+	_ tis,
+
+	mi --
+	se -- re -- re no -- %85
+	_
+	_ _
+	_ _ bis,
+	mi -- se -- re -- re,
+	mi -- se -- re -- re, mi -- %90
+	se -- re -- re
+	no -- _ _
+	bis,
+
+	mi -- se -- re -- re %98
+	\xE no --
+	bis. \x %100
+
+	Tre -- men -- dum ac vi -- %103
+	vi -- fi -- cum, ac vi -- vi -- fi -- cum
+	Sa -- cra -- men -- %105
+	tum, tre -- men -- dum, tre --
+	men -- dum,
+	pa --
+	nis o -- mni -- po -- ten -- ti -- a
+	ver -- bi ca -- ro %110
+	fa -- ctus, mi -- se --
+	re -- re no --
+	bis,
+	in -- cru -- en -- tum
+	sa -- cri -- fi -- ci -- um, %115
+	mi -- se -- re -- re, ci -- bus
+	et con -- vi -- va,
+	tre -- men -- dum ac vi --
+	vi -- fi -- cum Sa -- cra -- men --
+	tum, mi -- se -- re -- re no -- %120
+	bis, ci -- bus et con -- vi -- va,
+	con --
+	vi -- va,  mi -- se -- re -- re
+	no -- bis. %124 finis
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

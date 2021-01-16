@@ -360,6 +360,150 @@ PanisSuperSopranoLyrics = \lyricmode {
 	bis. %97 finis
 }
 
+StupendumSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 4/4 \autoBeamOff \tempoStupendum
+		R1*2
+		r2 r4 r8. \mvTr b'16\fE^\tuttiE
+		es8 es, r es'4 d16([ c)] d4~
+		d8 c16([ b)] c8 c b4. b8 %5
+		a8 r16 f'16 f8 f, r8. f'16 f8 f,
+		R1
+		r2 r8 c'4 c8
+		c8. c16 c8 c c c16 c c8 c
+		es2 d8 d d d %10
+		c4. c8 b4 b8 b
+		as4 as g8 g g g
+		g2 fis \noBreak
+		R1\fermataMarkup \bar "|"
+		\tempoDonum \newSpacingSection R1*10 %24
+		\mvTr b4\pE^\solo f r8 b c d %25
+		g,4 a r8 b c d
+		g,4 a b8. c16 d8 d
+		c4 r8 c4 b8 b4~
+		b8 a r4 r2
+		r4 d8 e f f, es'4 %30
+		d d4. c8 c4~
+		c8 b b b b16[( c a b] g[ a f g])
+		e4. d'4 c16([ b)] a8 b
+		a4( g)\trill f r
+		R1*3 %37
+		r8 c' c c c2~
+		c8 b r b b8. a16 a8 c
+		c b r b b a r f %40
+		es'!4 c8 a f2~
+		f4 es\trill d r
+		r8 d' d d d2~
+		d8 c c4~ c8. b16 b8 d~
+		d c c4. b8 b4~ %45
+		b8 a16([ b)] c8 b b a r4
+		r d8 d es2~
+		es8[ c] b a d2~
+		d8[ b] a([ g]) c2~
+		c8[ a g fis] b4 r %50
+		es2~ es8 d d4~
+		d8 c c4. b8 c c
+		c16[( d b c] a[ b g a]) fis4 es'!~
+		es8 d16([ c)] b8 c b4( a)\trill
+		g r r2 %55
+		R1*44 \noBreak %99
+		R1\fermataMarkup \bar "|" %100
+		\tempoTremendum \newSpacingSection R1*2
+		r2 r4 r8. \mvTr b16\f^\tutti
+		es8 es, es' es es d16 c d8 d
+		d c16 b c8 c b2 %105
+		a8 r16 f'16 f8 f, r8. f'16 f8 f,
+		R1
+		r2 r4 c'
+		c8 c c c c4 c8 c
+		es2 d8 d4 d8 %110
+		c([ a)] a4 r8 g4 g8
+		g4 g g2
+		fis r
+		r4 d'8 d \appoggiatura c h4 h
+		h16([ c d es] f8) f es8. d16 es4 %115
+		as,8 f g4 g es'~
+		es8 d16([ es)] f8 es es d r4
+		r2 r4 r8. c16
+		es!8 es, es' es es d16 c d8 d
+		d c16([ b)] c8 c b b b4 %120
+		a f'8 c r f16 f f8 c
+		r4 c8 c es4 a,8 a
+		f'4 b, a8 a b b
+		b([ a16 g] a4) b2
+		R1 %125
+		R\fermataMarkup \bar "|." %126 finis
+	}
+}
+
+StupendumSopranoLyrics = \lyricmode {
+	Stu -- %3
+	pen -- dum su -- pra o --
+	mni -- a mi -- ra -- cu -- %5
+	la, stu -- pen -- dum, stu -- pen -- dum,
+
+	Sa -- cra --
+	tis -- si -- ma Do -- mi -- ni -- cae pas -- si --
+	o -- nis com -- me -- mo -- %10
+	ra -- ti -- o, mi -- se --
+	re -- re, mi -- se -- re -- re
+	no -- bis.
+
+	Do -- num, do -- num trans -- %25
+	cen -- dens, trans -- cen -- dens
+	o -- mnem ple -- ni -- tu -- di --
+	nem, mi -- se -- re --
+	re,
+	mi -- se -- re -- re no -- %30
+	bis, mi -- se -- re --
+	re, mi -- se -- re --
+	re, mi -- se -- re -- re
+	no -- bis.
+
+	Me -- mo -- ri -- a -- %38
+	le prae -- ci -- pu -- um a --
+	mo -- ris di -- vi -- nae, di -- %40
+	vi -- nae a -- mo --
+	_ ris,
+	di -- vi -- nae af --
+	flu -- en -- ti -- a lar --
+	gi -- ta -- tis, mi -- %45
+	se -- re -- re no -- bis,
+	af -- flu -- en --
+	ti -- a lar --
+	gi -- ta --
+	tis, %50
+	mi -- se -- re --
+	re no -- bis, mi -- se --
+	re -- re, mi --
+	se -- re -- re no --
+	bis. %55
+
+	Tre -- %103
+	men -- dum ac vi -- vi -- fi -- cum, ac vi --
+	vi -- fi -- cum Sa -- cra -- men -- %105
+	tum, tre -- men -- dum, tre -- men -- dum,
+
+	pa --
+	nis o -- mni -- po -- ten -- ti -- a
+	ver -- bi ca -- ro %110
+	fa -- ctus, mi -- se --
+	re -- re no --
+	bis,
+	in -- cru -- en -- tum
+	sa -- cri -- fi -- ci -- um, %115
+	mi -- se -- re -- re, ci --
+	bus et con -- vi -- va,
+	tre --
+	men -- dum ac vi -- vi -- fi -- cum Sa -- cra --
+	men -- tum, mi -- se -- re -- re no -- %120
+	bis, ci -- bus et con -- vi -- va,
+	et con -- vi -- va, con --
+	vi -- va,  mi -- se -- re -- re
+	no -- bis. %124 finis
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

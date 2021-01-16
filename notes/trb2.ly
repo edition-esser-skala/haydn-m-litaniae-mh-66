@@ -142,3 +142,53 @@ PanisSuperTromboneII = {
 		R2.\fermataMarkup \bar "|." %103 finis
 	}
 }
+
+StupendumTromboneII = {
+	\relative c' {
+		\clef "treble_8"
+		\key b \major \time 4/4 \tempoStupendum
+		R1
+		r2 r4 r8. b16\fE
+		es8 es, r es'4 d16 c d4~
+		d8 c16 b c4 r8. c16 f8 f,
+		f f f' f d d c c %5
+		c4 r8. c16 c8 c r8. c16
+		c8 c r4 r2
+		r r8 a4 a8
+		a8. a16 a8 a a a16 a a8 a
+		a2 b8 b g b %10
+		d4. d8 d4 g,8 g
+		h4 h c8 c c c
+		b4. g8 a2 \noBreak
+		R1\fermataMarkup \bar "|"
+		\tempoDonum \newSpacingSection R1*85 \noBreak %99
+		R1\fermataMarkup \bar "|" %100
+		\tempoTremendum \newSpacingSection
+			d16(-.\f d d d-.) d(-. d-. d-. d-.) es(-. es-. es-. es-.) es(-. es-. es-. es-.) \noBreak
+		c(-. c-. c-. c-.) c(-. c-. c-. c-.) d(-. d-. d-. d-.) d(-. d-. d-. d-.)
+		c(-. c-. c-. c-.) es(-. es-. es-. es-.) es(-. es-. d-. c-.) d(-. d-. d-. d-.)
+		d^\markup \remarkE "simile" d c b c c c c b b b b f' f f f
+		f f f f f, f f f d' d d d c c c c %105
+		c c c c c c c c c c c c c c c c
+		c c c c c c c c d d d d d d d d
+		b b b b e e e e f f f f f f f f
+		f f f f f f f f fis fis fis fis a, a a a
+		a a a a a a a a b b b b b b b b %110
+		c c c c c c c c c c b a b b b b
+		b b b b b b b b b b b b b b b b
+		a a a a a a a a b b b b b b b b
+		a a a a a a a a g g g g d' d d d
+		d d d d d d d d es es es es es es es es %115
+		d d h c d d d d c c es d c c c c
+		c c c c c c c c b b b b d d d d
+		d^\critnote d c c c c f f f f g f e e e e
+		c c c c f, f f f f f f f b b b b
+		f f f f f f f' f d d d d c c c c %120
+		c c c c c c c c b b c c c c c c
+		b b c c a a a a c c c c es es es es
+		d d d d d d d d c c c c b b d d
+		c c c c c c c c b d d d d d d d
+		es es es es es es es es c c c c c c c c %125
+		d d d d d d d d d2\fermata \bar "|." %126 finis
+	}
+}

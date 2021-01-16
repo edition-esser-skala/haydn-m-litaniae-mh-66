@@ -437,3 +437,118 @@ PraecelsumViola = {
 		es r r\fermata \bar "|." %145
 	}
 }
+
+StupendumViola = {
+	\relative c' {
+		\clef alto
+		\key b \major \time 4/4 \tempoStupendum
+		b4\fE r16. d32 f16. d32 b4 r16. g'32 b16. g32
+		c,4 r16. a'32 c16. a32 f4 r16. d32 f16. d32
+		es4 r16. c32 es16. c32 f,4 r16. d''32 b16. g32
+		es4 r16. a32 c16. a32 f4 r16. d32 b16. d32
+		f4 r16. a32 c16. a32 d,4 r16. g32 e16. g32 %5
+		c,4 r16. a32 c16. a32 f4 r16. a32 c16. a32
+		f4 r16. a32 c16. a32 f4 r16. d'32 f16. d32
+		g,4 r16. e'32 g16. e32 c4 r16. a'32 c16. a32
+		f4 r16. f32 a16. f32 fis4 r16. fis32 a16. fis32
+		fis4 r16. fis32 a16. fis32 d4 r16. d32 g,16. d'32 %10
+		d4 r16. a'32 fis16. a32 d,4 r16. b32 d16. b32
+		h4 r16. h32 d16. h32 c4 r16. c32 g16. c32
+		b4 r16. g32 g'16. g,32 a4 r16. d32 fis16. d32 \noBreak
+		d'4 r16. d,32 fis16. d32 d,4 r\fermata \bar "|"
+		\tempoDonum \newSpacingSection r2 r4 r8 f'~ \noBreak %15
+		f es r es4 d8 r f~
+		f es r es4 g8^\critnote r f~
+		f g16 a b8 b, f'4 r8 f
+		b g c, g' f4 r8 f
+		b, b' c c, d d' a a, %20
+		b b' c c, f4 r8 d'
+		d d,16. d'32 d8 d c4 r8 c
+		c c,16. c'32 c8 c b4 b8 b,16. b'32
+		f4 f8 f,16. f'32 b8 g16. es32 f8 f,
+		b4 r r2 %25
+		R1*8 %33
+		r2 r8 a'16\fE g a8 b
+		c4 r8 a4 g8 r g~ %35
+		g f r4 r8 b b b
+		b b b b a d16. b32 c8 c,
+		f4 r r2
+		R1*3 %41
+		r2 r4 r8 c\fE
+		d4 r r2
+		R1*2 %45
+		r2 r4 r8 fis\f
+		d4 r8 g,\pE c4 r
+		r r8 f, b4 r
+		r r8 es, a4 r
+		r r8 d, g4 r %50
+		R1*4
+		r8 b'16\f a b8 c d4 r8 b~ %55
+		b a r a4 g8 r b,~
+		b a r a4 g8 r g'
+		e e16. e32 e8 e fis4 r8 a
+		c, c16. c32 c8 c d es d d
+		d4 r r2 %60
+		R1*2
+		r4 r8 b'4\f^\critnote a8 r a~
+		a g r cis, d4 r
+		R1 %65
+		r2 r8 d\pE d d
+		c!4 r b r
+		R1*2
+		r2 r4 f'16.\fE es!32 d16. c32 %70
+		b4 r r2
+		R1*2
+		r4 r8 a\f b b c c
+		c4 r r2 %75
+		R1*3
+		r4 r8 d4\pE c8 r c~
+		c b r d4 c8 r c~ %80
+		c b r4 b8 b b b
+		b4 r8 as b4 es,8 g'~
+		g f r f4 es8 r g~
+		g f r f b,4 r
+		c'8 c,16. c'32 c8 c,16. c'32 f,4 r %85
+		r8 f4 d8 es4 r
+		r8 es4 c8 d4 r
+		R1
+		g,2 g4 r
+		f2 f4 r %90
+		R1*2
+		r4 f'\f b, r8 b
+		b c r c d f r d~
+		d c r c4 b8 r4 %95
+		r r8 g' f c d g
+		f f16. g32 f8 f d b d f
+		b\p b b b g g g g
+		e4 r r e, \noBreak
+		f2 r\fermata \bar "|" %100
+		\tempoTremendum \newSpacingSection
+			b4\f r16. d32 f16. d32 b4 r16. g'32 b16. g32
+		es4 r16. es32 c'16. a32 f4 r16. d32 f16. d32
+		es4 r16. c32 es16. c32 f,4 r16. d''32 b16. g32
+		es4 r16. a32 c16. a32 f4 r16. d32 b16. d32
+		f4 r16. f32 a16. f32 f4 r16. e32 c'16. e,32 %105
+		f4 r16. a,32 c16. a32 f'4 r16. a,32 c16. a32
+		f'4 r16. f32 a16. f32 b4 r16. b,32 d16. b32
+		c4 r16. c32 e16. c32 f4 r16. f32 a16. f32
+		es'!4 r16. es,32 c'16. es,32 d4 r16. d32 a'16. d,32
+		c'4 r16. c,32 a'16. c,32 b4 r16. g32 g'16. g,32 %110
+		a4 r16. fis'32 d'16. fis,32 g4 r16. g32 b16. g32
+		es4 r16. es32 g16. es32 cis4 r16. cis32 cis16. cis32
+		d4 r16. d32 d'16. d,32 cis4 r16. cis32 cis'16. cis,32
+		d4 r16. d32 d'16. d,32 g4 r16. g32 h16. g32
+		g,4 r16. g'32 g,16. g'32 c,4 r16.-\critnote c32 es16. c32 %115
+		d4 r16. g32 g,16. g'32 c,4 r16. c'32 es16. c32
+		f,4 r16. f32 a16. f32 b4 r16. b32 d16. b32
+		f4 r16. f32 a16. f32 g4 r16. c,32 c'16. c,32
+		f4 r16. f32 a16. f32 b4 r16. b,32 d16. b32
+		f'4 r16. f32 a16. f32 f4 r16. e32 c'16. e,32 %120
+		f4 r16. f32 f,16. f'32 b8 f r16. f32 f,16. f'32
+		b8 f r16. f32 a16. f32 f,4 r16. f'32 f16. f32
+		f,4 r16. f'32 f16. f32 f,4 r16. d'32 f16. d32
+		f,4 r16. f32 f16. f32 b4 r16. b32 d16. b32
+		b4 r16. g'32 b16. g32 es4 r16. es32 c'16. a32 %125
+		f4 r16. f32 f16. d32 d2\fermata \bar "|." %126 finis
+	}
+}

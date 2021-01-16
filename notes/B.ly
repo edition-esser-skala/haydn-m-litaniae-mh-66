@@ -343,6 +343,148 @@ PanisSuperBassoLyrics = \lyricmode {
 	bis. %97 finis
 }
 
+StupendumBassoNotes = {
+	\relative c {
+		\clef bass
+		\key b \major \time 4/4 \autoBeamOff \tempoStupendum
+		R1
+		r4 r8. \mvTr f16\fE^\tuttiE b8 b, r b'~
+		b a16([ g)] a8. a16 b4 b8 g16([ es)]
+		c8. c16 f8 r16 f b8 b, r b
+		f' f4 f8 f f e8. e16 %5
+		f4 r8. f16 f8 f, r8. f'16
+		f8 f, r4 r2
+		r r8 f'4 f8
+		es!8. es16 es8 es d^\critnote d16 d d8 d
+		c2 b8 b b' b %10
+		fis4. fis8 g4 g8 g
+		d4 d es8 es es es
+		es2 d \noBreak
+		R1\fermataMarkup \bar "|"
+		\tempoDonum \newSpacingSection R1*12 %26
+		r2 \mvTr f4\pE^\solo b,
+		r8 f' g a d,4 e
+		r8 f g a d,4 e
+		f8 g16([ a)] b8. b16 a4 g8 a %30
+		b b, b'4. a8 a4~
+		a8 g r4 r b8 b
+		b16([ c a b] g[ a f g] e4 f8) g
+		f4( e)\trill f r
+		R1*3 %37
+		r8 a a a \once \tieDashed a2~
+		a8 g r g g8. f16 f8 a
+		a g r g g f r4 %40
+		r r8 f es'!4 c8 b
+		a2 b4 r
+		r8 b b b b2~
+		b8 a a4~ a8. g16 g8 b~
+		b a a4. g8 g4~ %45
+		g8 fis16([ g)] a8 g g fis r4
+		r2 r8 g([ a)] b
+		a2~ a8[ f] g a
+		g2~ g8[ b] a([ g)]
+		fis4 d r2 %50
+		c'2~ c8 b b4~
+		b8 a a4. g8 r4
+		r c8 c c16([ d b c] a[ b g a]
+		fis4) g8([ a)] g4( fis)\trill
+		g r r2 %55
+		R1*44 \noBreak %99
+		R1\fermataMarkup \bar "|" %100
+		\tempoTremendum \newSpacingSection R1 \noBreak
+		r4 r8. \mvTr f16\f^\tutti b8 b, b' b
+		b a16 g a8 a b4.( g16[ es]
+		c4) f8 r16 f b8 b, b b
+		f'4 f8 f f f e4 %105
+		f r8. f16 f8 f, r8. f'16
+		f8 f r4 r2
+		R1*2
+		r4 r8. c16 g'8 g, g' g %110
+		g fis16 e fis8 fis g4 g
+		es8 es es es cis2
+		d r
+		R1
+		r4 r8. g16 c8 c, c' c %115
+		c h16 a! h8 h c4 c,
+		r r8. f16 b8 b, b' b
+		b a16 g a8 a g4( c,)
+		f r r r8. b,16
+		f'8 f, f' f f f e4 %120
+		f r8. a16 b8 a r8. a16
+		b8 a r4 f2
+		f4 f f8 f f f
+		f2 b,
+		R1 %125
+		R\fermataMarkup \bar "|."  %126 finis
+	}
+}
+
+StupendumBassoLyrics = \lyricmode {
+	Stu -- pen -- dum su -- %2
+	pra o -- mni -- a, su -- pra
+	o -- mni -- a, stu -- pen -- dum su --
+	pra o -- mni -- a mi -- ra -- cu -- %5
+	la, stu -- pen -- dum, stu -- pen -- dum,
+
+	Sa -- cra --
+	tis -- si -- ma Do -- mi -- ni -- cae pas -- si --
+	o -- nis com -- me -- mo -- %10
+	ra -- ti -- o, mi -- se --
+	re -- re, mi -- se -- re -- re
+	no -- bis.
+
+	Do -- num %27
+	do -- num trans -- cen -- dens,
+	trans -- cen -- dens o -- mnem
+	ple -- ni -- tu -- di -- nem, mi -- se -- %30
+	re -- re, mi -- se -- re --
+	re, mi -- se --
+	re -- re
+	no -- bis.
+
+	Me -- mo -- ri -- a -- %38
+	le prae -- ci -- pu -- um a --
+	mo -- ris di -- vi -- nae, %40
+	di -- vi -- nae a --
+	mo -- ris,
+	di -- vi -- nae af --
+	flu -- en -- ti -- a lar --
+	gi -- ta -- tis, mi -- %45
+	se -- re -- re no -- bis,
+	af -- flu --
+	en -- ti -- a
+	lar -- gi --
+	ta -- tis, %50
+	mi -- se -- re --
+	re no -- bis,
+	mi -- se -- re --
+	re no --
+	bis. %55
+
+	Tre -- men -- dum ac vi -- %102
+	vi -- fi -- cum Sa -- cra -- men --
+	tum, tre -- men -- dum ac vi --
+	vi -- fi -- cum Sa -- cra -- men -- %105
+	tum, tre -- men -- dum, tre --
+	men -- dum,
+
+	tre -- men -- dum ac vi -- %110
+	vi -- fi -- cum Sa -- cra -- men -- tum,
+	mi -- se -- re -- re no --
+	bis,
+
+	tre -- men -- dum ac vi -- %115
+	vi -- fi -- cum Sa -- cra -- men -- tum,
+	tre -- men -- dum ac vi --
+	vi -- fi -- cum Sa -- cra -- men --
+	tum, tre --
+	men -- dum, mi -- se -- re -- re no -- %120
+	bis, tre -- men -- dum, tre --
+	men -- dum, con --
+	vi -- va, mi -- se -- re -- re
+	no -- bis. %124 finis
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

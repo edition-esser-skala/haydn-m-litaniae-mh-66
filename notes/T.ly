@@ -340,6 +340,164 @@ PanisSuperTenoreLyrics = \lyricmode {
 	bis. %97 finis
 }
 
+StupendumTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key b \major \time 4/4 \autoBeamOff \tempoStupendum
+		R1
+		r2 r4 r8. \mvTr b16\fE^\tuttiE
+		es8 es, r es'4 d16([ c)] d4~
+		d8 c16([ b)] c4 r8. c16 f8 f,
+		f f f'8. f16 d8 d c8. c16 %5
+		c4 r8. c16 c8 c r8. c16
+		c8 c r4 r2
+		r r8 a4 a8
+		a8. a16 a8 a a a16 a a8 a
+		a2 b8 b g b %10
+		d4. d8 d4 g,8 g
+		h4 h c8 c c c
+		b4.( g8) a2 \noBreak
+		R1\fermataMarkup \bar "|"
+		\tempoDonum \newSpacingSection R1*45 %59
+		\mvTr b4\pE^\solo b c2 %60
+		b8 b b b c4. c8
+		b4 b8 b a8. a16 g8 fis
+		g8. fis16 g4 r2
+		r a4 a
+		b2 a4 a %65
+		b4. b8 a4 r
+		fis4. es'8 d4. g,8
+		a8. c16 b8 a b16([ a)] g8 r4
+		R1*2 %70
+		b8. f16 f4 r8 b([ c)] d
+		g,4 a b8[ d] f4~
+		f es d2\trill
+		c4 r r2
+		R1 %75
+		f4. d8 b4. as8
+		g8( es'4) d8 c4. b8
+		a8.([ b16)] c4 r2
+		R1*2 %80
+		r2 f8. b,16 b4
+		b8 b b b b2~
+		b1~
+		b2 b4 r
+		r c4. f8 a, c %85
+		b2~ b8[ es g, b]
+		a2 b4. c8
+		b4 a b r
+		f'8 f f4 es r
+		es8 es es4 d d~ %90
+		d d d d
+		d4. b16[ c] c2\trill
+		b4 r r2
+		R1*4 %97
+		d4. d8 d4 b
+		b1^\critnote \noBreak
+		a2 r\fermata \bar "|" %100
+		\tempoTremendum \newSpacingSection R1 \noBreak
+		r2 r4 r8. \mvTr b16\f^\tutti
+		es8 es, es' es es d16 c d8 d
+		d([ c16 b)] c4 r8. b16 f'8 f,
+		f f f' f16 f d8 d c4 %105
+		c r8. c16 c8 c r8. c16
+		c8 c r4 r2
+		R1*2
+		r2 r4 r8. g16 %110
+		c8 c, c' c c b16 a b8 b
+		b b b b b b b4
+		a2 r
+		R1
+		r2 r4 r8. c16 %115
+		f8 f, f' f f es16([ d)] es4
+		r2 r4 r8. b16
+		f'8 f, f' f f e16 d e8 e
+		c4 c8 r16 f, b8 b, b' b
+		b a16 g a8 f' d d c4 %120
+		c r8. c16 d8 c r8. c16
+		d8 c r4 c2
+		b4 d es8 es d d
+		c2 d
+		R1 %125
+		R\fermataMarkup \bar "|." %126 finis
+	}
+}
+
+StupendumTenoreLyrics = \lyricmode {
+	Stu -- %2
+	pen -- dum su -- pra o --
+	mni -- a, stu -- pen -- dum
+	su -- pra o -- mni -- a mi -- ra -- cu -- %5
+	la, stu -- pen -- dum, stu -- pen -- dum,
+
+	Sa -- cra --
+	tis -- si -- ma Do -- mi -- ni -- cae pas -- si --
+	o -- nis com -- me -- mo -- %10
+	ra -- ti -- o, mi -- se --
+	re -- re, mi -- se -- re -- re
+	no -- bis.
+
+	Sa -- cro -- san -- %60
+	ctum et au -- gu -- stis -- si --
+	mum, au -- gu -- stis -- si -- mum my --
+	ste -- ri -- um,
+	sa -- cro --
+	san -- ctum my -- %65
+	ste -- ri -- um,
+	mi -- se -- re -- re,
+	mi -- se -- re -- re no -- bis,
+
+	phar -- ma -- cum im -- mor -- %71
+	ta -- li -- ta -- _
+	_ _
+	tis,
+	%75
+	mi -- se -- re -- re,
+	mi -- se -- re -- re
+	no -- bis,
+
+	phar -- ma -- cum %81
+	im -- mor -- ta -- li -- ta --
+
+	tis,
+	mi -- se -- re -- re %85
+	no --
+	_ _ _
+	_ _ bis,
+	mi -- se -- re -- re,
+	mi -- se -- re -- re, mi -- %90
+	se -- re -- re
+	no -- _ _
+	bis,
+
+	mi -- se -- re -- re %98
+	\xE no --
+	bis. \x %100
+
+	Tre --
+	men -- dum ac vi -- vi -- fi -- cum Sa -- cra --
+	men -- tum, tre -- men -- dum
+	ac vi -- vi -- fi -- cum Sa -- cra -- men -- %105
+	tum, tre -- men -- dum, tre --
+	men -- dum,
+
+	tre -- %110
+	men -- dum ac vi -- vi -- fi -- cum Sa -- cra --
+	men -- tum, mi -- se -- re -- re no --
+	bis,
+
+	tre -- %115
+	men -- dum ac vi -- vi -- fi -- cum,
+	tre --
+	men -- dum ac vi -- vi -- fi -- cum Sa -- cra --
+	men -- tum, tre -- men -- dum ac vi --
+	vi -- fi -- cum, mi -- se -- re -- re no -- %120
+	bis, tre -- men -- dum, tre --
+	men -- dum, con --
+	vi -- va, mi -- se -- re -- re
+	no -- bis. %124 finis
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

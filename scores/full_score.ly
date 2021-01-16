@@ -246,54 +246,133 @@
 	% 		\midi { \tempo 4 = 100 }
 	% 	}
 	% }
+	% \bookpart {
+	% 	\header {
+	% 		number = "4"
+	% 		title = "P R Æ C E L S U M"
+	% 	}
+	% 	\paper { systems-per-page = #2 }
+	% 	\tocLabel "praecelsum" "4" "Præcelsum"
+	% 	\score {
+	% 		<<
+	% 			\new Staff {
+	% 				\set Staff.instrumentName = "trb 1"
+	% 				\PraecelsumTromboneI
+	% 			}
+	% 			\new StaffGroup <<
+	% 				\new GrandStaff \with { \smallGroupDistance } <<
+	% 					\set GrandStaff.instrumentName = "vl"
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "1"
+	% 						\PraecelsumViolinoI
+	% 					}
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "2"
+	% 						\PraecelsumViolinoII
+	% 					}
+	% 				>>
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "vla"
+	% 					\PraecelsumViola
+	% 				}
+	% 			>>
+	% 			\new ChoirStaff <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "A"
+	% 					\new Voice = "Alto" { \dynamicUp \PraecelsumAltoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Alto \PraecelsumAltoLyrics
+	% 			>>
+	% 			\new StaffGroup <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = \markup \center-column { "org" "b" }
+	% 					% \transpose c c,
+	% 					\PraecelsumOrgano
+	% 				}
+	% 			>>
+	% 			\new FiguredBass { \PraecelsumBassFigures }
+	% 		>>
+	% 		\layout { }
+	% 		\midi { \tempo 4 = 70 }
+	% 	}
+	% }
 	\bookpart {
 		\header {
-			number = "4"
-			title = "P R Æ C E L S U M"
+			number = "5"
+			title = "S T U P E N D U M"
 		}
-		\paper { systems-per-page = #2 }
-		\tocLabel "praecelsum" "4" "Præcelsum"
+		\tocLabel "stupendum" "5" "Stupendum"
 		\score {
 			<<
-				\new Staff {
-					\set Staff.instrumentName = "trb 1"
-					\PraecelsumTromboneI
-				}
+				\new StaffGroup <<
+					\new GrandStaff <<
+						\new Staff {
+							\set Staff.instrumentName = \markup \center-column { "trb" "1" }
+							\StupendumTromboneI
+						}
+						\new Staff {
+							\set Staff.instrumentName = "2"
+							\StupendumTromboneII
+						}
+						\new Staff {
+							\set Staff.instrumentName = "3"
+							\StupendumTromboneIII
+						}
+					>>
+				>>
 				\new StaffGroup <<
 					\new GrandStaff \with { \smallGroupDistance } <<
 						\set GrandStaff.instrumentName = "vl"
 						\new Staff {
 							\set Staff.instrumentName = "1"
-							\PraecelsumViolinoI
+							\StupendumViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "2"
-							\PraecelsumViolinoII
+							\StupendumViolinoII
 						}
 					>>
 					\new Staff {
 						\set Staff.instrumentName = "vla"
-						\PraecelsumViola
+						\StupendumViola
 					}
 				>>
 				\new ChoirStaff <<
 					\new Staff {
-						\set Staff.instrumentName = "A"
-						\new Voice = "Alto" { \dynamicUp \PraecelsumAltoNotes }
+						\set Staff.instrumentName = "S"
+						\new Voice = "Soprano" { \dynamicUp \StupendumSopranoNotes }
 					}
-					\new Lyrics \lyricsto Alto \PraecelsumAltoLyrics
+					\new Lyrics \lyricsto Soprano \StupendumSopranoLyrics
+
+					\new Staff {
+						\set Staff.instrumentName = "A"
+						\new Voice = "Alto" { \dynamicUp \StupendumAltoNotes }
+					}
+					\new Lyrics \lyricsto Alto \StupendumAltoLyrics
+
+					\new Staff {
+						\set Staff.instrumentName = "T"
+						\new Voice = "Tenore" { \dynamicUp \StupendumTenoreNotes }
+					}
+					\new Lyrics \lyricsto Tenore \StupendumTenoreLyrics
+
+					\new Staff {
+						\set Staff.instrumentName = "B"
+						\new Voice = "Basso" { \dynamicUp \StupendumBassoNotes }
+					}
+					\new Lyrics \lyricsto Basso \StupendumBassoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = \markup \center-column { "org" "b" }
 						% \transpose c c,
-						\PraecelsumOrgano
+						\StupendumOrgano
 					}
 				>>
-				\new FiguredBass { \PraecelsumBassFigures }
+				\new FiguredBass { \StupendumBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 70 }
+			\midi { \tempo 4 = 60 }
 		}
 	}
 }

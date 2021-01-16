@@ -247,3 +247,52 @@ PraecelsumTromboneI = {
 		R2.\fermataMarkup \bar "|." %145 finis
 	}
 }
+
+StupendumTromboneI = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 4/4 \tempoStupendum
+		R1*2
+		r4 r8. f16\fE b8 b, r \once \tieDashed b'~
+		b a16 g a8. a16 f4 b~
+		b8 a16 g a8 a g4. g8 %5
+		f4 r8. a16 a8 a, r8. a'16
+		a8 a, r4 r2
+		r r8 f'4 f8
+		f8. f16 f8 f fis fis16 fis fis8 fis
+		fis2 g8 g g g %10
+		a4. a8 g4 d8 d-\critnote
+		f!4 f es8 es es es
+		cis2 d \noBreak
+		R1\fermataMarkup \bar "|"
+		\tempoDonum \newSpacingSection R1*85 \noBreak %99
+		R1\fermataMarkup \bar "|" %100
+		\tempoTremendum \newSpacingSection
+			b'16(-.\f b-. b-. b-.) b(-. b-. b-. b-.) g(-. g-. g-. g-.) g(-. g-. g-. g-.)
+		a(-. a-. a-. a-.) a(-. a-. a-. a-.) b(-. b-. b-. b-.) b(-. b-. b-. b-.)
+		es,(-. es-. es-. es-.) c'(-. c-. c-. c-.) b(-. b-. b-. b-.) b(-. b-. b-. b-.)
+		b^\markup \remarkE "simile" b a g a a a a f f f f b b b b
+		b b a g a a a a g g g g g g g g %105
+		f f f f a a a a a a a a a a a a
+		a a a a a a a a f f f f f f f f
+		e e e e b' b b b a a a a a a a a
+		a a a a a a a a a a a a fis fis fis fis
+		fis fis fis fis fis fis fis fis g g g g g g g g %110
+		es es es es d d d d d d d d d d d d
+		es es es es es es es es e e e e e e e e
+		d d d d d d d d e e e e e e e e
+		fis fis fis fis fis fis fis fis f f f f f f f f
+		h h h h h h h h c g g g g g g g %115
+		f f as as g g f f f f es f g g g g
+		a a a a a a a a f f f f f f f f
+		f f f f f f f f b b b b b b b b
+		b b a b c c c c c c b a b b b b
+		b b a g a a a a g g g g g g g g %120
+		a a a a f f f f f f f f f f f f
+		f f f f f f f f a a a a c c c c
+		b b b b f f f f es es es es d d f f
+		f f f f es es es es d b' b b b b b b
+		g g g g g g g g a a a a a a a a %125
+		b b b b f f f f f2\fermata \bar "|" %126 finis
+	}
+}

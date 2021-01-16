@@ -676,6 +676,9 @@ tempoKyrie = \tempoMarkup "Adagio ma non troppo"
 tempoPanisVivus = \tempoMarkup "Vivace"
 tempoPanisSuper = \tempoMarkup "Andante"
 tempoPraecelsum = \tempoMarkup "Larghetto"
+tempoStupendum = \tempoMarkup "Grave"
+	tempoDonum = \tempoMarkup "Allegro"
+	tempoTremendum = \tempoMarkup "Grave"
 
 
 \include "notes/trb1.ly"
