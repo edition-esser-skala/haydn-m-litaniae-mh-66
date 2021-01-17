@@ -498,6 +498,197 @@ StupendumTenoreLyrics = \lyricmode {
 	no -- bis. %124 finis
 }
 
+DulcissimumTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key g \dorian \time 3/4 \autoBeamOff \tempoDulcissimum
+		R2.*24 %24
+		\mvTr g2.\pE^\soloE %25
+		a4. b8 c4
+		r d( g,)
+		a4. b8 c4
+		r d( g,)
+		c4. d8 es4 %30
+		es d c
+		b8.([ a16)] g4 r
+		R2.*4 %36
+		b2.
+		c4. d8 es4
+		r f( b,)
+		c4. d8 es4 %40
+		r f( f,)
+		g4. a8 b4
+		c d es
+		d8.([ c16)] b4 r
+		R2.*4 %48
+		f'2.
+		e! %50
+		es2 d4
+		a b r
+		d( a) b
+		f'( a,) b
+		d( a) b %55
+		f'( a,) b
+		R2.*4 %60
+		c4 c8 c c c
+		c2.~
+		c8[ h c h c h]
+		c2.~
+		c8[ h c h c h] %65
+		c4 r r
+		R2.
+		r4 f b,
+		a8([ b)] c4 r
+		r f as, %70
+		g g r
+		c4. c8 b4
+		b b( a)
+		b r r
+		R2.*9 %83
+		c4. d8 es4
+		r f b, %85
+		c4. d8 es4
+		r d c
+		c h as~
+		as g f
+		f es r %90
+		R2.*6 %96
+		r4 d' d
+		c!4. es8[ d c]
+		b4 a \once \tieDashed g~
+		g fis a %100
+		d c b
+		a4.( c8) b([ a])
+		g4. a8[ b c]
+		d4 d, r
+		R2.*11 %115
+		r4 d'2
+		d d4
+		d d d
+		d2.
+		fis,2 g4 %120
+		a( d2)
+		d4 r r
+		R2.*4 %126
+		d2.
+		c
+		b2 b4
+		b a r %130
+		r d g,
+		fis8([ g)] a4 r
+		r d g,
+		fis8([ g)] a4 r
+		d4. b8 g4 %135
+		g d'2
+		d4 r r
+		R2.*2
+		r4 a a %140
+		a2.~
+		a8[ gis? a b c b]
+		a2.~
+		a8[ gis? a b c b]
+		a4 r r %145
+		R2.
+		g4. g8 g4
+		g g( fis)
+		g r r
+		R2.*10 %159
+		R2.\fermataMarkup \bar "|." %160
+	}
+}
+
+DulcissimumTenoreLyrics = \lyricmode {
+	Dul -- %25
+	cis -- si -- mum
+	con --
+	vi -- vi -- um,
+	con --
+	vi -- vi -- um, %30
+	cu -- i as --
+	sis -- tunt,
+
+	dul -- %37
+	cis -- si -- mum
+	con --
+	vi -- vi -- um, %40
+	con --
+	vi -- vi -- um,
+	cu -- i as --
+	sis -- tunt,
+
+	mi -- %49
+	se -- %50
+	re -- re
+	no -- bis,
+	Sa -- cra --
+	men -- tum
+	pi -- e -- %55
+	ta -- tis,
+
+	vin -- cu -- lum ca -- ri -- %61
+	ta --
+
+	_
+	%65
+	tis,
+
+	mi -- se --
+	re -- re,
+	mi -- se -- %70
+	re -- re,
+	mi -- se -- re --
+	re no --
+	bis.
+
+	Of -- fe -- rens %84
+	et ob -- %85
+	la -- ti -- o,
+	mi -- se --
+	re -- _ _
+	_ re no --
+	bis, %90
+
+	mi -- se -- %97
+	re -- _
+	_ _ _
+	_ _ %100
+	_ _ _
+	_ re
+	no -- _
+	_ bis,
+
+	re -- %116
+	fe -- cti --
+	o a -- ni --
+	ma --
+	rum san -- %120
+	cta --
+	rum,
+
+	mi -- %127
+	se --
+	re -- re
+	no -- bis, %130
+	mi -- se --
+	re -- re,
+	mi -- se --
+	re -- re,
+	mi -- se -- re -- %135
+	re no --
+	bis,
+
+	mi -- se -- %140
+	re --
+
+	_
+
+	re, %145
+
+	mi -- se -- re --
+	re no --
+	bis. %149 finis
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

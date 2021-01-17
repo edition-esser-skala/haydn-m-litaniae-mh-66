@@ -504,6 +504,181 @@ StupendumSopranoLyrics = \lyricmode {
 	no -- bis. %124 finis
 }
 
+DulcissimumSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key g \dorian \time 3/4 \autoBeamOff \tempoDulcissimum
+		R2.*32 %32
+		\mvTr d'2.~\pE^\soloE
+		d8 c c4 c~
+		c8[ b] b2 %35
+		b4 a r
+		R2.*8 %44
+		f'2.~ %45
+		f8 es es4 es~
+		es8[ d] d2
+		d4 c r
+		a2.
+		b %50
+		c2 d4
+		es d r
+		R2.*8 %60
+		es4 es8 es es es
+		es2.~
+		es8[ d es d es d]
+		es2.~
+		es8[ d es d es d] %65
+		es4 r r
+		r f, es'
+		d8([ es)] f4 r
+		r f, es'
+		d8([ es)] f4 r %70
+		r g, es'
+		es8[( c f es] d4)
+		c c2\trill
+		b4 r r
+		R2.*16 %90
+		d4. es8 f4
+		r g c,
+		d4. es8 f4
+		r es d
+		d cis \once \tieDashed b!~ %95
+		b a g
+		g fis r
+		R2.
+		r4 d' d
+		c4. es8[ d c] %100
+		b4 a g~
+		g fis? a
+		d c b
+		b a r
+		R2. %105
+		r4 r d8 es
+		d4( fis,) g
+		r r d'8 es
+		d4( fis,) g
+		R2.*5 %114
+		g2. %115
+		a4. b8 c4
+		r d g,
+		a4.( b8) c4
+		r d g,
+		c4. d8 es4~ %120
+		es d c
+		\tuplet 3/2 4 { b8[( a g]) } g4 r
+		d'2.
+		c
+		b2 b4 %125
+		b a r
+		R2.*3
+		r4 d, c'! %130
+		b8([ c)] d4 r
+		r d, c'
+		b8([ c)] d4 r
+		r fis, fis'
+		g( d es) %135
+		c b( a)
+		g4 r r
+		R2.*2
+		r4 c c %140
+		c2.~
+		c8[ h c d es d]
+		c2.~
+		c8[ h c d es d]
+		c4 r r %145
+		r a fis'
+		g( d) es(
+		c) b( a)\trill
+		g r r
+		R2.*10 %159
+		R2.\fermataMarkup \bar "|." %160 finis
+	}
+}
+
+DulcissimumSopranoLyrics = \lyricmode {
+	An -- %33
+	ge -- li mi --
+	ni -- %35
+	stran -- tes,
+
+	An -- %45
+	ge -- li mi --
+	ni --
+	stran -- tes,
+	mi --
+	se -- %50
+	re -- re
+	no -- bis,
+
+	vin -- cu -- lum ca -- ri -- %61
+	ta --
+
+	_
+	%65
+	tis,
+	mi -- se --
+	re -- re,
+	mi -- se --
+	re -- re, %70
+	mi -- se --
+	re --
+	re no --
+	bis.
+
+	Of -- fe -- rens %91
+	et ob --
+	la -- ti -- o,
+	mi -- se --
+	re -- _ _ %95
+	_ re
+	no -- bis,
+
+	mi -- se --
+	re -- _ %100
+	_ _ _
+	_ _
+	_ _ re
+	no -- bis,
+	%105
+	mi -- se --
+	re -- re,
+	mi -- se --
+	re -- re,
+
+	re -- %115
+	fe -- cti -- o
+	a -- ni --
+	ma -- rum,
+	a -- ni --
+	ma -- _ _ %120
+	rum san --
+	cta -- rum,
+	mi --
+	se --
+	re -- re %125
+	no -- bis,
+
+	mi -- se -- %130
+	re -- re,
+	mi -- se --
+	re -- re,
+	mi -- se --
+	re -- %135
+	re no --
+	bis,
+
+	mi -- se -- %140
+	re --
+
+	_
+
+	re, %145
+	mi -- se --
+	re -- re __
+	no --
+	bis. %194 finis
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

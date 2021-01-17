@@ -296,83 +296,155 @@
 	% 		\midi { \tempo 4 = 70 }
 	% 	}
 	% }
+	% \bookpart {
+	% 	\header {
+	% 		number = "5"
+	% 		title = "S T U P E N D U M"
+	% 	}
+	% 	\tocLabel "stupendum" "5" "Stupendum"
+	% 	\score {
+	% 		<<
+	% 			\new StaffGroup <<
+	% 				\new GrandStaff <<
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = \markup \center-column { "trb" "1" }
+	% 						\StupendumTromboneI
+	% 					}
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "2"
+	% 						\StupendumTromboneII
+	% 					}
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "3"
+	% 						\StupendumTromboneIII
+	% 					}
+	% 				>>
+	% 			>>
+	% 			\new StaffGroup <<
+	% 				\new GrandStaff \with { \smallGroupDistance } <<
+	% 					\set GrandStaff.instrumentName = "vl"
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "1"
+	% 						\StupendumViolinoI
+	% 					}
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "2"
+	% 						\StupendumViolinoII
+	% 					}
+	% 				>>
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "vla"
+	% 					\StupendumViola
+	% 				}
+	% 			>>
+	% 			\new ChoirStaff <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "S"
+	% 					\new Voice = "Soprano" { \dynamicUp \StupendumSopranoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Soprano \StupendumSopranoLyrics
+	%
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "A"
+	% 					\new Voice = "Alto" { \dynamicUp \StupendumAltoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Alto \StupendumAltoLyrics
+	%
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "T"
+	% 					\new Voice = "Tenore" { \dynamicUp \StupendumTenoreNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Tenore \StupendumTenoreLyrics
+	%
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "B"
+	% 					\new Voice = "Basso" { \dynamicUp \StupendumBassoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Basso \StupendumBassoLyrics
+	% 			>>
+	% 			\new StaffGroup <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = \markup \center-column { "org" "b" }
+	% 					% \transpose c c,
+	% 					\StupendumOrgano
+	% 				}
+	% 			>>
+	% 			\new FiguredBass { \StupendumBassFigures }
+	% 		>>
+	% 		\layout { }
+	% 		\midi { \tempo 4 = 60 }
+	% 	}
+	% }
 	\bookpart {
 		\header {
-			number = "5"
-			title = "S T U P E N D U M"
+			number = "6"
+			title = "D U L C I S S I M U M"
 		}
-		\tocLabel "stupendum" "5" "Stupendum"
+		\tocLabel "dulcissimum" "6" "Dulcissimum"
+		\paper {
+			top-system-spacing.basic-distance = #10
+			top-system-spacing.minimum-distance = #10
+			top-markup-spacing.basic-distance = #0
+			top-markup-spacing.minimum-distance = #0
+			markup-system-spacing.basic-distance = #10
+			markup-system-spacing.minimum-distance = #10
+			systems-per-page = #2
+		}
 		\score {
 			<<
-				\new StaffGroup <<
-					\new GrandStaff <<
-						\new Staff {
-							\set Staff.instrumentName = \markup \center-column { "trb" "1" }
-							\StupendumTromboneI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "2"
-							\StupendumTromboneII
-						}
-						\new Staff {
-							\set Staff.instrumentName = "3"
-							\StupendumTromboneIII
-						}
-					>>
-				>>
-				\new StaffGroup <<
+				\new StaffGroup \with { \smallGroupDistance } <<
 					\new GrandStaff \with { \smallGroupDistance } <<
 						\set GrandStaff.instrumentName = "vl"
 						\new Staff {
 							\set Staff.instrumentName = "1"
-							\StupendumViolinoI
+							\DulcissimumViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "2"
-							\StupendumViolinoII
+							\DulcissimumViolinoII
 						}
 					>>
 					\new Staff {
 						\set Staff.instrumentName = "vla"
-						\StupendumViola
+						\DulcissimumViola
 					}
 				>>
-				\new ChoirStaff <<
+				\new ChoirStaff \with { \smallChoirDistance } <<
 					\new Staff {
 						\set Staff.instrumentName = "S"
-						\new Voice = "Soprano" { \dynamicUp \StupendumSopranoNotes }
+						\new Voice = "Soprano" { \dynamicUp \DulcissimumSopranoNotes }
 					}
-					\new Lyrics \lyricsto Soprano \StupendumSopranoLyrics
+					\new Lyrics \lyricsto Soprano \DulcissimumSopranoLyrics
 
 					\new Staff {
 						\set Staff.instrumentName = "A"
-						\new Voice = "Alto" { \dynamicUp \StupendumAltoNotes }
+						\new Voice = "Alto" { \dynamicUp \DulcissimumAltoNotes }
 					}
-					\new Lyrics \lyricsto Alto \StupendumAltoLyrics
+					\new Lyrics \lyricsto Alto \DulcissimumAltoLyrics
 
 					\new Staff {
 						\set Staff.instrumentName = "T"
-						\new Voice = "Tenore" { \dynamicUp \StupendumTenoreNotes }
+						\new Voice = "Tenore" { \dynamicUp \DulcissimumTenoreNotes }
 					}
-					\new Lyrics \lyricsto Tenore \StupendumTenoreLyrics
+					\new Lyrics \lyricsto Tenore \DulcissimumTenoreLyrics
 
 					\new Staff {
 						\set Staff.instrumentName = "B"
-						\new Voice = "Basso" { \dynamicUp \StupendumBassoNotes }
+						\new Voice = "Basso" { \dynamicUp \DulcissimumBassoNotes }
 					}
-					\new Lyrics \lyricsto Basso \StupendumBassoLyrics
+					\new Lyrics \lyricsto Basso \DulcissimumBassoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = \markup \center-column { "org" "b" }
 						% \transpose c c,
-						\StupendumOrgano
+						\DulcissimumOrgano
 					}
 				>>
-				\new FiguredBass { \StupendumBassFigures }
+				\new FiguredBass { \DulcissimumBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 60 }
+			\midi { \tempo 4 = 140 }
 		}
 	}
 }

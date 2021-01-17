@@ -552,3 +552,133 @@ StupendumViola = {
 		f4 r16. f32 f16. d32 d2\fermata \bar "|." %126 finis
 	}
 }
+
+DulcissimumViola = {
+	\relative c' {
+		\clef alto
+		\key g \dorian \time 3/4 \tempoDulcissimum
+		g4\fE b' g
+		r a fis
+		g4. a8 b4
+		r a fis
+		g4. a8 b4 %5
+		r a g
+		fis a d,
+		d r r
+		g, r g'
+		a r fis %10
+		g r cis,
+		d r r
+		d'8 d, d2~
+		\tuplet 3/2 4 { d8 es d c d c b a g }
+		d''\p d, \once \tieDashed d2~ %15
+		\tuplet 3/2 4 { d8 es d c d c b a g }
+		r4 es''(\f a,)
+		b d g,
+		a c fis,
+		g a b %20
+		c d d,
+		g a b
+		c d d,
+		g, r r
+		R2. %25
+		r4 a'\p fis
+		g d r
+		r a' fis
+		g d r
+		R2. %30
+		r4 r d
+		d g,8 a b a
+		g4 r g'
+		a r fis
+		g r cis, %35
+		d r c\f
+		b r r
+		r c'\pE a
+		b f r
+		r c' a %40
+		b f r
+		R2.*2
+		r4 b,8 c d c
+		b4 r b' %45
+		c r a
+		b r g
+		f a8 b c b
+		a4 f r
+		e! r r %50
+		es r d
+		f f r
+		d es f
+		R2.
+		d4 es f %55
+		R2.
+		b,4 r r
+		es r r
+		R2.
+		f4 r r %60
+		R2.*2
+		\once \slurDashed c'4( es,) r
+		R2.
+		\once \slurDashed c'4( es,) r %65
+		R2.*8 %73
+		r4 r d\fE
+		es g c, %75
+		d f b,
+		c es a,
+		b c d
+		es f f,
+		b c d %80
+		es f f,
+		b r r
+		R2.
+		r4 c'\p a
+		b f r %85
+		r c' a
+		b r r
+		d,2.
+		d4 g, g
+		g r r %90
+		r d'' h
+		c g r
+		r d' h
+		c r r
+		R2.*15 %109
+		d,4 d d %110
+		b r r
+		e! c c
+		c r r
+		fis d d
+		d r r %115
+		R2.*7 %122
+		g,4 r g'
+		a r fis
+		g r cis, %125
+		d r8 d a' a,16 c
+		b4 r g
+		a r fis
+		g r cis
+		d r r %130
+		R2.*6 %136
+		g,4 r g'\fE
+		g r g
+		g es es
+		a, r r %140
+		R2.
+		\once \slurDashed a'4(\pE c,)-\critnote r
+		R2.
+		a'4( c,) r
+		R2.*4 %148
+		d'8\f d, d2~
+		\tuplet 3/2 4 { d8 es d c d c b a g } %150
+		d''8\p d, d2~
+		\tuplet 3/2 4 { d8 es d c d c b a g }
+		r4 es''(\fE a,)
+		b d g,
+		a c fis, %155
+		g a b
+		c d d,
+		g a b
+		c d d,
+		g, r r\fermata \bar "|." %160 finis
+	}
+}

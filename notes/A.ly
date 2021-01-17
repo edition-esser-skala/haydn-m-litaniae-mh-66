@@ -626,6 +626,170 @@ StupendumAltoLyrics = \lyricmode {
 	no -- bis. %124 finis
 }
 
+DulcissimumAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key g \dorian \time 3/4 \autoBeamOff \tempoDulcissimum
+		R2.*32 %32
+		\mvTr b'2.~\pE^\soloE
+		b8 a a4 a~
+		a8[ g] g2 %35
+		g4 fis r
+		R2.*8 %44
+		d'2.~ %45
+		d8 c c4 c~
+		c8[ b] b2
+		b4 a r
+		f2.
+		g %50
+		a2 b4
+		c b r
+		R2.*9 %61
+		a4 a8 a a a
+		a2.~
+		a8[ b a b a b]
+		a2.~ %65
+		a8[ b a b a b]
+		a4 a a
+		b f r
+		r a a
+		b f r %70
+		r g g
+		a!2( b4)
+		g f2
+		f4 r r
+		R2.*15 %89
+		c'2.~ %90
+		c8 h h4 r
+		c4 c2
+		c8 h h4 r
+		R2.
+		r4 g g~ %95
+		g fis b!
+		b a r
+		fis2.
+		g
+		a2 d,4 %100
+		r d d
+		c4. es8[ d c]
+		b4 d g
+		g fis r
+		R2.*10 %114
+		r4 g2 %115
+		g4. fis8 fis4
+		r b g
+		g2 fis4
+		r b g
+		a2 b4 %120
+		c b a
+		g8([ fis)] g4 r
+		b2.
+		a
+		g2 g4 %125
+		g fis r
+		R2.*3
+		r4 d fis %130
+		g d r
+		r fis a
+		g d r
+		r d a'
+		g2. %135
+		g4 g( fis)
+		g r r
+		R2.*3 %140
+		r4 fis fis
+		fis2.~
+		fis8[ g fis g fis g]
+		fis2.~
+		fis8[ g fis g fis g] %145
+		fis4 fis a
+		d,2 c4~
+		c d2
+		d4 r r
+		R2.*10 %159
+		R2.\fermataMarkup \bar "|." %160
+	}
+}
+
+DulcissimumAltoLyrics = \lyricmode {
+	An -- %33
+	ge -- li mi --
+	ni -- %35
+	stran -- tes,
+
+	An -- %45
+	ge -- li mi --
+	ni --
+	stran -- tes,
+	mi --
+	se -- %50
+	re -- re
+	no -- bis,
+
+	vin -- cu -- lum ca -- ri -- %62
+	ta --
+
+	_ %65
+
+	tis, mi -- se --
+	re -- re,
+	mi -- se --
+	re -- re, %70
+	mi -- se --
+	re --
+	re no --
+	bis.
+
+	Of -- %90
+	fe -- rens
+	et ob --
+	la -- ti -- o,
+
+	mi -- se -- %95
+	re --  re
+	no -- bis,
+	mi --
+	se --
+	re -- re, %100
+	mi -- se --
+	re -- _
+	_ _ re
+	no -- bis,
+	%105
+
+	re -- %115
+	fe -- cti -- o
+	a -- ni --
+	ma -- rum,
+	a -- ni --
+	ma -- _ %120
+	_ rum san --
+	cta -- rum,
+	mi --
+	se --
+	re -- re %125
+	no -- bis,
+
+	mi -- se -- %130
+	re -- re,
+	mi -- se --
+	re -- re,
+	mi -- se --
+	re -- %135
+	re no --
+	bis,
+
+	mi -- se -- %141
+	re --
+
+	_
+	%145
+	re, mi -- se --
+	re -- re __
+	no --
+	bis. %149 finis
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

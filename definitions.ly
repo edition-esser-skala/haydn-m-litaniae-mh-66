@@ -679,7 +679,19 @@ tempoPraecelsum = \tempoMarkup "Larghetto"
 tempoStupendum = \tempoMarkup "Grave"
 	tempoDonum = \tempoMarkup "Allegro"
 	tempoTremendum = \tempoMarkup "Grave"
+tempoDulcissimum = \tempoMarkup "Allegretto"
 
+smallChoirDistance = {
+	\override StaffGrouper.staffgroup-staff-spacing =
+		#'((basic-distance . 12)
+			 (minimum-distance . 12)
+			 (padding . -100)
+			 (stretchability . 0))
+	\override StaffGrouper.staff-staff-spacing =
+		#'((basic-distance . 11)
+       (minimum-distance . 11)
+       (padding . -100)
+			 (stretchability . 0)) }
 
 \include "notes/trb1.ly"
 \include "notes/trb2.ly"

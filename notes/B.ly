@@ -485,6 +485,213 @@ StupendumBassoLyrics = \lyricmode {
 	no -- bis. %124 finis
 }
 
+DulcissimumBassoNotes = {
+	\relative c {
+		\clef bass
+		\key g \dorian \time 3/4 \autoBeamOff \tempoDulcissimum
+		R2.*25 %25
+		\mvTr d2.\pE^\soloE
+		g4. a8 b4
+		r d,2
+		g4. a8 b4
+		r r c~ %30
+		c b a
+		g8.([ fis16)] g4 r
+		R2.*5 %37
+		f2.
+		b4. c8 d4
+		r f,2 %40
+		b4. c8 d4
+		r r b~
+		b b a
+		b b, r
+		R2.*4 %48
+		f'2.
+		f %50
+		f2 f4
+		f b r
+		R2.*4 %56
+		as2 as4
+		g4. f8[ es d]
+		c4 c' b!
+		a!8([ g)] f4 r %60
+		R2.
+		f4 f8 f f f
+		f2.~
+		f8[ ges f ges f ges]
+		f2.~ %65
+		f8[ ges f ges f ges]
+		f4 r r
+		r d e!
+		f f r
+		r d d %70
+		es es r
+		f4. f8 g4
+		es f2
+		b,4 r r
+		R2.*8 %82
+		b'2.~
+		b8 a a4 r
+		b b2 %85
+		b8 a a4 r
+		R2.
+		r4 d, f~
+		f es d
+		d c r %90
+		R2.*6 %96
+		d2.
+		d
+		d~
+		d %100
+		d
+		d
+		d
+		R
+		b'4 fis g %105
+		d'( fis,) g
+		r r g
+		d'( fis,) g
+		r r g
+		as4. g8 f4 %110
+		g es b'~
+		b a! g
+		a8[ g a f] c'4~
+		c b a
+		b8[ a g f! es d] %115
+		c4 d d
+		g4. a8 b4
+		r d, d
+		g4.( a8) b4
+		r a( g) %120
+		fis2.
+		g4 r r
+		R2.*4 %126
+		b2.
+		a
+		g2 g4
+		g fis r %130
+		r g, c
+		d d r
+		r b es
+		d d r
+		b4. b8 c4 %135
+		es d2
+		g,4 r r
+		R2.*3 %140
+		r4 d' d
+		d2.~
+		d8[ es d es d es]
+		d2.~
+		d8[ es d es d es] %145
+		d4 r r
+		b4. b8 c4
+		es d2
+		g4 r r
+		R2.*10 %159
+		R2.\fermataMarkup \bar "|." %160
+	}
+}
+
+DulcissimumBassoLyrics = \lyricmode {
+	Dul -- %25
+	cis -- si -- mum
+	con --
+	vi -- vi -- um,
+	cu --
+	i as -- %30
+	sis -- tunt,
+
+	dul -- %37
+	cis -- si -- mum
+	con --
+	vi -- vi -- um, %40
+	cu --
+	i as --
+	sis -- tunt,
+
+	mi -- %49
+	se -- %50
+	re -- re
+	no -- bis,
+
+	mi -- se -- %57
+	re -- _
+	_ _ re
+	no -- bis, %60
+
+	vin -- cu -- lum ca -- ri -- %62
+	ta --
+
+	_ %65
+
+	tis,
+	mi -- se --
+	re -- re,
+	mi -- se -- %70
+	re -- re,
+	mi -- se -- re --
+	re no --
+	bis.
+
+	Of -- %83
+	fe -- rens
+	et ob -- %85
+	la -- ti -- o,
+
+	mi -- se --
+	re -- re
+	no -- bis, %90
+
+	mi -- %97
+	se --
+	re --
+	%100
+	re
+	no --
+	bis,
+
+	spi -- ri -- tu -- %105
+	a -- lis
+	dul --
+	ce -- do
+	in
+	pro -- pri -- o %110
+	fon -- te de --
+	_ gu --
+	sta -- _
+	_ _
+	_ %115
+	_ ta, re --
+	fe -- cti -- o
+	a -- ni --
+	ma -- rum
+	san -- %120
+	cta --
+	rum,
+
+	mi -- %127
+	se --
+	re -- re
+	no -- bis, %130
+	mi -- se --
+	re -- re,
+	mi -- se --
+	re -- re,
+	mi -- se -- re -- %135
+	re no --
+	bis,
+
+	mi -- se -- %141
+	re --
+
+	_
+	%145
+	re,
+	mi -- se -- re --
+	re no --
+	bis. %149 finis
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass
