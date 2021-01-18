@@ -375,76 +375,155 @@
 	% 		\midi { \tempo 4 = 60 }
 	% 	}
 	% }
+	% \bookpart {
+	% 	\header {
+	% 		number = "6"
+	% 		title = "D U L C I S S I M U M"
+	% 	}
+	% 	\tocLabel "dulcissimum" "6" "Dulcissimum"
+	% 	\paper {
+	% 		top-system-spacing.basic-distance = #10
+	% 		top-system-spacing.minimum-distance = #10
+	% 		top-markup-spacing.basic-distance = #0
+	% 		top-markup-spacing.minimum-distance = #0
+	% 		markup-system-spacing.basic-distance = #10
+	% 		markup-system-spacing.minimum-distance = #10
+	% 		systems-per-page = #2
+	% 	}
+	% 	\score {
+	% 		<<
+	% 			\new StaffGroup \with { \smallGroupDistance } <<
+	% 				\new GrandStaff \with { \smallGroupDistance } <<
+	% 					\set GrandStaff.instrumentName = "vl"
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "1"
+	% 						\DulcissimumViolinoI
+	% 					}
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "2"
+	% 						\DulcissimumViolinoII
+	% 					}
+	% 				>>
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "vla"
+	% 					\DulcissimumViola
+	% 				}
+	% 			>>
+	% 			\new ChoirStaff \with { \smallChoirDistance } <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "S"
+	% 					\new Voice = "Soprano" { \dynamicUp \DulcissimumSopranoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Soprano \DulcissimumSopranoLyrics
+	%
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "A"
+	% 					\new Voice = "Alto" { \dynamicUp \DulcissimumAltoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Alto \DulcissimumAltoLyrics
+	%
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "T"
+	% 					\new Voice = "Tenore" { \dynamicUp \DulcissimumTenoreNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Tenore \DulcissimumTenoreLyrics
+	%
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "B"
+	% 					\new Voice = "Basso" { \dynamicUp \DulcissimumBassoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Basso \DulcissimumBassoLyrics
+	% 			>>
+	% 			\new StaffGroup <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = \markup \center-column { "org" "b" }
+	% 					% \transpose c c,
+	% 					\DulcissimumOrgano
+	% 				}
+	% 			>>
+	% 			\new FiguredBass { \DulcissimumBassFigures }
+	% 		>>
+	% 		\layout { }
+	% 		\midi { \tempo 4 = 140 }
+	% 	}
+	% }
 	\bookpart {
 		\header {
-			number = "6"
-			title = "D U L C I S S I M U M"
+			number = "7"
+			title = "V I A T I C U M"
 		}
-		\tocLabel "dulcissimum" "6" "Dulcissimum"
-		\paper {
-			top-system-spacing.basic-distance = #10
-			top-system-spacing.minimum-distance = #10
-			top-markup-spacing.basic-distance = #0
-			top-markup-spacing.minimum-distance = #0
-			markup-system-spacing.basic-distance = #10
-			markup-system-spacing.minimum-distance = #10
-			systems-per-page = #2
-		}
+		\tocLabel "viaticum" "7" "Viaticum"
 		\score {
 			<<
-				\new StaffGroup \with { \smallGroupDistance } <<
+				\new StaffGroup <<
+					\new GrandStaff <<
+						\new Staff {
+							\set Staff.instrumentName = \markup \center-column { "trb" "1" }
+							\ViaticumTromboneI
+						}
+						\new Staff {
+							\set Staff.instrumentName = "2"
+							\ViaticumTromboneII
+						}
+						\new Staff {
+							\set Staff.instrumentName = "3"
+							\ViaticumTromboneIII
+						}
+					>>
+				>>
+				\new StaffGroup <<
 					\new GrandStaff \with { \smallGroupDistance } <<
 						\set GrandStaff.instrumentName = "vl"
 						\new Staff {
 							\set Staff.instrumentName = "1"
-							\DulcissimumViolinoI
+							\ViaticumViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "2"
-							\DulcissimumViolinoII
+							\ViaticumViolinoII
 						}
 					>>
 					\new Staff {
 						\set Staff.instrumentName = "vla"
-						\DulcissimumViola
+						\ViaticumViola
 					}
 				>>
-				\new ChoirStaff \with { \smallChoirDistance } <<
+				\new ChoirStaff <<
 					\new Staff {
 						\set Staff.instrumentName = "S"
-						\new Voice = "Soprano" { \dynamicUp \DulcissimumSopranoNotes }
+						\new Voice = "Soprano" { \dynamicUp \ViaticumSopranoNotes }
 					}
-					\new Lyrics \lyricsto Soprano \DulcissimumSopranoLyrics
+					\new Lyrics \lyricsto Soprano \ViaticumSopranoLyrics
 
 					\new Staff {
 						\set Staff.instrumentName = "A"
-						\new Voice = "Alto" { \dynamicUp \DulcissimumAltoNotes }
+						\new Voice = "Alto" { \dynamicUp \ViaticumAltoNotes }
 					}
-					\new Lyrics \lyricsto Alto \DulcissimumAltoLyrics
+					\new Lyrics \lyricsto Alto \ViaticumAltoLyrics
 
 					\new Staff {
 						\set Staff.instrumentName = "T"
-						\new Voice = "Tenore" { \dynamicUp \DulcissimumTenoreNotes }
+						\new Voice = "Tenore" { \dynamicUp \ViaticumTenoreNotes }
 					}
-					\new Lyrics \lyricsto Tenore \DulcissimumTenoreLyrics
+					\new Lyrics \lyricsto Tenore \ViaticumTenoreLyrics
 
 					\new Staff {
 						\set Staff.instrumentName = "B"
-						\new Voice = "Basso" { \dynamicUp \DulcissimumBassoNotes }
+						\new Voice = "Basso" { \dynamicUp \ViaticumBassoNotes }
 					}
-					\new Lyrics \lyricsto Basso \DulcissimumBassoLyrics
+					\new Lyrics \lyricsto Basso \ViaticumBassoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = \markup \center-column { "org" "b" }
 						% \transpose c c,
-						\DulcissimumOrgano
+						\ViaticumOrgano
 					}
 				>>
-				\new FiguredBass { \DulcissimumBassFigures }
+				\new FiguredBass { \ViaticumBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 140 }
+			\midi { \tempo 2 = 100 }
 		}
 	}
 }

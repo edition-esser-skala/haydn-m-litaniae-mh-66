@@ -178,3 +178,141 @@ StupendumTromboneIII = {
 		R\fermataMarkup \bar "|."  %126 finis
 	}
 }
+
+ViaticumTromboneIII = {
+	\relative c {
+		\clef bass
+		\key d \dorian \time 4/4 \tempoViaticum
+		r2 r4 g'\fE
+		f8. f16 f4 r8 f e g
+		cis,4 r r2
+		r r4 g'8\p e
+		cis8. cis16 cis4 r2 %5
+		r4 b8 b a4. a8 \noBreak
+		a1\fermata \bar "||"
+		\time 2/2 \tempoPignus d2\fE a'4 a \noBreak
+		b2 a
+		r4 g f e %10
+		d2~ d8 g f e
+		d2~ d8 g f e
+		d4 b' g8 e a4
+		f4.\trill e8 d2
+		r4 d2 c!4 %15
+		d2 e
+		r4 a8 g f4 e8 d
+		c4 a'8 g f4 e8 d
+		c4 a'2 g4~
+		g f e cis %20
+		d d8 e f4 d
+		g e cis d
+		g2 a
+		b4 f g a
+		b f g a %25
+		b g a2
+		d, r
+		R1*7 %34
+		d2 a'4 a %35
+		b2 a
+		r4 g f e
+		d2~ d8 g f e
+		d2~ d8 g f e
+		d4 b' g8 e a4 %40
+		f g e8 c f4
+		d e f h,!
+		c1~
+		c~
+		c~ %45
+		c~
+		c~
+		c~
+		c~
+		c %50
+		c2 g'4 g
+		as2 g
+		r4 f e c
+		as'4. as8 g2
+		r4 f e c %55
+		b'2 a!
+		r4 d8 c b4 g8 f
+		e4 c'8 b? a4 f8 e
+		d4 b'8 a g4 e8 d
+		c4 f c2 %60
+		f, r
+		r4 fis' g g,
+		c2 d
+		b4. a8 g2
+		r4 gis' a a, %65
+		d2 e
+		f4 c d e
+		f c d e
+		f2 r
+		R1*2 %71
+		a,2 e'4 e
+		f2 e
+		r4 d c h
+		a2~ a8 d c h %75
+		a2~ a8 g' f e
+		d2~ d8 g f e
+		d2~ d8 c' h a
+		g2~ g8 c h a
+		g2~ g8 f e d %80
+		c2~ c8 f e d
+		c2~ c8 b' a g
+		f2 r
+		R1
+		b,2 f'4 f %85
+		g2 f
+		r4 es d c
+		b4. b8 b2
+		r4 d es d
+		c2 c %90
+		r4 e! f e
+		d2 d
+		R1*4 %96
+		g,2 d'4 d
+		f2 e!
+		R1
+		d2 a'4 a %100
+		b2 a
+		R1
+		d,2 a'4 a
+		b4. b8 a2
+		R1 %105
+		d,2 a'4 a
+		b2 a
+		g f
+		e d4 f
+		a2 a, %110
+		R1
+		a'2 d,4 d
+		cis2 d
+		e f4 d
+		g2. f8 e %115
+		d4 d a2
+		a1
+		a
+		a
+		a %120
+		a~
+		a
+		d4 d' b8 g c4
+		a b g8 e a4
+		fis g e8 c f4 %125
+		d e cis8 a d4
+		a1
+		d2 r
+		r4 g g f
+		g2 a %130
+		b4 f g a
+		b f g a
+		b2. b4
+		b,1\fermata-\critnote
+		R %135
+		b2 b
+		a a
+		\once \tieDashed a~ a
+		d r
+		R1*3 %42
+		R1\fermataMarkup \bar "|." %143 finis
+	}
+}

@@ -679,6 +679,249 @@ DulcissimumSopranoLyrics = \lyricmode {
 	bis. %194 finis
 }
 
+ViaticumSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key d \dorian \time 4/4 \autoBeamOff \tempoViaticum
+		r4 \mvTr g'\fE^\tuttiE cis8. cis16 cis4
+		r8 a d f g,4 r
+		r e'8\pE cis \once \tieDashed b2~
+		b16[ a b a] g4. e8 e4~
+		e r r a8 a %5
+		gis4. gis8 a2~ \noBreak
+		a1\fermata \bar "||"
+		\time 2/2 \tempoPignus R1*19 %26
+		a2\fE d4 d
+		f2 e
+		r4 d c h
+		a2~ a8[ d c h] %30
+		a2~ a8[ d c h]
+		a4 f' d8[ h] e4
+		cis d b8[ g] c4
+		a b g8[ e] a4
+		f f e2 %35
+		r4 g2 f4
+		b2 cis
+		r4 d8([ c] b4) a8([ g)]
+		f4( d'8[ c!] b4) a8[( g])
+		f4 d'2 c4~ %40
+		c b2 a4
+		R1
+		c,2 g'4 g
+		b2 a
+		r4 c, a' a %45
+		c4. c8 b2
+		r4 c,( b') b
+		d2 c4 c~
+		c b2 a4~
+		a g2 f4 %50
+		c'1~
+		c~
+		c~
+		c
+		c %55
+		r4 c2 d8([ e)]
+		f4 a, d2~
+		d4 g, c2~
+		c4 f, b2~
+		b4 a g2 %60
+		f r
+		R1*2
+		g2 d'4 d
+		f!2 e %65
+		r4 d c h
+		a2~ a8[ d c h]
+		a2~ a8[ d c h]
+		a4 h8[ c] d[ e] f4~
+		f e8[ d] e4 d %70
+		c2 h
+		a4 d c h
+		a2 gis
+		a2. gis4
+		a8[ d c h] a2~ %75
+		a8[ d c h] a2~
+		a8[ g' f e] d2~
+		d8[ g f e] d2~
+		d8[ c h a] g2~
+		g8[ c h a] g2~ %80
+		g8[ f' e d] c2~
+		c8[ f e d] c2~
+		c8[ b a g] f2~
+		f8[ b a g] f2~
+		f4 d'2 c4 %85
+		b es?2 d4~
+		d c b a
+		\once \tieDashed b1~
+		b2. h4
+		\once \tieDashed c1~ %90
+		c2. cis4
+		d1
+		d,2 r
+		g d'4 d
+		es2 d %95
+		r4 c b a
+		b2. a8[ g]
+		a2. g8[ f]
+		g4 cis d e
+		a,1 %100
+		r2 r4 e'(
+		f cis) d( e)
+		d( a) a2
+		r r4 e'(
+		f) cis d e %105
+		d( a) a r
+		d2 c
+		b a
+		g2. f4
+		f2 e %110
+		R1*4
+		a2 e'4 e %115
+		f2 e
+		r4 d cis b
+		a1~
+		a8[ d cis h!] a2~
+		a8[ d cis h] a2~ %120
+		a4 f'2 e4~
+		e d2 cis4
+		d f2 e4~
+		e d2 c4~
+		c b2 a4~ %125
+		a g2 f4
+		e2 e
+		d a'4 a
+		b2 a
+		r4 g' f e %130
+		d2~ d8[ g f e]
+		d2~ d8[ g f e]
+		d2. d4
+		d1\fermata
+		f2 gis, %135
+		gis gis
+		a1~
+		a
+		a2 r
+		R1*3 %142
+		R1\fermataMarkup \bar "|." %143 finis
+	}
+}
+
+ViaticumSopranoLyrics = \lyricmode {
+	Vi -- a -- ti -- cum
+	in Do -- mi -- no
+	mo -- ri -- en --
+	_ ti -- um, __
+	mo -- ri -- %5
+	en -- ti -- um. __
+
+	Pi -- gnus fu -- %27
+	tu -- rae,
+	fu -- tu -- rae
+	glo -- %30
+	_
+	_ _ _ _
+	_ _ _ _
+	_ _ _ _
+	_ ri -- ae, %35
+	mi -- se --
+	re -- re,
+	mi -- se --
+	re -- re
+	no -- _ _ %40
+	_ bis,
+
+	pi -- gnus fu --
+	tu -- rae,
+	fu -- tu -- rae %45
+	glo -- ri -- ae,
+	mi -- se --
+	re -- re, mi --
+	se -- re --
+	_ re %50
+	no --
+
+	bis, %55
+	mi -- se --
+	re -- re, mi --
+	se -- re --
+	_ _
+	re no -- %60
+	bis,
+
+	pi -- gnus fu -- %64
+	tu -- rae, %65
+	fu -- tu -- rae
+	glo --
+	_
+	_ _ _ _
+	_ _ _ %70
+	_ ri --
+	ae, fu -- tu -- rae
+	glo -- _
+	_ _
+	_ _ %75
+	_
+	_
+	_
+	_
+	_ %80
+	_
+	_
+	_
+	_
+	_ _ %85
+	_ _ _
+	_ ri -- ae,
+	mi --
+	se --
+	re -- %90
+	re
+	no --
+	bis,
+	pi -- gnus fu --
+	tu -- rae, %95
+	fu -- tu -- rae
+	glo -- _
+	_ _
+	_ _ _ ri --
+	ae, %100
+	mi --
+	se --
+	re -- re,
+	mi --
+	se -- re -- re %105
+	no -- bis,
+	mi -- se --
+	re -- _
+	_ re
+	no -- bis, %110
+
+	pi -- gnus fu -- %115
+	tu -- rae,
+	fu -- tu -- rae
+	glo --
+	_
+	_ %120
+	_ _
+	_ ri --
+	ae, mi -- se --
+	re -- re, __
+	mi -- se -- %125
+	re -- re
+	no -- bis,
+	pi -- gnus fu --
+	tu -- rae,
+	fu -- tu -- rae %130
+	glo --
+	_
+	_ ri --
+	ae,
+	mi -- se -- %135
+	re -- re
+	no --
+
+	bis. %139 finis
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble
