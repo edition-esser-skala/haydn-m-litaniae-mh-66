@@ -939,7 +939,7 @@ AgnusDeiViolinoII = {
 		e e e[ r16 g] g8.(\trillE f32 g) f8 f
 		g g g[ r16 a'] a8. f,16 f8. a'16
 		a8. e,16 e8. a'16 a8. f,16 f8. f'16
-		f8 e16. a,,32 a8. a''16 a8.\pE f,16 f8. a'16 %30
+		\kneeBeam f8 e16. a,,32 \kneeBeam a8. a''16 a8.\pE f,16 f8. a'16 %30
 		a8. e,16 e8. a'16 a8. f,16 f8. f'16
 		d8 cis r e,\fE d d d d
 		d d c! c d d g f!

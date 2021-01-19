@@ -924,7 +924,7 @@ AgnusDeiViolinoI = {
 		cis cis cis[ r16 g] g8.(\trillE f32 g) f8 a
 		b b a[ r16 a'] a8. f,16 f8. a'16
 		a8. e,16 e8. a'16 a8. f,16 f8. f'16
-		f8 e16. a,,32 a8. a''16 a8.\pE f,16 f8. a'16 %30
+		\kneeBeam f8 e16. a,,32 \kneeBeam a8. a''16 a8.\pE f,16 f8. a'16 %30
 		a8. e,16 e8. a'16 a8. f,16 f8. f'16
 		f8 e r cis\fE d d d, d
 		es es fis fis g b b b
