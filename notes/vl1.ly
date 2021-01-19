@@ -891,9 +891,57 @@ ViaticumViolinoI = {
 	}
 }
 
-% ViolinoI = {
-% 	\relative c' {
-% 		\clef treble
-%
-% 	}
-% }
+AgnusDeiViolinoI = {
+	\relative c' {
+		\clef treble
+		\key d \dorian \time 4/4 \tempoAgnusDei
+		d'8\p d d d d d c b
+		b a c c f f f es
+		es d d d g, g a a
+		c c b b a r16 c\f c8.(\trill b32 c)
+		es8\pE es es c b b c c %5
+		b b a a gis r16 h\f h4
+		f'8\p f f d c c d d
+		c c\f c c c\p r r4
+		e8.\fp e,16 e8 c'16 e, d8[ r16 d] cis d r d
+		\kneeBeam h''8.\fpE d,,16 d8 h'16 d, c8[ r16 c] h c r a'' %10
+		a8. e,16 e8. a'16 a8. f,16 f8. a'16
+		\kneeBeam a8. a,,16 h4\trill a8 c' b b
+		a a a a c c c c
+		c b b b as as as as
+		as g g g a a b b %15
+		g g a a b r16 f\fE f8.(\trillE es32 f)
+		as8\pE d d d c c c c
+		c c h! h c r16 g\fE g8.(\trillE f32 g)
+		b8\pE g g g a a d c
+		b b\fE b b b r r4 %20
+		d8.\fpE d,16 d8 b'16 d, c8[ r16 c] h c r c'
+		\kneeBeam a'8.\fpE c,,16 c8 a'16 c, b8[ r16 b] a b r g''
+		g8.^\critnote d,16 d8. g'16 g8. es,16 es8. g'16
+		\kneeBeam g8. g,,16 a4\trillE g8 b' b\fE b
+		b b b[ r16 b,] b8.(\trillE a32 b) b'8 b %25
+		a a a[ r16 a,] a8.(\trillE g32 a) a'8 a
+		cis cis cis[ r16 g] g8.(\trillE f32 g) f8 a
+		b b a[ r16 a'] a8. f,16 f8. a'16
+		a8. e,16 e8. a'16 a8. f,16 f8. f'16
+		f8 e16. a,,32 a8. a''16 a8.\pE f,16 f8. a'16 %30
+		a8. e,16 e8. a'16 a8. f,16 f8. f'16
+		f8 e r cis\fE d d d, d
+		es es fis fis g b b b
+		b a16 g f8 f f f e e
+		d4 a'8\p d cis4 e8 g, %35
+		g4 f e8 e e\f e
+		\kneeBeam e e b'' b cis,4 d
+		r2 g8 g f f
+		e e d d f, f f f
+		es\p es es es d d d d %40
+		d d e f cis cis cis cis
+		f'8.\fpE a,16 a8 f'16 a, g8[ r16 g] fis g r g
+		e'8.\fpE g,16 g8 b16 g f8[ r16 f] e f r d''
+		d8.\fp a,,16 a8. d''16 d8.\fp b,,16 b8. d''16
+		\kneeBeam d8.\fp d,,16 e4\trill\fpE d r %45
+		c'!8\f c c c b b a a
+		a4 b8 fis g2\trill
+		fis1\fermata \bar "|." %48 FINIS
+	}
+}

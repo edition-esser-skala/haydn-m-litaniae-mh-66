@@ -1054,13 +1054,59 @@ ViaticumAltoLyrics = \lyricmode {
 	bis. %139 finis
 }
 
-% AltoNotes = {
-% 	\relative c' {
-% 		\clef treble
-%
-% 	}
-% }
-%
-% AltoLyrics = \lyricmode {
-%
-% }
+AgnusDeiAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key d \dorian \time 4/4 \autoBeamOff \tempoAgnusDei
+		R1*23 %23
+		r2 r4 \mvTr g'8\fE^\tuttiE g
+		e!4 e r e %25
+		f f r d
+		e e r8 e f f
+		g4 g8 r f2
+		g-\critnote f4. f8
+		f e r4 f2\p %30
+		g f4. f8
+		f e r4 d\fE d
+		d c! d g8[( f!])
+		e!4 d d( cis)
+		d d8\pE f e4 g8([ e)] %35
+		e4( d) cis r
+		r e8\fE e e4 f^\critnote
+		r2 cis'4 d
+		g, f d2
+		c!\p b4 gis %40
+		a1
+		a4 r r2
+		R1*3 %45
+		a'4.\f a8 g4 fis
+		d1
+		d\fermata \bar "|." %48 FINIS
+	}
+}
+
+AgnusDeiAltoLyrics = \lyricmode {
+	A -- gnus %24
+	De -- i, qui %25
+	tol -- lis, qui
+	tol -- lis pec -- ca -- ta
+	mun -- di: Mi --
+	se -- re -- re
+	no -- bis, mi -- %30
+	se -- re -- re
+	no -- bis, mi -- se --
+	re -- re, mi -- se -- re --
+	re no --
+	bis, mi -- se -- re -- re __ %35
+	no -- bis,
+	mi -- se -- re -- re,
+	mi -- se --
+	re -- re no --
+	_ _ _ %40
+	_
+	bis,
+
+	mi -- se -- re -- re %46
+	no --
+	bis. %48 FINIS
+}

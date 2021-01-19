@@ -905,3 +905,58 @@ ViaticumViolinoII = {
 		d2 r\fermata \bar "|." %143 finis
 	}
 }
+
+AgnusDeiViolinoII = {
+	\relative c' {
+		\clef treble
+		\key d \dorian \time 4/4 \tempoAgnusDei
+		b'8\p b b b b b g g
+		g f a a c c c c
+		c b f f e! e f f
+		d d e e c r16 a'\f a8.(\trill g32 a)
+		c8\pE c c a g g g a %5
+		g g fis fis f r16 gis16\f gis4
+		d'8\p d d h a a a h
+		a a\f a a a\pE a gis gis
+		a16\fpE c c c c c c c h h h h h h h h
+		h\fpE h h h h h h h a a a a a a a a %10
+		a a a a a a a a a a a a a a a a
+		a a a a gis gis gis gis a8 e e e
+		f f f f a a a a
+		a g g g es es f f
+		f es es es f f f f~ %15
+		f f es es d r16 d\fE d8.(\trillE c32 d)
+		f8\pE f f f es g as f
+		es es d d es r16 es\fE es8.(\trillE d32 es)
+		g8\pE e e e fis fis g g
+		g g\fE g g g\pE g fis fis %20
+		g16\fpE b b b b b b b a a a a a a a a
+		a\fpE a a a a a a a g g g g g g g g
+		g g g g g g g g g g g g g g g g
+		g g g g fis fis fis fis g8 g g\fE g
+		e! e e[ r16 b] b8.(\trillE a32 b) e8 e %25
+		f f f[ r16 a,] a8.(\trillE g32 a) d8 d
+		e e e[ r16 g] g8.(\trillE f32 g) f8 f
+		g g g[ r16 a'] a8. f,16 f8. a'16
+		a8. e,16 e8. a'16 a8. f,16 f8. f'16
+		f8 e16. a,,32 a8. a''16 a8.\pE f,16 f8. a'16 %30
+		a8. e,16 e8. a'16 a8. f,16 f8. f'16
+		d8 cis r e,\fE d d d d
+		d d c! c d d g f!
+		e! e d d d d cis cis
+		d4 d8\p e16 f e4 g8 e %35
+		e4 d cis8 cis cis\f cis
+		cis cis cis cis e4 f
+		r2 cis'8 cis d d
+		g, g f f d d d d
+		c!\p c c c b b gis gis %40
+		a a a a a a a a
+		a16\fpE f' f f f f f f e e e e e e e e
+		e\fpE e e e e e e e d d d d d d d d
+		d\fp d d d d d d d d\fp d d d d d d d
+		d\fp d d d cis\fp cis cis cis d4 r %45
+		a'8\f a a a g g fis fis
+		d1
+		d\fermata \bar "|." %48 FINIS
+	}
+}

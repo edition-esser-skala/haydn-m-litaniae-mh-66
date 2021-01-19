@@ -962,13 +962,83 @@ ViaticumBassoLyrics = \lyricmode {
 	bis. %139 finis
 }
 
-% BassoNotes = {
-% 	\relative c {
-% 		\clef bass
-%
-% 	}
-% }
-%
-% BassoLyrics = \lyricmode {
-%
-% }
+AgnusDeiBassoNotes = {
+	\relative c {
+		\clef bass
+		\key d \dorian \time 4/4 \autoBeamOff \tempoAgnusDei
+		R1*11 %11
+		r2 \mvTr c'4.\pE^\soloE b8
+		a4 g8 f es2
+		d4 r8 b' as4 as8 as
+		as g r g a4 b8([ f)] %15
+		f4( es) d r
+		as'4.( g16[ f)] es8([ d16 es)] f8 es16([ d)]
+		c4( d8.) c16 c2
+		b'4.( a!16[ g)] fis4 g8 g
+		g2.( a8.)\trillE g16 %20
+		g4 r r2
+		R1*2
+		r2 r4 \mvTr g8\fE^\tuttiE g
+		g4 g r g %25
+		f f r f
+		e e r8 e d d
+		cis4 cis8 r d4. d8
+		cis4 cis d2
+		a4 r d4.\p d8 %30
+		cis4 cis d2
+		a4 r f\f fis
+		g a b g
+		a4. gis8 a2
+		d4 f8\pE d a'4 cis, %35
+		d2 g4 r
+		r g8\fE g g4 f^\critnote
+		a,4 a a2
+		a a~
+		a\p b %40
+		a1
+		d4 r r2
+		R1*2
+		r2 d4\f d %45
+		d2. d4
+		d1
+		d\fermata \bar "|." %48 FINIS
+	}
+}
+
+AgnusDeiBassoLyrics = \lyricmode {
+	A -- gnus %12
+	De -- i, qui tol --
+	lis, qui tol -- lis pec --
+	ca -- ta, pec -- ca -- ta __ %15
+	mun -- di:
+	Ex -- au -- di nos
+	Do -- mi -- ne,
+	ex -- au -- di nos
+	Do -- mi -- %20
+	ne.
+
+	A -- gnus %24
+	De -- i, qui %25
+	tol -- lis, qui
+	tol -- lis pec -- ca -- ta
+	mun -- di: Mi -- se --
+	re -- re no --
+	bis, mi -- se -- %30
+	re -- re no --
+	bis, mi -- se --
+	re -- re, mi -- se -- re --
+	re no --
+	bis, mi -- se -- re -- re %35
+	no -- bis,
+	mi -- se -- re -- re,
+	mi -- se -- re --
+	re no --
+	_ %40
+	_
+	bis,
+
+	mi -- se -- %45
+	re -- re
+	no --
+	bis. %48 FINIS
+}

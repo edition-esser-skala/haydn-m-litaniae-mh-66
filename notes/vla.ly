@@ -820,3 +820,58 @@ ViaticumViola = {
 		d2 r\fermata \bar "|." %143 finis
 	}
 }
+
+AgnusDeiViola = {
+	\relative c' {
+		\clef alto
+		\key d \dorian \time 4/4 \tempoAgnusDei
+		f8\p f f f g g c, c
+		c c f f f f f f
+		f f b, b c c c c
+		d g g g f f\f f c'
+		a\pE a, a d d d es es %5
+		d d d d h! f'!\f f f
+		h,\p h h e e e f f
+		e dis\f e fis? e\p e e e
+		e16\fp e e e a, a a a f' f f f f f f f
+		e\fp e e e e e e e e e e e e e e e %10
+		e e e e e e e e d d d d d d d d
+		c c c c e e e e e4 r8 b
+		c c c c es es es es
+		d d d d c c b b
+		b b b b c c b b %15
+		c^\critnote c c c b b\fE b b
+		d\pE as as as g c c as'
+		g g g, g g c\fE c g'
+		e!\pE b b b d d d es
+		d cis\fE d e d\pE d d d %20
+		d16\fpE d d d g, g g g es' es es es es es es es
+		d\fpE d d d d d d d d d d d d d d d
+		d d d d d d d d c c c c c c c c
+		b b b b d d d d d8 d d\fE d
+		b b b b e, e cis' cis %25
+		d d d d d d d d
+		g, g g g e g a f'
+		e e e e d d'16 cis d8 d,
+		cis cis' r cis, d d'16 cis d8 d,
+		a' a, r4 d8\pE d'16 cis d8 d, %30
+		cis cis' r cis, d d'16 cis d8 d,
+		a' a, r a\fE a a a a
+		b b a a g g es' d
+		cis cis a h a a a g
+		f4 r a2\pE %35
+		a b8 g' g\f g
+		g g e e b'4 a
+		a,8 a a a e' e d d
+		cis cis a a a a a a
+		fis\p fis fis fis g g d e %40
+		f f e d e e e e
+		d16\fpE a' a a d, d d d b' b b b b b b b
+		a\fpE a a a a a a a a a a a a a a a
+		a\fpE a a a a a a a g\fpE g g g g g g g
+		f\fp f f f a\fp a a a a4 r %45
+		fis8\f fis fis fis g d' d c
+		b1
+		a\fermata \bar "|." %48 FINIS
+	}
+}

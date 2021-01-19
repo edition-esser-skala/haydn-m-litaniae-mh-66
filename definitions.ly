@@ -682,6 +682,7 @@ tempoStupendum = \tempoMarkup "Grave"
 tempoDulcissimum = \tempoMarkup "Allegretto"
 tempoViaticum = \tempoMarkup "Adagio"
 	tempoPignus = \tempoMarkup "Vivace"
+tempoAgnusDei = \tempoMarkup "Adagio ma non tanto"
 
 smallChoirDistance = {
 	\override StaffGrouper.staffgroup-staff-spacing =

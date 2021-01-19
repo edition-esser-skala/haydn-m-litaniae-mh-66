@@ -447,27 +447,106 @@
 	% 		\midi { \tempo 4 = 140 }
 	% 	}
 	% }
+	% \bookpart {
+	% 	\header {
+	% 		number = "7"
+	% 		title = "V I A T I C U M"
+	% 	}
+	% 	\tocLabel "viaticum" "7" "Viaticum"
+	% 	\score {
+	% 		<<
+	% 			\new StaffGroup <<
+	% 				\new GrandStaff <<
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = \markup \center-column { "trb" "1" }
+	% 						\ViaticumTromboneI
+	% 					}
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "2"
+	% 						\ViaticumTromboneII
+	% 					}
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "3"
+	% 						\ViaticumTromboneIII
+	% 					}
+	% 				>>
+	% 			>>
+	% 			\new StaffGroup <<
+	% 				\new GrandStaff \with { \smallGroupDistance } <<
+	% 					\set GrandStaff.instrumentName = "vl"
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "1"
+	% 						\ViaticumViolinoI
+	% 					}
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "2"
+	% 						\ViaticumViolinoII
+	% 					}
+	% 				>>
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "vla"
+	% 					\ViaticumViola
+	% 				}
+	% 			>>
+	% 			\new ChoirStaff <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "S"
+	% 					\new Voice = "Soprano" { \dynamicUp \ViaticumSopranoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Soprano \ViaticumSopranoLyrics
+	%
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "A"
+	% 					\new Voice = "Alto" { \dynamicUp \ViaticumAltoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Alto \ViaticumAltoLyrics
+	%
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "T"
+	% 					\new Voice = "Tenore" { \dynamicUp \ViaticumTenoreNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Tenore \ViaticumTenoreLyrics
+	%
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "B"
+	% 					\new Voice = "Basso" { \dynamicUp \ViaticumBassoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Basso \ViaticumBassoLyrics
+	% 			>>
+	% 			\new StaffGroup <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = \markup \center-column { "org" "b" }
+	% 					% \transpose c c,
+	% 					\ViaticumOrgano
+	% 				}
+	% 			>>
+	% 			\new FiguredBass { \ViaticumBassFigures }
+	% 		>>
+	% 		\layout { }
+	% 		\midi { \tempo 2 = 100 }
+	% 	}
+	% }
 	\bookpart {
 		\header {
-			number = "7"
-			title = "V I A T I C U M"
+			number = "8"
+			title = "A G N U S   D E I"
 		}
-		\tocLabel "viaticum" "7" "Viaticum"
+		\tocLabel "agnusdei" "8" "Agnus Dei"
 		\score {
 			<<
 				\new StaffGroup <<
 					\new GrandStaff <<
 						\new Staff {
 							\set Staff.instrumentName = \markup \center-column { "trb" "1" }
-							\ViaticumTromboneI
+							\AgnusDeiTromboneI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "2"
-							\ViaticumTromboneII
+							\AgnusDeiTromboneII
 						}
 						\new Staff {
 							\set Staff.instrumentName = "3"
-							\ViaticumTromboneIII
+							\AgnusDeiTromboneIII
 						}
 					>>
 				>>
@@ -476,54 +555,54 @@
 						\set GrandStaff.instrumentName = "vl"
 						\new Staff {
 							\set Staff.instrumentName = "1"
-							\ViaticumViolinoI
+							\AgnusDeiViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "2"
-							\ViaticumViolinoII
+							\AgnusDeiViolinoII
 						}
 					>>
 					\new Staff {
 						\set Staff.instrumentName = "vla"
-						\ViaticumViola
+						\AgnusDeiViola
 					}
 				>>
 				\new ChoirStaff <<
 					\new Staff {
 						\set Staff.instrumentName = "S"
-						\new Voice = "Soprano" { \dynamicUp \ViaticumSopranoNotes }
+						\new Voice = "Soprano" { \dynamicUp \AgnusDeiSopranoNotes }
 					}
-					\new Lyrics \lyricsto Soprano \ViaticumSopranoLyrics
+					\new Lyrics \lyricsto Soprano \AgnusDeiSopranoLyrics
 
 					\new Staff {
 						\set Staff.instrumentName = "A"
-						\new Voice = "Alto" { \dynamicUp \ViaticumAltoNotes }
+						\new Voice = "Alto" { \dynamicUp \AgnusDeiAltoNotes }
 					}
-					\new Lyrics \lyricsto Alto \ViaticumAltoLyrics
+					\new Lyrics \lyricsto Alto \AgnusDeiAltoLyrics
 
 					\new Staff {
 						\set Staff.instrumentName = "T"
-						\new Voice = "Tenore" { \dynamicUp \ViaticumTenoreNotes }
+						\new Voice = "Tenore" { \dynamicUp \AgnusDeiTenoreNotes }
 					}
-					\new Lyrics \lyricsto Tenore \ViaticumTenoreLyrics
+					\new Lyrics \lyricsto Tenore \AgnusDeiTenoreLyrics
 
 					\new Staff {
 						\set Staff.instrumentName = "B"
-						\new Voice = "Basso" { \dynamicUp \ViaticumBassoNotes }
+						\new Voice = "Basso" { \dynamicUp \AgnusDeiBassoNotes }
 					}
-					\new Lyrics \lyricsto Basso \ViaticumBassoLyrics
+					\new Lyrics \lyricsto Basso \AgnusDeiBassoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = \markup \center-column { "org" "b" }
 						% \transpose c c,
-						\ViaticumOrgano
+						\AgnusDeiOrgano
 					}
 				>>
-				\new FiguredBass { \ViaticumBassFigures }
+				\new FiguredBass { \AgnusDeiBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 2 = 100 }
+			\midi { \tempo 4 = 60 }
 		}
 	}
 }

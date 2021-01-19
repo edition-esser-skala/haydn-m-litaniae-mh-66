@@ -328,3 +328,44 @@ ViaticumTromboneII = {
 		R1\fermataMarkup \bar "|." %143 finis
 	}
 }
+
+AgnusDeiTromboneII = {
+	\relative c' {
+		\clef "treble_8"
+		\key d \dorian \time 4/4 \tempoAgnusDei
+		R1*8 %8
+		c8\fpE c c c d d d d
+		d\fpE d d d c c c c %10
+		a a e' e f f f f
+		e e e e e4 r
+		R1*8 %20
+		b8\fpE b b b c c c c
+		c\fpE c c c b b b b
+		g g d' d es es es es
+		d d d d d4 d8\fE d
+		b4 b r cis %25
+		d d r d
+		g, g r8 g a f'
+		e4 e8 r d2
+		e d4. d8
+		d cis r4 d2\p %30
+		e d4. d8
+		d cis r4 a\fE a
+		b a g es'8 d
+		cis4 d8 h a2
+		a4 r r2 %35
+		R1
+		r4 cis8\fE cis cis4 d
+		r2 e4 d
+		cis a a2
+		fis\p g4 d8 e %40
+		f4 e8 d e2
+		d8\fpE a' a a b b b b
+		a\fpE a a a a a a a
+		a\fp a a a b\fp b b b
+		a\fp a a\fp a a4 r %45
+		fis4.\f fis8 g d'4 c8
+		b1
+		a\fermata \bar "|." %48 FINIS
+	}
+}

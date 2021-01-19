@@ -431,3 +431,44 @@ ViaticumTromboneI = {
 		R1\fermataMarkup \bar "|." %143 finis
 	}
 }
+
+AgnusDeiTromboneI = {
+	\relative c' {
+		\clef treble
+		\key d \dorian \time 4/4 \tempoAgnusDei
+		R1*8 %8
+		e8\fpE e e e f f f f
+		e\fpE e e e e e e e %10
+		e e a a a a a a
+		a a gis gis a4 r
+		R1*8 %20
+		d,8\fpE d d d es es es es
+		d\fpE d d d d d d d
+		d d g g g g g g
+		g g fis fis g4 g8\fE g-\critnote
+		e!4 e r e %25
+		f f r d
+		e e r8 e f f
+		g4 g8 r f2
+		g-\critnote f4. f8
+		f e r4 f2\p %30
+		g f4. f8
+		f e r4 d\fE d
+		d c! d g8 f!
+		e!4 d d cis
+		d r r2 %35
+		R1
+		r4 e8\fE e e4 f
+		r2 cis'4 d
+		g, f d2
+		c!\p b4 gis %40
+		a1
+		a8\fpE f' f f e e e e
+		e\fpE e e e d d d d
+		d\fp d d d d\fp d d d
+		d\fp d cis\fp cis d4 r %45
+		a'4.\f a8 g4 fis
+		d1
+		d\fermata \bar "|." %48 FINIS
+	}
+}

@@ -316,3 +316,35 @@ ViaticumTromboneIII = {
 		R1\fermataMarkup \bar "|." %143 finis
 	}
 }
+
+AgnusDeiTromboneIII = {
+	\relative c {
+		\clef bass
+		\key d \dorian \time 4/4 \tempoAgnusDei
+		R1*23 %23
+		r2 r4 g'8\fE g
+		g4 g r^\critnote g %25
+		f f r f
+		e e r8 e d d
+		cis4 cis8 r d4. d8
+		cis4 cis d2
+		a4 r d4.\pE d8 %30
+		cis4 cis d2
+		a4 r f\fE fis
+		g a b g
+		a4. gis8 a2
+		d4 r r2 %35
+		R1
+		r4 g8\fE g g4 f
+		a,4 a a2
+		a a
+		a\p b %40
+		a1
+		d4 r r2
+		R1*2
+		r2 d4\fE d %45
+		d2. d4
+		d1
+		d\fermata \bar "|." %48 FINIS
+	}
+}

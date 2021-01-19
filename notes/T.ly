@@ -955,13 +955,78 @@ ViaticumTenoreLyrics = \lyricmode {
 	bis. %139 finis
 }
 
-% TenoreNotes = {
-% 	\relative c' {
-% 		\clef "treble_8"
-%
-% 	}
-% }
-%
-% TenoreLyrics = \lyricmode {
-%
-% }
+AgnusDeiTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key d \dorian \time 4/4 \autoBeamOff \tempoAgnusDei
+		\mvTr b4.\pE^\soloE d8 d4 c8 b
+		b a r f c'4 f8 es
+		es d r d e,!4 f8([ c')]
+		c4( b)\trill a r
+		es'4. d16([ c)] b8 a16([ b)] c8 b16([ a)] %5
+		g4( a8.) a16 gis2
+		f'!4. e16([ d)] c8 h16([ c)] d8 c16([ h)]
+		a2.( h8.)\trill a16
+		a4 r r2
+		R1*14 %23
+		r2 r4 \mvTr d8\fE^\tutti d
+		b4 b r cis %25
+		d d r d
+		g, g r8 g a f'
+		e4 e8 r d2
+		e d4. d8
+		d cis r4 d2\p %30
+		e d4. d8
+		d cis r4 a\f a
+		b a g es'8([ d)]
+		cis4 d8([ h)] a2
+		a4 a8\pE a a4 a %35
+		a2 b4 r
+		r cis8\fE cis cis4 d^\critnote
+		r2 e4 d
+		cis a a2
+		fis\p g4 d8[ e] %40
+		f4 e8[ d] e2
+		d4 r r2
+		R1*3 %45
+		fis4.\f fis8 g( d'4) c8
+		b1
+		a\fermata \bar "|." %48 FINIS
+	}
+}
+
+AgnusDeiTenoreLyrics = \lyricmode {
+	A -- gnus De -- i, qui
+	tol -- lis, qui tol -- lis pec --
+	ca -- ta, pec -- ca -- ta __
+	mun -- di:
+	Par -- ce, par -- ce no -- bis %5
+	Do -- mi -- ne,
+	par -- ce, par -- ce no -- bis
+	Do -- mi --
+	ne.
+
+	A -- gnus %24
+	De -- i, qui %25
+	tol -- lis, qui
+	tol -- lis pec -- ca -- ta
+	mun -- di: Mi --
+	se -- re -- re
+	no -- bis, mi -- %30
+	se -- re -- re
+	no -- bis, mi -- se --
+	re -- re, mi -- se -- re --
+	re no --
+	bis, mi -- se -- re -- re %35
+	no -- bis,
+	mi -- se -- re -- re,
+	mi -- se --
+	re -- re no --
+	_ _ _ %40
+	_ _ _
+	bis,
+
+	mi -- se -- re -- re %46
+	no --
+	bis. %48 FINIS
+}
