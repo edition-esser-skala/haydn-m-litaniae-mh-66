@@ -147,11 +147,11 @@ StupendumTromboneIII = {
 		c2 b8 b b' b %10
 		fis4. fis8 g4 g8 g
 		d4 d es8 es es es
-		es2 d \noBreak
+		es2 d
 		R1\fermataMarkup \bar "|"
-		\tempoDonum \newSpacingSection R1*85 \noBreak %99
+		\tempoDonum R1*85 %99
 		R1\fermataMarkup \bar "|" %100
-		\tempoTremendum \newSpacingSection R1 \noBreak
+		\tempoTremendum R1
 		r4 r8. f16\fE b8 b, b' b
 		b a16 g a8 a b4. g16 es
 		c4 f8 r16 f b8 b, b b

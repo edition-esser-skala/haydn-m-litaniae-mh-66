@@ -159,12 +159,12 @@ StupendumTromboneII = {
 		a2 b8 b g b %10
 		d4. d8 d4 g,8 g
 		h4 h c8 c c c
-		b4. g8 a2 \noBreak
+		b4. g8 a2
 		R1\fermataMarkup \bar "|"
-		\tempoDonum \newSpacingSection R1*85 \noBreak %99
+		\tempoDonum R1*85 %99
 		R1\fermataMarkup \bar "|" %100
-		\tempoTremendum \newSpacingSection
-			d16(-.\f d d d-.) d(-. d-. d-. d-.) es(-. es-. es-. es-.) es(-. es-. es-. es-.) \noBreak
+		\tempoTremendum
+			d16(-.\f d d d-.) d(-. d-. d-. d-.) es(-. es-. es-. es-.) es(-. es-. es-. es-.)
 		c(-. c-. c-. c-.) c(-. c-. c-. c-.) d(-. d-. d-. d-.) d(-. d-. d-. d-.)
 		c(-. c-. c-. c-.) es(-. es-. es-. es-.) es(-. es-. d-. c-.) d(-. d-. d-. d-.)
 		d^\markup \remarkE "simile" d c b c c c c b b b b f' f f f

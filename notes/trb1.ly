@@ -263,11 +263,11 @@ StupendumTromboneI = {
 		fis2 g8 g g g %10
 		a4. a8 g4 d8 d-\critnote
 		f!4 f es8 es es es
-		cis2 d \noBreak
+		cis2 d
 		R1\fermataMarkup \bar "|"
-		\tempoDonum \newSpacingSection R1*85 \noBreak %99
+		\tempoDonum R1*85 %99
 		R1\fermataMarkup \bar "|" %100
-		\tempoTremendum \newSpacingSection
+		\tempoTremendum
 			b'16(-.\f b-. b-. b-.) b(-. b-. b-. b-.) g(-. g-. g-. g-.) g(-. g-. g-. g-.)
 		a(-. a-. a-. a-.) a(-. a-. a-. a-.) b(-. b-. b-. b-.) b(-. b-. b-. b-.)
 		es,(-. es-. es-. es-.) c'(-. c-. c-. c-.) b(-. b-. b-. b-.) b(-. b-. b-. b-.)
