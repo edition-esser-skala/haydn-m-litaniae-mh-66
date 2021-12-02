@@ -4,14 +4,11 @@ id: MH 66
 genre: litany
 scoring: S, A, T, B (solo), S, A, T, B (coro), 3 trb, 2 vl, vla, b, org
 sources:
-  1:
+  B1:
     siglum: F-Pn
     shelfmark: D-5667
-    type: manuscript copy
     date: 1820–1840
     rism: 840016595
     url: https://gallica.bnf.fr/ark:/12148/bpt6k4500261c
-github: haydn-m-litaniae-mh-66
+    principal: true
 imslp: Litaniae_de_Venerabili_Sacramento,_MH_66_(Haydn,_Michael)
-notes:
-

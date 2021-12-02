@@ -1,29 +1,20 @@
 \version "2.22.0"
 
 \include "../definitions.ly"
-#(define option-instrument-name "vl 1")
+#(define option-instrument-name "trb 1")
 \include "score_settings/one-staff.ly"
 
 \book {
   \bookpart {
     \section "1" "Kyrie eleison"
     \addTocEntry
-    \paper { indent = 2\cm }
+    \paper { indent = 2.5\cm }
     \score {
       <<
         \new Staff {
-          \set Staff.instrumentName = "Violino I"
-          \KyrieViolinoI
+          \set Staff.instrumentName = "Trombone I"
+          \KyrieTromboneI
         }
-      >>
-    }
-  }
-  \bookpart {
-    \section "2" "Panis vivus"
-    \addTocEntry
-    \score {
-      <<
-        \new Staff { \PanisVivusViolinoI }
       >>
     }
   }
@@ -32,7 +23,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \PanisSuperViolinoI }
+        \new Staff { \PanisSuperTromboneI }
       >>
     }
   }
@@ -41,7 +32,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \PraecelsumViolinoI }
+        \new Staff { \PraecelsumTromboneI }
       >>
     }
   }
@@ -50,16 +41,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \StupendumViolinoI }
-      >>
-    }
-  }
-  \bookpart {
-    \section "6" "Dulcissimum"
-    \addTocEntry
-    \score {
-      <<
-        \new Staff { \DulcissimumViolinoI }
+        \new Staff { \StupendumTromboneI }
       >>
     }
   }
@@ -68,16 +50,17 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \ViaticumViolinoI }
+        \new Staff { \ViaticumTromboneI }
       >>
     }
   }
   \bookpart {
     \section "8" "Agnus Dei"
     \addTocEntry
+    \paper { systems-per-page = #6 }
     \score {
       <<
-        \new Staff { \AgnusDeiViolinoI }
+        \new Staff { \AgnusDeiTromboneI }
       >>
     }
   }
