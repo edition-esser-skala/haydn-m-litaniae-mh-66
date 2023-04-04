@@ -87,30 +87,30 @@ KyrieBassoLyrics = \lyricmode {
   bis. %45 finis
 }
 
-PanisVivusBassoNotes = {
+PanisVivusSoliNotes = {
   \relative c {
     \clef bass
     \key f \major \time 4/4 \autoBeamOff \tempoPanisVivus
     R1*12 %12
-    \mvTr c'4.\pE^\solo c8 \appoggiatura b a4^\critnote g
+    \mvTr c'4.\pE^\markup \remark "Basso" c8 \appoggiatura b a4 g
     f4. f8 b8.([ c32 d)] c4
     d,2 c %15
     b a4 r
-    d4. g8 e4 f8([ a)]
+    d4. g8 \appoggiatura f e4 f8([ a)]
     c4( b)\trill a r
     a f8 a c8. c,16 c4
     f4. g8 e8.([ f16)] g4 %20
     a,2 g
     f' e
-    a4. d8 h[ a g f]
-    e16[ c' h a] g4~ g16[ c h a] g4~
+    a4. d8 h[( a)] g([ f])
+    e16[( c')] h([ a]) g4~ g16[ c h a] g4~
     g16[ c h a] g8 c g2\trill %25
     c,4 r r2
     R1*6 %32
     r8 c g'4. g8 g4~
     g8 a16([ f)] g4. g8 g4~
-    g16[ f] g([ a)] b8 a16([ g)] f8.([ g16)] a4 %35
-    b4. d,8 cis4 d8([ a')]
+    g16[ f] g([ a)] b8 a16([ g)] \appoggiatura g8 f8.([ g16)] a4 %35
+    b4. d,8 \appoggiatura d cis4 d8([ a')]
     a4( g)\trill f r
     r a4. a8 a4~
     a8 b16 g a4. b16([ g)] a4
@@ -121,38 +121,108 @@ PanisVivusBassoNotes = {
     a' g
     f e4 f8 c %45
     d[ b16 d] e8[ c16 e] f8[ d16 f] g8[ e16 g]
-    a4 a16[ g a b] c4 f,16[ g a b]
+    a4~ a16[ g a b] c4 f,16[ g a b]
     c8[ e, f] b, c2
     h4 r c'4. c8
-    \appoggiatura b! a4^\critnote g f4. f8 %50
+    \appoggiatura b! a4 g f4. f8 %50
     b8.([ c32 d)] c4 r8 b([ c)] d
     e,([ c' a)] f c2
-    f4 r r2
-    R1*99 %152
+    << \context Voice = "Soli" { \voiceOne f4 \oneVoice } \\ { f, } >> r r2
+    R1*10 %63
+    \clef "treble_8" \mvTr a'4.\pE^\markup \remark "Tenore" a8 \appoggiatura g f4 e
+    r a8 e' \appoggiatura e f8. e16 d4 %65
+    r a8 d b8. b16 a4
+    r r8 d b a16 b a8([ g)]
+    a4 r r2
+    a4. e'8 f4. a,8
+    gis4. d'8 c!8.([ d16)] e8 e %70
+    f8. f16 e4 r r8 e
+    f e16 f e8([ d)] e4 r
+    r2 h8 e, e' d
+    \appoggiatura d c8.([ h16)] a4 f2
+    e d %75
+    c4 c'4. h8 d4~
+    d8[ gis,] a([ d)] c4 b~
+    b8[ a16 gis] a[ gis a h] \appoggiatura { a[ h c] } h2\trill
+    a4 r r2
+    R1*3 %82
+    c4. d8 e4. gis,8
+    a8. e16 e4 r8 d'([ c)] h
+    c16([ h)] a8 r4 f4.( g8) %85
+    a4 a8 cis d4 a
+    r8 b!([ a)] e' f16([ e)] d8 r4
+    b4. c8 d4. fis,8
+    g8. d16 d4 r8 es'([ d)] c
+    b8.([ a16)] g4 f'!8 f e d %90
+    \appoggiatura d cis8.([ h?16)] a4 b2
+    a g
+    f4 f'4.( e8) d([ cis])
+    d[( b)] a([ g)] f4( e)
+    d r d'4. d8 %95
+    \appoggiatura c b4 a g g
+    g8([ cis)] d([ e)] f4 es~
+    es8[ d16 cis] d[ cis d e] \appoggiatura { d[ e f] } e2\trill
+    d4 r r2
+    R1*7 %106
+    \clef treble r4 \mvTr b'4.(\pE^\markup \remark "Soprano" es8) d a
+    b2~ b8[ es] d a
+    b4. a16([ b)] g4 f8([ f')]
+    f4( es)\trill d r %110
+    f4. f8 \appoggiatura es d4 c
+    b8 a16([ b)] c8 b a8.([ b16)] c4
+    d8. c16 d8 e! f([ c)] c4
+    d8. c16 d8 e f8.([ c16)] c4
+    es4. d16([ c)] b8([ a)] g([ d')] %115
+    c4( b)\trill a r
+    R1
+    r2 es
+    d4. d8 c4. c8
+    b4 b'4. a8 es'4~ %120
+    es8[ fis,] g([ c)] b4 h
+    c d8[ es] \appoggiatura { g,16[ a b] } a2\trill
+    g4 r r2
+    R1*4 %127
+    r8 b b4.( es8) d a
+    b b b4.( es8) d a
+    b4. a16([ b)] g4 f8 f' %130
+    f4( es)\trill d r
+    r8 f as,4. g16 fis g8 h
+    c([ es16 d)] c8 b \appoggiatura b a4 b
+    g2 f
+    es d %135
+    g4 a\trill b c\trill
+    d~ d16[ es] es([ f)] f4 b,16[ c d es]
+    f8[ a,] b([ es)] d4( c)\trill
+    b r f'4. f8
+    \appoggiatura es d4 c b4. b8 %140
+    es8.([ f32 g)] f4 r8 g,([ es')] c
+    a([ f' d)] b \appoggiatura { b16[ c d] } c2\trill
+    b4 r r2
+    R1*9 %152
     R1\fermata \bar "|." %153 finis
   }
 }
 
-PanisVivusBassoLyrics = \lyricmode {
+PanisVivusSoliLyrics = \lyricmode {
   Pa -- nis vi -- vus, %13
   qui de coe -- lo
   de -- scen -- %15
   di -- sti,
-  mi -- se -- re -- re
+  mi -- se -- re -- re __
   no -- bis,
   De -- us ab -- scon -- di -- tus
   et Sal -- va -- tor, %20
   mi -- se --
   re -- re,
-  mi -- se -- re --
-  _ _ _
+  mi -- se -- re -- re, __
+  mi -- se -- re -- _
   _ re no -- %25
   bis.
 
   Fru -- men -- tum e -- %33
   le -- cto -- rum, mi --
   se -- re -- re no -- bis, %35
-  mi -- se -- re -- re
+  mi -- se -- re -- re __
   no -- bis,
   vi -- num ger --
   mi -- nans vir -- gi -- nes,
@@ -163,13 +233,83 @@ PanisVivusBassoLyrics = \lyricmode {
   mi -- se --
   re -- re, mi -- se -- %45
   re -- _ _ _
-  _ _ _ _
+  _ _ _
   _ re no --
   bis, mi -- se --
   re -- re, mi -- se -- %50
   re -- re, mi -- se --
   re -- re no --
-  bis. %53 finis
+  bis.
+
+  Pa -- nis pin -- guis %64
+  et de -- li -- ci -- ae, %65
+  et de -- li -- ci -- ae
+  de -- li -- ci -- ae re --
+  gum,
+  mi -- se -- re -- re,
+  mi -- se -- re -- re de -- %70
+  li -- ci -- ae, de --
+  li -- ci -- ae re -- gum,
+  mi -- se -- re -- re
+  no -- bis, mi --
+  se -- re -- %75
+  re, mi -- se -- re --
+  re __ no -- _
+  _ _
+  bis.
+
+  Iu -- ge sa -- cri -- %83
+  fi -- ci -- um, mi -- se --
+  re -- re, ob -- %85
+  la -- ti -- o mun -- da,
+  mi -- se -- re -- re,
+  a -- gnus abs -- que
+  ma -- cu -- la, mi -- se --
+  re -- re, mi -- se -- re -- re %90
+  no -- bis, mi --
+  se -- re --
+  re, mi -- se --
+  re -- re __ no --
+  bis, mi -- se -- %95
+  re -- re, mi -- se --
+  re -- re __ no -- _
+  _ _
+  bis.
+
+  Men -- sa pu -- %107
+  ris -- si -- ma,
+  mi -- se -- re -- re __
+  no -- bis, %110
+  mi -- se -- re -- re,
+  mi -- se -- re -- re no -- bis,
+  an -- ge -- lo -- rum es -- ca,
+  mi -- se -- re -- re no -- bis,
+  mi -- se -- re -- re __ %115
+  no -- bis.
+
+  Man --
+  na ab -- scon -- di --
+  tum, mi -- se -- re -- %120
+  re no -- _
+  _ _ _
+  bis.
+
+  Me -- mo -- ri -- a %128
+  mi -- ra -- bi -- li -- um,
+  mi -- ra -- bi -- li -- um %130
+  DE -- i,
+  me -- mo -- ri -- a mi -- ra --
+  bi -- li -- um De -- i,
+  mi -- se --
+  re -- re, %135
+  mi -- se -- re -- re,
+  mi -- se -- re -- _
+  _ re __ no --
+  bis, mi -- se --
+  re -- re, mi -- se -- %140
+  re -- re, mi -- se --
+  re -- re no --
+  bis. %143 finis
 }
 
 PanisSuperBassoNotes = {

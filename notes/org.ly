@@ -104,23 +104,23 @@ PanisVivusOrgano = {
   \relative c {
     \clef bass
     \key f \major \time 4/4 \tempoPanisVivus
-    r8 \mvTr f\fE-\soloE e c r f e c
+    r8 \mvTr f\fE-\solo e c r f e c
     r d d' c r b a f
     r b b, b' r a a, a'
     r g g, g' r f f, f'
     b, r c r d r e r %5
     f4 r8 g a4 r8 g
     a4 r8 b c c, c' b
-    a b a g f b a g\pE
-    f b a g f b a g\fE
+    a b a g f b a g\p
+    f b a g f b a g\f
     f d' c b a b a g %10
     f b a g f g a b
     c c c, c f4 r
-    r8 f\pE e c r f e c
+    r8 f\p e c r f e c
     r d d' c r b a f
     r b b, b' r a a, a' %15
     r g g, g' r f f, f'
-    r c b g c b a f
+    r b, b g c b a f
     e c' d e f4 r
     r8 f a f r e c' e,
     r d h g r c e c %20
@@ -129,7 +129,7 @@ PanisVivusOrgano = {
     r f, f' d g g, r h
     c4 r8 d e4 r8 d
     e4 r8 c g' f g g, %25
-    c\fE c' h g r c, h g
+    c c'\f h g r c, h g
     r a a' g r f e c
     r f' f, f' r e e, e'
     r d d, d' r c c, c'
@@ -140,8 +140,8 @@ PanisVivusOrgano = {
     c f e d c f e d
     c4 r8 cis d, d' f d %35
     g g, g' b a g f d
-    cis a h? cis d d16 e f8 e
-    d g f e d g f e
+    cis a h cis d d16\f e f8 e
+    d g\p f e d g f e
     d g f e d g f e
     d4 r8 d g, g' b g %40
     e4 r8 c f, f' a f
@@ -152,17 +152,17 @@ PanisVivusOrgano = {
     b r c r d r e r
     f4 r8 g a4 r8 g
     a c d b c b c c,
-    h g'\fE a h c c,\pE e c
+    h g'\f a h c c,\p e c
     r f e c r f g a %50
     r b a f b4 r8 b,
     c e f a c b c c,
-    f,\fE f' e c r f e c
+    f, f'\f e c r f e c
     r d d' c r b a f
     r b b, b' r a a, a' %55
     r a a, a' r b b, b'
     r h h, h' r c c, b'
-    a b a g f b a g\pE
-    f b a g f b a g\fE
+    a b a g f b a g\p
+    f b a g f b a g\f
     f d' c b a b a g %60
     f b a g f g a b
     c c c, c a'4 r8 b
@@ -172,17 +172,17 @@ PanisVivusOrgano = {
     d g f d g, g' f e
     d g f d g a b b,
     a\f r a r a r a r
-    a\p a cis a r d d, d'
+    a a\p cis a r d d, d'
     r e gis e r a c! a %70
-    d, d' c h\f a d c a\pE
+    d, d' c h\f a d c a\p
     d, e f f, e r e'\f r
-    e r e r e,\pE e' gis, gis'
+    e r e r e, e'\p gis, gis'
     a a, c a r d' d, d'
     r c c, c' r h h, h' %75
-    r a a, a' d,4 r8 h?
+    r a a, a' d,4 r8 h
     e e f d e e e e
     f f f f d d e e
-    a,\fE a' gis e r a gis e
+    a, a'\f gis e r a gis e
     r f f' e r d c! a %80
     r h d h r e, c gis
     a c d e a,4 r
@@ -190,7 +190,7 @@ PanisVivusOrgano = {
     c4 r8 c d d e e
     a4 a,8 cis d4 r8 e %85
     f4 r8 e f4 r8 f
-    g g a a d,4 d8 fis?
+    g g a a d,4 d8 fis
     g4 r8 a b4 r8 a
     b4 r8 b c a fis d'
     g,4 b8 a gis4 r8 gis %90
@@ -198,28 +198,28 @@ PanisVivusOrgano = {
     r f f, f' r e e, e'
     r d d, d' g4 a
     b8 g f b a g a a,
-    b\mfE b' fis d r g\p fis d %95
+    b b'\f fis d r g\p fis d %95
     r g f d e d cis h?
     a g f g a a a a
     b! b b b g g' a a,
-    d\f d' cis a r d, cis a
-    r b b' a r g f e %100
+    d d'\f cis a r d, cis a
+    r b b' a r g f! e %100
     r f f, f' r g g, g'
     r f f, f' r e e, e'
     r g g, g' r f f, f'
     r cis' cis, cis' d4 r8 e,
     f4 r8 e f4 r8 g %105
-    a a a, a d4 d8 c!
-    b b\p c d es4 f
+    a a a, a d4 d8-! c!-!
+    b-! b\p c d es4 f
     g8 f16 es d8 b es4 f
     g8 f16 es d8 b es es' d b
-    a f g a b\f b a f %110
+    a f g a b b\f a f %110
     r b,\p a f r b' a f
     r g c, e! r f a f
     r f f f f f f f
     f f f f f f f f
     fis fis fis fis g a b fis %115
-    g a b c d\fE d, e fis
+    g a b c d d,\f e fis
     r g fis d r es es' d
     r c b! g r c\p c, c'
     r b b, b' r a a, a'
@@ -242,17 +242,17 @@ PanisVivusOrgano = {
     es r f r g r a r
     b4 r8 c, d4 r8 c
     d f g es f es f f,
-    b\f b' a f r b\pE a f
-    r b,-\critnote a f r b c d %140
+    b b'\f a f r b\p a f
+    r b a f r g, g' f %140
     r es d b es4 r8 es
-    f a b d f es f f,
-    b b\fE a f r b, a f
-    r g g' f r es d b
+    f a b g es c f f,
+    b b'\f a f r b a f
+    r g, g' f r es d b
     r es' es, es' r d d, d' %145
     r d d, d' r es es, es'
     r e e, e' r f f, es
     d es d c b es d c\p
-    b es d c b es d c\fE
+    b es d c b es d c\f
     b g' f es d es d c %150
     b es d c b c d es
     f f f, f d' b f' f,
@@ -262,156 +262,156 @@ PanisVivusOrgano = {
 
 PanisVivusBassFigures = \figuremode {
   r4 \bo <[6]>2 \bc q4
-  r8 <6>4 <6 4>8 r4 <[6]>
-  r2 r8 q4.
+  r8 <6>4 <6 4>8 r4 \bo <[6]>
+  r2 r8 \bc q4.
   r8 <7>2..
   <6>4 q q q %5
-  r4. <6>8 q4. <[6]>8
-  q2 <6 4>8 <[5] 3>4.
-  \bo <[6]>4. \bc q8 r <2> <6> <[6]>
-  r4 \bo <[6]>8 \bc q r <2> <6> <[6]>
-  r \bo <[6]> <6> q q q q \bc <[6]> %10
-  r <2> <6> q r \bo <[6]> <6> \bc <[6]>
-  <6 4>4 <[5] 3>2.
+  r4. <6 4>8 <6>4. \bo <[6]>8
+  \bc q2 <6 4>8 \bo <[5] 3>4.
+  \bc <[6]>2 r8 <2> <6>4
+  r4 <[6]> r8 <2> <6>4
+  r2 <[6]> %10
+  r8 <2> <6> <[6]> r2
+  <6 4>4 <[7] 3>2.
   r4 \bo <[6]>2 \bc q4
-  r8 <6>4 <6 4>4. <[6]>4
-  r2 r8 <[6]>4. %15
+  r8 <6>4 <6 4>4. \bo <[6]>4
+  r2 r8 \bc <[6]>4. %15
   r8 <7>2..
-  r8 <[4 2]>2 <4 2>8 <[6]>4
-  \bo <[6 \l]>4 <6>8 \bc <[6 5]> r2
-  r r8 <[6]>4.
-  r8 \bo <[6!]>4 \bc <[_!]>8 r2 %20
-  r2 r8 <[6]>4.
+  r2 \bo <[6] 4>8 \bc <[4] 2> \bo <[6 _]>4
+  <6>4 q8 \bc <[6 5]> r2
+  r r8 \bo <[6]>4.
+  r8 <6!>4 \once \bassFigureExtendersOn q8 r2 %20
+  r2 r8 \bc <[6]>4.
   r8 <7>2..
   r2 <[7] _!>4. <[6 5]>8
-  r4. <6!>8 <6>4. <[6!]>8
-  \bo <[6 \l]>2 <6 4>4 \bc <[5 _!]> %25
+  r4. <6!>8 <6>4. \bo <[6! _]>8
+  <6>2 <6 4>4 \bc <[5 _!]> %25
   r4 \bo <[6]>8 <_!> r4 <6>8 \bc <[_!]>
-  r8 <6>4 <6 4>8 r4 <[6]>
-  r2 r8 <[6]>4.
+  r8 <6>4 <6 4>8 r4 \bo <[6]>
+  r2 r8 \bc q4.
   r8 <7>2..
   <6>4 <6 _!> <6> <[6]> %30
-  r4. <6!>8 <6>4. <[6!]>8
-  \bo <[6 \l]>4 <6 5>8 \bc <[_! \l]> r2
-  r4 \bo <[6]>8 \bc <[6!]> r <4! 2> \bo <[6]> \bc <[6!]>
-  r \bo <[6]> <6> \bc <[6!]> r <4! 2> \bo <[6]> \bc <[6!]>
-  r4. <[6 5]>8 r2 %35
-  <_->2 <_+>4 <[6]>
-  \bo <[6]> <6>2 <6>8 \bc <[6\\]>
-  r4 \bo <[6]>8 \bc <[6\\]> r <4\+ 2> \bo <[6]> \bc <[6\\]>
-  r4 \bo <[6]>8 \bc <[6\\]> r <4! 2> \bo <[6]> \bc <[6\\]>
+  r4. <6!>8 <6>4. \bo <[6! _]>8
+  <6>4 <6 5>8 \bc <[_! \l]> r2
+  r4 \bo <[6]>8 \bc <[6!]> r <4! 2> \bo <[6]> <6!>
+  r4 <6>8 \bc <[6!]> r <4! 2> \bo <[6]> \bc <[6!]>
+  r4. \bo <[6 5]>8 <4> \bc <[3]>4. %35
+  <_->2 <[4]>8 <_+> \bo <[6]>4
+  <6>8 <_+> <7> <6> r4 <6>8 <6\\>
+  r4 <6>8 \bc <[6\\]> r <4\+ 2> \bo <[6]> \bc <[6\\]>
+  r4 \bo <[6]>8 \bc <[6\\]> r <4\+ 3> \bo <[6]> \bc <[6\\]>
   r1 %40
-  <[6]>
-  r2 r8 q4.
+  \bo <[6]>
+  r2 r8 \bc q4.
   r8 <7>2..
   r2 r8 <[6]>4.
   r8 <7> r2 <6>4 %45
   q q q q
-  r4. q8 q4. <[6]>8
-  <[6]>1
-  q
-  r4 q2. %50
-  r4 q2 r8 <6>
-  r8 \bo <[6 5]>4 \bc <[6 \l]>8 <6 4>4 <[5] 3>
+  r4. q8 q4. \bo <[6]>8
+  <6>1
+  <6>8 <_!> <7> \bc <[6]> <4> <3>4.
+  r4 \bo <[6]>2. %50
+  r4 \bc q2 r8 <6>
+  r8 <[6 5]>4. <6 4>4 <[5] 3>
   r4 \bo <[6]>2 \bc q4
-  r8 <6>4 <6 4>8 r4 <[6]>
-  r2 r8 <[6]>4. %55
+  r8 <6>4 <6 4>8 r4 \bo <[6]>
+  r2 r8 \bc q4. %55
   r8 <6 5->2..
-  r8 <6 5>4. \bo <[4]>8 <_!>4 \bc <[2]>8
-  \bo <[6]>4. \bc q8 r <2> <6> <[6]>
-  r4 \bo <[6]>8 \bc q4 <2>8 <6> <[6]>
-  r \bo <[6]> <6> q q q q \bc <[6]> %60
-  r <2> <6> q r \bo <[6]> <6> \bc <[6]>
+  r8 <6 5>4. \bo <[4]>8 <_!>4 <\t>8
+  \bc <[6]>2 r8 <2> <6>4
+  r4 <[6]>4. <2>8 <6>4
+  r2 <[6]> %60
+  r8 <2> <6> q r2
   <6 4>4 \bo <[5] 3> <6>4. \bc <[6]>8
-  <6 4>4 <[5] 3>2 <6>8 <6\\>
-  r4 \bo <[6]>8 <_+> r4 <6>8 \bc <[_+]>
-  r4 \bo <[6]>8 <_+> r4 <6>8 \bc <[6\\]> %65
+  <6 4>4 <[7] 3>2 <6>8 <6\\>
+  r4 \bo <[6]>8 <_+> r4 <6>8 <_+>
+  r4 <6>8 <_+> r4 <6>8 \bc <[6\\]> %65
   r8 <4\+ 2> \bo <[6]>2 <6>8 \bc <[6\\]>
   r8 <4\+ 2> \bo <[6]>4. \bc <[_+]>8 <7> <6>
   <_+>1
-  <[_+]>
-  r8 \bo <[5! _+]>2 <_!>8 \bc <[6 \l]>4 %70
-  r \bo <[6]>8 <6\\>4 <6! 4\+ [3]>8 \bc <[6]>4
-  r8 <[5!] _+> <7> <6> <[5! _+]>2
+  r
+  r8 \bo <[5! _+]>2 <_!>4. %70
+  r4 <6>8 \bc <[6\\ _]>4 <4\+ [3]>8 \bo <[6]>4
+  r8 \bc <[5!] _+> <7> <6> <[5!] _+>2
   r2. \bo <[6 _!]>8 \bc <[5 \t]>
   r1
   r8 <[6]>2 <7>4. %75
   r2 <7>8 <6!>4 <[7]>8
-  <7 [5!] _+>2 <6 4>4 <6\\ 5- _!>
-  <6 4-> <\t 3> <6! 5> <5! _+>
+  <7 [5!] _+>2 <6 4>4 <6\\ 5- [_!]>
+  <6 4->8 <\t 3>4. <6! 5>4 <[5!] _+>
   r4 \bo <[6 _!]>8 <5! _+> r4 <6 _!>8 \bc <[5! _+]>
   r8 <5>4 <6\\>8 r4 <[6]> %80
-  r2 r8 \bo <[5! _+]> <6> \bc <[6 _!]>
-  r8 \bo <[6 \l]> <6! 5> \bc <[5! _+]> r2
-  r4. <6\\>8 \bo <[6]>4. \bc q8
-  q2 <6!>4 <6 4>8 <[5!] _+>
-  r4 <_+>8 <[6]> r4. <6\\>8 %85
+  r2 r8 \bo <[5! _+]> <6> <6 _!>
+  r8 <6> <6! 5> \bc <[5! _+]> r2
+  r4. <6\\>8 \bo <[6]>4. <6\\>8
+  \bc <[6]>2 r8 <6!> <6 4> <[5!] _+>
+  r4 <_+>2 r8 <6\\> %85
   <6>4. \bo <[6\\]>8 \bc <[6]>2
-  r4 <6 4>8 <[5] _+> r4 <_+>8 <[6]>
-  r4. <6\\>8 \bo <[6]>4. \bc <[6\\]>8
-  <[6]>2 <_->8 \bo <[5- 3]> <6> \bc <[7 _+]>
-  r4 \bo <[6 \l]>8 \bc <[5! _+]> <7 [_!]>2 %90
-  <_+>4 <[6]>2.
-  r8 <[6]>2 <7 [5-]>4.
-  r2 <7>8 <6> <4> <_+>
+  r8 <6> <6 4> <[5] _+> r4 <_+>
+  r4. <6\\>8 \bo <[6]>4. <6\\>8
+  \bc <[6]>2 <_->8 \bo <[\t]>8 <6> \bc <[_+]>
+  r2 <7[!] [_!]> %90
+  <4>8 <_+> \bo <[6]>2.
+  r8 \bc q2 <7 [5-]>4.
+  r2 \bo <7 [_-]>8 \bc <6 [\t]> <4> <_+>
   r4 \bo <[6]>8 \bc q <6 4>4 <[5] _+>
-  r4 \bo <[6]>8 <_+> r4 <6>8 \bc <[_+]> %95
-  r8 \bo <[4 3]> \bc <[6 \l]>4 <6\\>2
-  <[_+]>8 <4\+ _-> \bo <[6]> \bc q <6 4>4 <6\\ 5- _!>
-  <6 4-> <\t 3> <6! 5> <_+>
+  r4 \bo <[6]>8 <_+> r4 <6>8 <_+> %95
+  r4 \bc <[6]> <6\\>2
+  <[_+]>8 <4\+ _-> \bo <[6]> \bc q <6 4>4 <6\\ 5- [_!]>
+  <6 4->8 <\t 3>4. <6! 5>4 <_+>
   r4 \bo <[6]>8 <_+> r4 <6>8 \bc <[_+]>
   r8 <6>4 <6\\>8 r4 <6>8 <6\\> %100
   r8 <[6]>2..
   r8 <4! 2>2 <6>4.
-  r8 <4\+ 2>2 <[6]>4.
-  r8 <[6 5]>2. <6\\>8
+  r8 <4\+ 2>2 \bo <[6 _]>4.
+  r8 \bc <[6 5]>2. <6\\>8
   <6>4. \bo <[6\\]>8 <6>4. \bc <[6]>8 %105
   <6 4>4 <[5] _+> r <6>8 <6 _->
-  r2. <6 4>8 <[5] 3>
-  r4 \bo <[6]>2 <6 4>8 \bc <[5] 3>
+  r2. <6 4>8 <[7-] 3>
+  r4 <[6]>2 <6 4>8 <[7-] 3>
   r4 \bo <[6]>2 \bc q4
-  <6>4 <6->2 <[6]>4 %110
-  r4 \bo <[6]>2 \bc q4
-  r8 \bo <[7 \l]> <7 _!> <6 5> r4 \bc <[6 \l]>
-  r8 <6 4>4 \bo <7! [2]>8 \bc <8 [3]>2
-  <6 4>4. \bo <7! [2]>8 \bc <8 [3]>2
+  <6>4 <6->2 \bo <[6]>4 %110
+  r4 <6>2 \bc <[6]>4
+  r8 \bo <[7 \l]> \bc <[7 _!]>2.
+  r8 <6 4>4 <7! \t>8 <8 [3]>2
+  <6 4>4. <7 \t>8 <8 [3]>2
   <7->4. <6>16 <5> r8 \bo <[6\\]> <6> \bc <[6]> %115
   <9 4>4 <6> <_+>2
-  r4 \bo <[6]>8 \bc <[_+]>4 <6> <6!>8
-  r8 <_-> \bo <[6]>4. \bc <[_-]>
-  r8 <[6]>2 <7 [5-]>4.
-  r2 \bo <7 [_-]>8 \bc <6 [\t]>4. %120
-  <9 _+>8 <8 \t>16 <7> r8 <[_-]> <6 4>4 <6! [5- _!]>
-  <6>4 \bo <[6!]>8 \bc <[_-]> <4>4 <_+>
+  r4 \bo <[6]>8 \bc <[_+]>4. <6>8 <6!>
+  r8 <_-> \bo <[6]>4. <_->
+  r8 \bc <[6]>2 <7 [5-]>4.
+  r2 <7 _->8 <6 \t>4. %120
+  <9- _+>8 \bassFigureExtendersOn <8 _+>16 <7 _+> \bassFigureExtendersOff r8 <[_-]> <6 4>4 <6! [5- _!]>
+  <6>4 \bo <[6!]>8 \bc <[_-]> <5[!] 4>4 <\t _+>
   r2 r8 <_-> \bo <[6]>8 \bc <[_!]>
-  r <_!> r2 <[6]>4
-  r \bo <[6]>2 \bc q4 %125
-  r \bo q2 \bc q4
+  r <_!> r2 \bo <[6]>4
+  r <6>2 q4 %125
+  r q2 \bc <[6]>4
   r8 <6 _->4. <6 4>8 <[5] 3>4.
-  r4. <[6]>8 r4 <6 4>8 <[5] 3>
-  r4. <[6]>8 r4 <6 4>8 <[5] 3>
-  r4 \bo <[6]>2 \bc q4 %130
-  \bo q \bc <[6-]>2.
-  r4. <5->8 <9 4-> <8 3>4 <6!>8
-  \bo <[6 \l]> <_->16 <6!> <6>8 <7 5-> <_!> <2> \bc <[6 \l]>4
+  r4. <[6]>8 r4 <6 4>8 <[7-] 3>
+  r4. <[6]>8 r4 <6 4>8 <[7-] 3>
+  r4 \bo <[6]>2 <6>4 %130
+  q \bc <[6-]>2.
+  r4. <5->8 <9 4[-]> <[8] 3>4 <6!>8
+  \bo <[6 \l]>4. <7 5->8 <6 4> <6 4!> \bc <[6 \l]>4
   r2 r8 <[6]>4.
   r8 <7 [_-]>2. <[6]>8 %135
   <6>4 q <6-> <6>
-  r4. \bo <[6 _-]>8 <6>4. \bc <[6 _-]>8
-  \bo <[6 \l]>4. <6>8 <6 4>4 \bc <[5 3]>
-  r4 \bo <[6]>2 \bc q4
+  r4. \bo <[6 _-]>8 <6>4. <6 _->8
+  <6>4. <6>8 <6 4>4 \bc <[5 3]>
+  r4 \bo <[6 _]>2 <6>4
   r <6>2 <6 _->8 <6> %140
   r4 <6> <5>4. <6>8
-  r <6>4 q8 r2
-  r4 <6>2 q4
-  r8 \bo <[6- \l]>4 <6 4>4. \bc <[6 \l]>4
-  r2 r8 <[6]>4. %145
+  r4. q8 <6>2
+  r4 q2 q4
+  r8 <6->4 <6 4>4. <6>4
+  r2 r8 \bc <[6 _]>4. %145
   r8 <5->2..
-  r8 \bo <[6]>4. <4>8 <_!>4 \bc <[2]>8
-  \bo <[6 \l]>4. \bc <[6 _-]>4 <2>8 <6> <[6 _-]>
-  r4 \bo <[6 \l]>8 \bc <[6 _-]>4 <2>8 <6> <[6 _-]>
-  r \bo <[6- \l]> <6> q q q q \bc <[6 _-]> %150
-  r4 \bo <[6 \l]>8 <6 _->4 q8 <6> \bc <[6 \l]>
+  r8 \bo <[6 _]>4. <4>8 <_!>4 <\t>8
+  <6>4. \bc <[6 _-]>4 <2>8 <6>4
+  r8 \bo <[2]> \bc <[6]>4. <2>8 <6>4
+  r1 %150
+  r
   <6 4>4 \bo <[5] 3> \bc <[6]> <4>8 <3>
   r1 %153 finis
 }
