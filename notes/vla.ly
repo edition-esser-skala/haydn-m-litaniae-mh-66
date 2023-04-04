@@ -304,7 +304,7 @@ PraecelsumViola = {
   \relative c' {
     \clef alto
     \key es \major \time 3/4 \tempoPraecelsum
-    \mvTr b8\p-\markup \remark "con sordino" b b b b b
+    b8\p b b b b b
     as as f' f f f
     f f d d d d
     b b b b b b
@@ -351,12 +351,12 @@ PraecelsumViola = {
     R2.*7 %54
     r4 r8 a b c %55
     d4 r8 d' c a
-    b d r d c f,
-    f d r d' c a
-    b d r d c f,
+    b( d) r d c f,
+    f( d) r d' c a
+    b( d) r d c f,
     f4 r r %60
     R2.*2
-    r8 b,\p b b b b
+    r8 b, b b b b
     b b b b b b
     b4 r r %65
     c8 c c c c c
@@ -383,7 +383,7 @@ PraecelsumViola = {
     r4 r8 c g g
     g4 r r
     r r8 c\f g g %90
-    g g g[\p g g g]
+    g g\p g g g g
     g g g g g g
     as as c c d! d
     es es b b b b
@@ -392,34 +392,34 @@ PraecelsumViola = {
     as as as as as as
     d d d d d d
     b b b b b b
-    g g g g g g %110
+    g g g g g g %100
     as as as as b b
     c c b f' f f
     es es es es es es
     g,\pocoF g g g g g
-    as as as as g g %106
-    es'4 r r
-    R2.*4 %110
+    as as as as g g %105
+    as as b b b b
+    es4 r r
+    R2.*4 %111
     b8\pE b b b b b
     b4 r r
     b8 b b b b b
-    b4 r r
-    b8 b b b b b %115
-    b4 r r
-    es r r
+    b4 r r %115
+    b8 b b b b b
+    es4 r r
     es r r
     es' r r
     R2. %120
     es,8\f es es es es es
     b b b b b b
-    b4\p r b
-    es r b
-    es, r r %125
-    es r r
+    b4 r b\p
+    es, r b'
+    es r b %125
+    es, r r
     R2.
-    es8 es\f es es es es
-    es\p es es es es es-\critnote
-    es-\critnote es es4 r %130
+    es8\f es es es es es
+    es\p es es es es es
+    es es es4 r %130
     es'8 es es es es es
     es es d f b, as
     g4 r b

@@ -648,10 +648,10 @@ PraecelsumOrgano = {
     as as as as as as %10
     as as a a a a
     b b b' as! g f
-    r es g es f as
-    r es g es f as
-    r es g es f as %15
-    r es g es f as
+    r es g es f( as)
+    r es g es f( as)
+    r es g es f( as) %15
+    r es g es f( as)
     g g, as as b b
     c c c c c c
     d d d d d d
@@ -665,7 +665,7 @@ PraecelsumOrgano = {
     g' as b b b, b
     es2 r4
     es\p r8 g f b,
-    es4 r8 g d^\critnote b %30
+    es4 r8 g d b %30
     es4 r8 g f b,
     es2 r4\fermata
     es8 es es es es es
@@ -676,7 +676,7 @@ PraecelsumOrgano = {
     as as as as g g
     as as b b b b
     es4 r8 g\f f b, %40
-    es es es[\pE es es es]
+    es es\p es es es es
     d d d d d d
     c c c c c c
     f, f f f f f
@@ -691,10 +691,10 @@ PraecelsumOrgano = {
     f, f f f f f
     b b d d es es
     f4 f8 es d c %55
-    r b d b c es
-    r b d b c es
-    r b d b c es
-    r b d b c es
+    r b d b c( es)
+    r b d b c( es)
+    r b d b c( es)
+    r b d b c( es)
     d d d d d d %60
     es es es es es es
     f f f f f f
@@ -714,7 +714,7 @@ PraecelsumOrgano = {
     es es f f f, f
     d' es f f f, f
     b4 r r
-    h8\p h h h h h
+    h8\pE h h h h h
     c c c c d d %80
     es es es es f f
     g g g f es d
@@ -726,7 +726,7 @@ PraecelsumOrgano = {
     c4 r8 es h g
     c4 r8 es d g,
     c4 r8 es\fE h g %90
-    c c c[\pE c c c]
+    c c\pE c c c c
     b! b b b b b
     as as as as b b
     c c d d es es
@@ -757,20 +757,20 @@ PraecelsumOrgano = {
     b b b b b b %120
     c\f c c c c c
     d d d d d d
-    es\p es g es f as
-    r es g es f as
-    r es g es f as %125
+    es es\p g es f( as)
+    r es g es f( as)
+    r es g es f( as) %125
     r g g g g g
     as as b b b, b
     es4 r r
-    g,8 g g g g g
-    as as as as as as %13
-    a a a a a a
+    g,8\p g g g g g
+    as as as as as as %130
+    as as a a a a
     b b b' as! g f
-    r es g es f as
-    r es g es f as
-    r es g es f as %135
-    r es g es f as
+    r es g es f( as)
+    r es g es f( as)
+    r es g es f( as) %135
+    r es g es f( as)
     g g, as as b b
     c c c c c c
     d d d d d d
@@ -778,7 +778,7 @@ PraecelsumOrgano = {
     es4 r g\f
     as r a
     b b,2\fermata
-    es8.\pE g16 b4 b,
+    es8.\pp g16 b4 b,
     es, r r\fermata \bar "|." %145 finis
   }
 }
@@ -787,45 +787,45 @@ PraecelsumBassFigures = \figuremode {
   r2.
   <7>4 <6>2
   <7>2.
-  <9 4>4 <[8] 3>2
-  <[6]>2. %5
-  r4 <[4 3]> <6>
+  <9 4>4 \bo <[8] 3>2
+  \bc <[6]>2. %5
+  r4 <6 4 [3]> <6>
   <7> \bo <[7] 4> \bc <[\t] 3>
   r2.
   <5->
-  <9 4->4 <[8] 3>8 <5!>4 <6>8 %10
-  <6 5>4 <\t \t>2
+  <9 4[-]>4 <[8] 3>8 <5!>4 <6>8 %10
+  <6 5[-]>4 <\t \t>2
   <9 4>4 \bo <[8 3]>8 <2> <6> \bc <[6 \l]>
   r2 <6>4
-  r2 <[6]>4
-  r2 q4 %15
   r2 q4
-  \bo <[6 \l]> \bc <[6 5]>2
+  r2 \bo <[6 _]>4 %15
+  r2 <6>4
+  q \bc <[6 5]>2
   <6>2.
-  <[6 5]>
-  r4 <[6 5]>2 %20
-  r4. \bo <[6]>4 \bc <[7]>8
-  r4. \bo <[6]>8 \bc q4
-  r4. \bo <[6]>4 \bc <[7]>8
-  r4. <[6]>
-  <6>4 <4 2> <[6]> %25
-  \bo <[5]>8 \bc <[6]> <6 4>4 <[5] 3>
-  <[6]> <6 4> <7 [3]>
+  \bo <[6 5]>
+  r4 <6 5>2 %20
+  r4. <6>4 <7>8
+  r4. <6>8 q4
+  r4. q4 <7>8
+  r4. \bc <[6 _]>
+  r4 <6>8 <4 2> \bo <[6]>4 %25
+  <5>8 \bc <[6]> <6 4>4 \bo <[7] 3>
+  \bc <[6]> <5 4> <\t 3>
   r2.
-  r4. \bo <[6]>8 <6> \bc <[7]>
-  r4. \bo <[6]>8 \bc q4 %30
-  r4. \bo <[6]>8 <6> \bc <[7]>
+  r4. \bo <[6]>8 <6> <7>
+  r4. <6>8 q4 %30
+  r4. q8 q \bc <[7]>
   r2.
   r
   <7>4 <6>2
   <7>2. %35
   <9 4>4 <[8] 3>2
-  <6 3>2 <\t _!>4
-  \bo <[5 3]> <6 \t>8 \bc <[\t 4]> <6>4
+  <6>2 <\t _!>4
+  r4. <2>8 <6>4
   <6 5>2.
-  r4. \bo <[6]>4 \bc <[7]>8 %40
+  r4. \bo <[6]>4 <7>8 %40
   r2.
-  <[6]>
+  \bc <[6]>
   <7>
   <[7] _!>
   r4. \bo <[6 \l]>4 \bc <[7 _!]>8 %45
@@ -837,56 +837,56 @@ PraecelsumBassFigures = \figuremode {
   r
   <7>4 <6!>2
   <[7 _!]>2.
-  r4 <[6]>2
-  \bo <[_!]>4. <4!>8 <6> \bc <[6!]> %55
+  r4 \bo <[6]>2
+  <_!>4. <4!>8 <6> \bc <[6!]> %55
   r2 <6!>4
-  r2 q4
-  r2 <[6!]>4
-  r2 q4
-  \bo <[6]>2 \bc <[5-]>4 %60
+  r2 <6[!]>4
+  r2 \bo <[6!]>4
+  r2 <6!>4
+  <6>2 \bc <[5-]>4 %60
   r2.
   <6 4>4 <5 \t> <\t _!>
   r2.
   <6 5->
-  <9 4->4 <[8 3]>8 <5!>4 <6>8 %65
+  <9 4>4 <[8] 3>8 <5!>4 <6>8 %65
   <[6] 5->2.
   <9 4>4 <[8 _!]>2
-  <6->2.
+  <6[-]>2.
   <6 5>
   r4 \bo <[6 5]> \bc <[_! \l]> %70
   r4. \bo <[6]>4 \bc <[7] _!>8
-  r4. \bo <[6]>8 <6> \bc <[_!]>
-  r4. \bo <[6 \l]>4 \bc <[7 _!]>8
-  r4. <[6]>
-  <6>4 <4! 2> <[6]> %75
-  \bo <[5 \l]>8 <6> <6 4>4 \bc <[7 _!]>
-  \bo <[6 \l]> <6 4> \bc <[5 _!]>
+  r4. \bo <[6 _]>8 <6> <_!>
+  r4. <6>4 <7 _!>8
+  r4. \bc <[6 _]>
+  r4 <6>8 <4! 2> \bo <[6 _]>4 %75
+  <5>8 <6> <6 4>4 <7 _!>
+  <6> <6 4> \bc <[5 _!]>
   r2.
-  <7->
-  <6 4>4 <[5 3]> <6!> %80
+  <7[-]>
+  <6 4>4 <[5] 3> <6!> %80
   <[6]>2 <8 6>8 <7 [5]>
   <6 4>4 <[5] _!>8 \bo <[4! 3]> <6> \bc <[6! \l]>
   r2.
   <7>4 <6!>2
   \bo <[7 4]>4 \bc <[\t _!]>2 %85
   <4>4 <3>2
-  r4. \bo <[6 \l]>8 <6!> \bc <[7 _!]>
-  r4. \bo <[6]>8 <6> \bc <[_!]>
-  r4. \bo <[6 \l]>8 <6!> \bc <[7 _!]>
-  r4. \bo <[6]>8 <6> \bc <[_!]> %90
+  r4. \bo <[6 \l]>8 <6!> <7 _!>
+  r4. <6>8 q <_!>
+  r4. <6>8 <6!> <7 _!>
+  r4. <6>8 q \bc <[_! _]> %90
   r2.
   <4! _->
-  <6>2 q4
-  \bo <[7]>4 \bc <[6 5]>2
+  <6>2 <6 [_!]>4
+  <7> <6 5>2
   \bo <[6 4]>4 <5 3> \bc <[6 5]> %95
   r2.
   <7>4 <6>2
   <[7]>2.
-  <9 4>4 <[8] 3>2
-  <[6]>2. %100
-  r4 <[4 3]> <6>
+  <9 4>4 \bo <[8] 3>2
+  \bc <[6]>2. %100
+  r4 <4 [3]> <6>
   <7> \bo <7 [4]> \bc <\t [3]>
-  r2.
+  <[6]>2.
   r
   r2.*2 %106
   r4 <6>2
@@ -895,9 +895,9 @@ PraecelsumBassFigures = \figuremode {
   <7>2 <7>4 %110
   <6 4> \bo <[5] 3>8 <6> <6!> \bc <[7] _!>
   r2.
-  r4. \bo <[6]>8 <6> \bc <[7]>
+  r4. \bo <[6- _]>8 <6> <7>
   r2.
-  r4. \bo <[6 \l]>8 <6!> \bc <[7 _!]> %115
+  r4. <6>8 <6!> \bc <[7 _!]> %115
   r2.
   r
   <7>
@@ -906,26 +906,26 @@ PraecelsumBassFigures = \figuremode {
   <6>2.
   <6 5>
   r2 <6>4
-  r2 <[6]>4
-  r2 q4 %125
+  r2 \bo <[6]>4
+  r2 <6>4 %125
   r8 q r2
-  r4 \bo <[4]> \bc <[3]>
+  r4 <4> \bc <[3]>
   r2.
   <6 5->
-  <9 4->4 <[8] 3>8 <5!>4 <6>8 %130
-  <6 5>2.
+  <9 4[-]>4 <[8] 3>8 <5!>4 <6>8 %130
+  <6 5>4 <\t \t>2
   <9 4>4 \bo <[8] 3>8 <2> <6> \bc <[6]>
-  r2 <[6]>4
-  r2 q4
+  r2 \bo <[6]>4
+  r2 <6>4
   r2 q4 %135
   r2 q4
-  q <6 5>2
+  \bc <[6]> <6 5>2
   <6>2.
   <6 5>
   r4 <[6 5]>2 %140
   r2 <[6]>4
-  r2.
-  <6 4>4 <\t \t> <[5] 3>
+  r2 <7>4
+  <6 4> <\t \t> <[5] 3>
   r <6 4> <[7] 3>
   r2. %145 finis
 }

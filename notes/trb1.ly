@@ -149,22 +149,22 @@ PraecelsumTromboneI = {
   \relative c' {
     \clef alto
     \key es \major \time 3/4 \tempoPraecelsum
-    \once \tieDashed \mvTr es4~\pE-\solo es16 f g as b g f es
+    es4~\pE es16 f g as b g f es
     es4\trill d r8 b
     f'4~ f16 g as b c as g as
     as4\trill g r8 es
     b'4~ b16 as g f es d c b %5
     c4 c' b
     \appoggiatura b16 as8 g16 f es4( d8) as'
-    \appoggiatura as16 g8. as16 b4 r8 b
-    \once \tieDashed des,4~ des16 c des f es des c des
+    \appoggiatura as g8. as16 b4 r8 b
+    des,4~ des16 c des f es des c des
     des4 c8 e4 f8 %10
     as16 g f g f8 c d es
     es4\trill d r8 b
     es4. f16 g as f es d
     b'4. c16 b \appoggiatura b as8 g16 f
     es4~ es16 d es g as f es d %15
-    \once \tieDashed b'4~ b16 g c b \appoggiatura b as8 g16 f
+    b'4~ b16 g c b \appoggiatura b as8 g16 f
     b g f es f4~\trill f8. g16
     as4~ as16 g as c b as g as
     as4~ as16 g as c b as g f
@@ -172,13 +172,13 @@ PraecelsumTromboneI = {
     es4 r r
     R2.*10 %31
     R2.\fermata
-    es4~ es16 f g as b g f es
+    es4~\pE es16 f g as b g f es
     es4\trill d r8 as
     f'4~ f16 g as b c as g f %35
     f4\trill es r
     R2.*26 %62
-    r4 b8 d f b
-    \once \tieDashed as!4~ as16 g as c b as g as
+    r4 b8\pE d f b
+    as!4~ as16 g as c b as g as
     as4 g8 h4 c8 %65
     b4~ b16 a g f e d c b
     b4\trill a r8 f'
@@ -187,48 +187,48 @@ PraecelsumTromboneI = {
     \appoggiatura es d8 c16 b c2\trill %70
     b4 r r
     R2.*11 %82
-    c4~ c16 d es f g es d c
+    c4~\pE c16 d es f g es d c
     c4\trill h r8 f'
-    \once \tieDashed f4~ f16 g as g as8 g16 f %85
+    f4~ f16 g as g as8 g16 f %85
     f4\trill es r
-    r8 c'[ g g] f8.(\trill es32 f)
+    r8 c'[ g g] f8.\trill es32 f
     es4 r r
-    r8 c'[ g g] f8.(\trill es32 f)
+    r8 c'[ g g] f8.\trill es32 f
     es4 r r %90
     R2.*5 %95
     es4~ es16 f g as b g f es
     es4\trill d r8 as
     f'4~ f16 g as b c as g f
     f4\trill es r8 es
-    \once \tieDashed b'4~ b16 as g f es d c b %100
+    b'4~ b16 as g f es d c b %100
     c4 c' b
     \appoggiatura b16 as8 g16 f es4( d8) as'
-    g8. as16 b4 r
+    \appoggiatura as g8. as16 b4 r
     R2.*8 %111
-    d4 es f
+    d,4 es f
     es8. f16 g4 r
     es g es
     d8. es16 d4 r %115
     d es f
-    es2.~
-    es~
+    es2.
+    es
     es~
     es4 d2\trill %120
     es4 r r
     R2.*6 %127
-    r4 r r8 b
+    r4 r r8 b'\pE
     des,4~ des16 c des f es des c des
     des4 c8 e4 f8 %130
-    a16 g f g f8 c d es
+    as16 g f g f8 c d es
     es4\trill d r8 b
     es4. f16 g as f es d
-    b'4. c16 b \appoggiatura b as8-\critnote g16 f
-    \once \tieDashed es4~ es16 d es g as f es d %135
-    b'4~ b16 g c b \appoggiatura b as8-\critnote g16 f
-    b g f es f4~ f8. g16
+    b'4. c16 b \appoggiatura b as8 g16 f
+    es4~ es16 d es g as f es d %135
+    b'4~ b16 g c b \appoggiatura b as8 g16 f
+    b g f es f4~\startTrillSpan f8. g16\stopTrillSpan
     as4~ as16 g as c b as g as
     as4~ as16 g as c b as g f
-    \appoggiatura as16 g8-\critnote f16 es f2\trill %140
+    \appoggiatura as16 g8 f16 es \appoggiatura { es16[ f g] } f2\trill %140
     es4 r r
     R2.
     es2\fermata f4\trill

@@ -317,7 +317,7 @@ PraecelsumViolinoI = {
   \relative c' {
     \clef treble
     \key es \major \time 3/4 \tempoPraecelsum
-    \mvTr es8\p-\markup \remark "con sordino" es es es es es
+    \mvTr es8\p-\conSord es es es es es
     es es d16( es) f( g) as( g) f( es)
     d8 d as' as as as
     as as g16 as b c b as g f
@@ -329,25 +329,25 @@ PraecelsumViolinoI = {
     b b as c c c %10
     c c c c c c
     c c b d, es f
-    g b r b as d,
-    es b r b' as d,
-    es b' r b as d, %15
-    es b r b' as d,
+    g( b) r b as d,
+    es( b) r b' as d,
+    es( b') r b as d, %15
+    es( b) r b' as d,
     es b' c c b b
     as as as as as as
     as as as as as as
     g g f f f f %20
-    es es[\f b b] as8.(\trill g32 as)
-    g8 b es es f8.(\trillE g32 as)
-    g8 es b b as8.(\trillE g32 as)
-    g8 es' b' b b8.(\trillE c32 des)
+    es es\f b b as8.\trill g32 as
+    g8 b es es f8.( g32 as)
+    g8 es b b as8.\trill g32 as
+    g8 es' b' b b8.( c32 des)
     c4~ c16 es d f es b as g %25
     c as g f es g as b as f es d
     b' g c es, \appoggiatura { es16[ f g] } f2\trill
     es8 b es4 r
-    r8 es[\p b b] as8.(\trillE g32 as)
-    g8 b es es f8.(\trill g32 as) %30
-    g8 es b b as8.(\trill g32 as)
+    r8 es[\p b b] as8.\trill g32 as
+    g8 b es es f8.( g32 as) %30
+    g8 es b b as8.\trill g32 as
     g4 r r\fermata
     b'8 b b b b b
     as as as as as as
@@ -356,26 +356,26 @@ PraecelsumViolinoI = {
     b8 b b b h h
     c c c d es es
     es es d c d d
-    es es,[\f b b] as8.(\trill g32 as) %40
-    g8 b' b[\p b b b]
+    es es,\f b b as8.\trill g32 as %40
+    g8 b'\p b b b b
     b b b b b b
     b b b16 a b g es' d c b
     a8 a a a a a
-    b b[\f f f] es8.(\trill d32 es) %45
+    b b\f f f es8.\trill d32 es %45
     d4 r8 f\p g a
-    b b f f f8.(\trillE es32 f)
+    b b f f f8.\trill es32 f
     g8 g g g g g
-    g b g g g8.(\trillE f32 g)
+    g b g g g8.\trill f32 g
     f8 f f f f f %50
-    f b f f f8.(\trillE es32 f)
+    f b f f f8.\trill es32 f
     es8 es es es es es
-    es c' es, es es8.(\trill d32 es)
+    es c' es, es es8.\trill d32 es
     d8 d b' b b b
     a4 r r8 f %55
     b4. c16 d es c b a
     f'4. g16 f \appoggiatura f es8 d16 c
     b4~ b16 f d' b es c b a
-    f'4~ f16 d g f \appoggiatura f es8^\critnote d16 c
+    f'4~ f16 d g f \appoggiatura f es8 d16 c
     b8 f' f f f f %60
     g g g g g g
     d d c c c c
@@ -387,10 +387,10 @@ PraecelsumViolinoI = {
     b b b b b b
     c c c c c c
     b b b b a a %70
-    b b[\f f f] es8.(\trill d32 es)
-    d8 f b b c8.(\trillE d32 es)
-    d8 b f f es8.(\trill d32 es)
-    d8 b' f' f f8.(\trillE g32 as!)
+    b b\f f f es8.\trill d32 es
+    d8 f b b c8.( d32 es)
+    d8 b f f es8.\trill d32 es
+    d8 b' f' f f8.( g32 as!)
     g4~ g16 f g a b f es d %75
     g es d c b d es f es c b a
     f' d g b, \appoggiatura { b16[ c d] } c2\trill
@@ -404,10 +404,10 @@ PraecelsumViolinoI = {
     d d d d d d %85
     g,4 r r
     R2.
-    r8 g[ c c] d8.(\trillE es32 f)
+    r8 g[ c c] d8.( es32 f)
     es4 r r
-    r8 g,[\f c c] d8.(\trillE es32 f) %90
-    es8 c' c[\pE c c c]
+    r8 g,[\f c c] d8.( es32 f) %90
+    es8 c'\p c c c c
     des des des des des des
     c c c c b b
     b b as as g4
@@ -427,40 +427,40 @@ PraecelsumViolinoI = {
     c c b b b b
     b b as as as as
     as as f f g g %110
-    r b[ f f] es8.(\trill d32 es)
+    r b[ f f] es8.\trill d32 es
     d4 r r
-    r8 b'[ b, b] as8.(\trill g32 as)
+    r8 b'[ b, b] as8.\trill g32 as
     g4 r r
-    r8 b'[ f f] es8.(\trill d32 es) %115
+    r8 b'[ f f] es8.\trill d32 es %115
     d4 r r
-    r8 es[ b' b] b8.(\trillE as32 b)
-    r8 es,[ c' c] c8.(\trill b32 c)
-    r8 es[ es, es] es8.(\trillE d32 es)
+    r8 es[ b' b] b8.\trill as32 b
+    r8 es,[ c' c] c8.\trill b32 c
+    r8 es[ es, es] es8.\trill d32 es
     b4 r r %120
-    r8 es[\f as, as] as8.(\trill g32 as)
-    r8 f'[ as, as] as8.(\trill g32 as)
-    g8\p b r b' as d,
-    es b r b' as d,
-    es b' r b as d, %125
-    es b r es' es es
+    r8 es[\f as, as] as8.\trill g32 as
+    r8 f'[ as, as] as8.\trill g32 as
+    g8(\p b) r b' as d,
+    es( b) r b' as d,
+    es( b') r b as d, %125
+    es( b) r es' es es
     es es es es d d
     es es,16\f f g f es d es f g as
     b8\p b b b b b
     b b as c c c %130
     c c c c c c
     c c b d, es f
-    g b r b as d,
-    es b r b' as d,
-    es b' r b as es16 d %135
-    es8 b r b' as d,
+    g( b) r b as d,
+    es( b) r b' as d,
+    es( b') r b as d, %135
+    es( b) r b' as d,
     es b' c c b b
     as as as as as as
     as as as as as as
     g g f f f f %140
-    es es[\f b b] b8.(\trillE as32 b)
-    c8 es c' c c8.(\trill b32 c)
+    es es\f b b b8.\trill as32 b
+    c8 es c' c c8.\trill b32 c
     b,2\fermata r4
-    r8 es\p b b as8.(\trillE g32 as)
+    r8^\senzaSord es\p b b as8.\trill g32 as
     g4 r r\fermata \bar "|." %145 finis
   }
 }
