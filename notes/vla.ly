@@ -35,7 +35,7 @@ KyrieViola = {
     r e,8 e e e
     h' h a a d d c c %30
     h h h h a4 a8 a
-    a8. a16 a4 r d8. d16
+    a8. a16 a4 r d8 d
     e8. e16 e4 f8 a, r d
     e a, r g' f a, r d
     a' a, r e' a, a a a %35
@@ -46,8 +46,8 @@ KyrieViola = {
     r cis8\f cis b'4 a %40
     r2 cis,8 cis d d
     cis cis d d a a a a
-    fis fis fis fis g\pE g d e
-    f4 e8 d e2
+    fis fis fis fis g\p g d e
+    f4 e8 d e2\trillE
     d1\fermata \bar "|." %45 finis
   }
 }

@@ -5,10 +5,10 @@ KyrieTromboneI = {
     \clef alto
     \key d \dorian \time 4/4 \tempoKyrie
     R1*4
-    \mvTr f2\fE-\solo e %5
+    f2\fE e %5
     f4. a8 a a r4
     R1*4 %10
-    \mvTr f2\fE-\tuttiE e
+    f2\fE e
     d4 f8 f f e r4
     f4.\p f8 e2
     d8. e16 f8 f f e r4
@@ -17,19 +17,19 @@ KyrieTromboneI = {
     d d c8.[ c16 c8. f16]
     f4. e8 f4 r
     R1
-    r4 r8 f,-\solo c' c r c %20
+    r4 r8 f, c' c r c %20
     f, c' d h! c4 r
-    g'-\tutti f e f8 c
+    g' f e f8 c
     c2 c4 r
-    r r8 g-\soloE d' d r d
-    c'4 b a r %25
-    fis-\tutti g fis g8 d
+    r r8 g d' d r d
+    g, d' es cis d4 r %25
+    fis g fis g8 d
     d2 d4 r
-    r2 r4 r8 e-\solo
-    d4 c\trill h r
-    gis'-\tutti a gis a8 e %30
+    r2 r4 r8 e
+    d4 c\trill h! r
+    gis' a gis a8 e %30
     e2 e4 e8 e
-    e8. e16 e4 r a8. a16
+    e8. e16 e4 r a8 a
     g8. g16 g4 r a~
     a a a2
     a4 r d, d %35
@@ -40,7 +40,7 @@ KyrieTromboneI = {
     e2. f4 %40
     r2 e4 d
     g f d2
-    c! b4\pE gis
+    c! b4\p gis
     a1
     a\fermata \bar "|." %45 finis
   }

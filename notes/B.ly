@@ -5,11 +5,11 @@ KyrieBassoNotes = {
     \clef bass
     \key d \dorian \time 4/4 \autoBeamOff \tempoKyrie
     R1*6 %6
-    \mvTr d4.\pE^\tutti d8 a'4 cis,
+    \mvTr d4.\pE^\soloE d8 a'4 cis,
     d2 a4 r8 f
     g4 a b4. g8
     a4. a8 d d r4 %10
-    d2\fE cis4. cis8
+    \mvTr d2\fE^\tuttiE cis4. cis8
     d2 a4 r
     d4.\pE d8 cis4 cis
     d2 a4 r
@@ -29,18 +29,18 @@ KyrieBassoNotes = {
     r2 e'4 e
     e2. e4 %30
     e2 a,4 a'8 a
-    g!8. g16 g4 r f8. f16
+    g!8. g16 g4 r f8 f
     cis8. cis16 cis4 a'2
     a a
     a4 r f, fis %35
     g( a) b g8 g
     a4. gis8 a2
-    d4 f8\pE d a'4 a,
-    d2 g4 g8\fE g
+    d4 \mvTr f8\pE^\solo d a'4 a,
+    d2 g4 \mvTr g8\fE^\tutti g
     g2. f4 %40
-    a, a a2~
-    a a
-    a b\pE
+    a, a a2
+    a a~
+    a b\p
     a1
     d\fermata \bar "|." %45 finis
   }
@@ -73,7 +73,7 @@ KyrieBassoLyrics = \lyricmode {
   no -- bis. San -- cta
   Tri -- ni -- tas, san -- cta
   Tri -- ni -- tas, u --
-  nus De --
+  nus DE --
   us, mi -- se -- %35
   re -- re, mi -- se -- re --
   re no --
@@ -81,8 +81,8 @@ KyrieBassoLyrics = \lyricmode {
   no -- bis, mi -- se --
   re -- re, %40
   mi -- se -- re --
-  re
-  no -- _
+  re no --
+  _
   _
   bis. %45 finis
 }

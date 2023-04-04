@@ -5,11 +5,11 @@ KyrieTenoreNotes = {
     \clef "treble_8"
     \key d \dorian \time 4/4 \autoBeamOff \tempoKyrie
     R1*6 %6
-    \mvTr d4.\pE^\tuttiE a8 a4 a
+    \mvTr d4.\pE^\soloE a8 a4 a
     a2 a4 r8 a
     b4( a) g es'8. d16
     cis4. cis8 a16([ g)] f8 r4 %10
-    d'2\fE a
+    \mvTr d'2\fE^\tuttiE a
     a4 d8 d d cis r4
     d4.\pE d8 a2
     a8. a16 d8 d d cis r4
@@ -24,22 +24,22 @@ KyrieTenoreNotes = {
     a4 g c b
     a2 g4 r
     h!8. e,16 e4 c' e
-    d( c) h r
+    d( c)\trill h r
     h a d c %30
     h2 a4 a8 a
-    a8. a16 a4 r d8. d16
+    a8. a16 a4 r d8 d
     e8. e16 e4 a,2
     a a
     a4 r a a %35
     b( a) g es'8 d
     cis4 d8([ h!)] a2
-    a4 d,8\pE a' a4 a
-    a2 b4 cis8\fE cis
+    a4 \mvTr d,8\pE^\solo a' a4 a
+    a2 b4 \mvTr cis8\fE^\tutti cis
     cis2. d4 %40
     r2 cis4 d
     cis d a2
-    fis g4\pE d8[ e]
-    f4 e8[ d] e2
+    fis g4\p d8[ e]
+    f4 e8[ d] e2\trill
     d1\fermata \bar "|." %45 finis
   }
 }
@@ -64,15 +64,15 @@ KyrieTenoreLyrics = \lyricmode {
   Mi -- se -- re -- re %26
   no -- bis.
   Spi -- ri -- tus San -- cte,
-  De -- us,
+  DE -- us,
   mi -- se -- re -- re %30
   no -- bis. San -- cta
   Tri -- ni -- tas, san -- cta
   Tri -- ni -- tas, u --
-  nus De --
+  nus DE --
   us, mi -- se -- %35
   re -- re, mi -- se -- re --
-  re no --
+  re __ no --
   bis, mi -- se -- re -- re
   no -- bis, mi -- se --
   re -- re, %40

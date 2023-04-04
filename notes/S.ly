@@ -5,11 +5,11 @@ KyrieSopranoNotes = {
     \clef treble
     \key d \dorian \time 4/4 \autoBeamOff \tempoKyrie
     R1*6 %6
-    \mvTr a'4.\pE^\tuttiE d8 cis4 e8([ g,)]
+    \mvTr a'4.\pE^\soloE d8 \appoggiatura d8 cis4 e8([ g,)]
     g4( f) e r8 d
     es4 fis g8. a16 b4~
     b8 a16([ g)] a([ e f g] f[ e)] d8 r4 %10
-    a'2\fE a4. a8
+    \mvTr a'2\fE^\tuttiE a4. a8
     a2 a4 r
     a4.\p a8 a4 a
     a2 a4 r
@@ -28,19 +28,19 @@ KyrieSopranoNotes = {
     R1*2
     d'4 c h a %30
     a8([ gis16 fis] gis4) a c8 c
-    cis8. cis16 cis4 r d8. d16
+    cis8. cis16 cis4 r d8 d
     b8. b16 a4 a2
     a a
     a4 r d d, %35
     es fis g8 b b4~
     b8[ a16 g] f4 f( e)
-    d a'8\pE d cis4 e8([ g,)]
-    g4( f) e b'8\fE b
+    d \mvTr a'8\pE^\solo d \appoggiatura d cis4 e8([ g,)]
+    g4( f)\trill e \mvTr b'8\fE^\tutti b
     b2. a4 %40
     r2 g'4 f
     e d f,2
-    es \once \tieDashed d~\p
-    d4 e8[ f] cis2
+    es d~\p
+    d4 e8[ f] cis2\trill
     d1\fermata \bar "|." %45 finis
   }
 }
@@ -59,8 +59,8 @@ KyrieSopranoLyrics = \lyricmode {
   Chri -- ste, au -- di nos, ex --
   au -- di nos.
 
-  Pa -- ter de coe -- lis, %20
-  De -- us,
+  Pa -- ter de coe -- lis, __ %20
+  DE -- us,
   mi -- se -- re -- re
   no -- bis.
 
@@ -71,11 +71,11 @@ KyrieSopranoLyrics = \lyricmode {
   no -- bis. San -- cta
   Tri -- ni -- tas, san -- cta
   Tri -- ni -- tas, u --
-  nus De --
+  nus DE --
   us, mi -- se -- %35
   re -- re, mi -- se -- re --
   re no --
-  bis, mi -- se -- re -- re
+  bis, mi -- se -- re -- re __
   no -- bis, mi -- se --
   re -- re, %40
   mi -- se --
