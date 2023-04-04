@@ -223,9 +223,9 @@ PanisSuperViolinoI = {
     f e d
     cis2.
     d2 c4
-    b8. a16 g8 b b8.(\trill a32 b)
-    c8. b16 a8 c c8.(\trill b32 c)
-    d8. c16 b8 d d8.(\trill c32 d)
+    b8. a16 g8 b b8.\trill a32 b
+    c8. b16 a8 c c8.\trill b32 c
+    d8. c16 b8 d d8.\trill c32 d
     es2 e4
     a, r8 d16 c b8 a
     g4 r8 e'16 d cis8 b!
@@ -244,36 +244,36 @@ PanisSuperViolinoI = {
     d2 d4
     d c r
     r f\p \appoggiatura es8 d4
-    \appoggiatura c4 b2 as4
+    \appoggiatura c8 b2 as4
     as2( g4)
     f d'( f,)
     es4. f8 es4 %40
-    g f es
-    d b'' f
+    g f( es)
+    d b''( d,)
     c4. d8 c4
-    des c b
+    des c( b)
     a f\f f' %45
     e!2 e4
-    f c c
+    f( c) c
     R2.
     r4 es, es'
-    d2 c4~ %50
-    c c2
+    d2 \hide Staff.BarLine \hide StaffGroup.SpanBar c %50
+    c \undo \hide Staff.BarLine \undo \hide StaffGroup.SpanBar
     b8 b16 c d8 b b, b'
     c, c'16 d es8 c c, c'
-    d, d'16 es? f8 d d, d'
-    es, c f e? f f %55
+    d, d'16 es f8 d d, d'
+    es, c f es f f %55
     b,4 f'' f8 f
     f2 c4
     b4. d8 c b
     a8. b16 c4 r
     r f f %60
     f2 c4
-    b4. d8 c b
+    b4.( d8) c( b)
     a8. b16 c4 r
     r es es
-    es d d~ %65
-    d8 c c4 b
+    es( d) d~ %65
+    d8 c c4( b)
     a d d
     es2.
     d4 d\p d
@@ -298,11 +298,11 @@ PanisSuperViolinoI = {
     es2.
     d4 r r
     R2.*2 %91
-    r4 f,!\fE f'
+    r4 f,!\f f'
     es es r
     r d c
-    b2 a4~ %95
-    a a2
+    b2 \hide Staff.BarLine \hide StaffGroup.SpanBar a %95
+    a \undo \hide Staff.BarLine \undo \hide StaffGroup.SpanBar
     g8 g16 a b8 g g, g'
     a, a'16 b c8 a a, a'
     b, b'16 c d8 b b, b'

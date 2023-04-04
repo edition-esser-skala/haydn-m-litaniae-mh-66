@@ -96,10 +96,10 @@ PanisSuperTenoreNotes = {
     d a a %25
     a2.
     b4 r r
-    r^\critnote d d
+    r d d
     d g,8 b b a16([ b)]
-    c8.[ b16] a8[ c] c8.([\trill b32 c)] %30
-    d8.[ c16] b8[ d] d8.([\trill c32 d)]
+    c8.[ b16] a8[ c] c8.[\trill b32 c] %30
+    d8.[ c16] b8[ d] d8.[\trill c32 d]
     es4 g,2
     a8.([ b16)] c4 c~
     c b b
@@ -118,8 +118,8 @@ PanisSuperTenoreNotes = {
     r4 f,\f f'
     e2.
     f4 c c
-    b2 b4~ %50
-    b b( a)
+    b2 \hide Staff.BarLine b %50
+    b4( a) \undo \hide Staff.BarLine
     b r r
     R2.*3 %55
     r4 d d8 d
@@ -133,7 +133,7 @@ PanisSuperTenoreNotes = {
     r a a
     g2. %65
     d'4 d2
-    c4 a a
+    d4 a a
     c2.
     a4 a\p a
     c2. %70
@@ -156,13 +156,13 @@ PanisSuperTenoreNotes = {
     a4 a\p a
     c2.
     a4 r r
-    r g\fE g' %90
-    fis2( fis,4)
-    g d'2
+    r g\f g' %90
+    fis2 fis,4
+    g( d'2)
     c4 r r
     r a d
-    d2 es4~ %95
-    es d2
+    d2 \hide Staff.BarLine es %95
+    d \undo \hide Staff.BarLine
     d4 r r
     R2.*5 %102
     R2.\fermata \bar "|." %103 finis
@@ -200,7 +200,7 @@ PanisSuperTenoreLyrics = \lyricmode {
   mi -- se --
   re --
   re, mi -- se --
-  re -- re __ %50
+  re -- re %50
   no --
   bis.
 
@@ -239,11 +239,11 @@ PanisSuperTenoreLyrics = \lyricmode {
   re --
   re,
   mi -- se -- %90
-  re --
-  re no --
+  re -- re
+  no --
   bis,
   mi -- se --
-  re -- re __ %95
+  re -- re %95
   no --
   bis. %97 finis
 }

@@ -47,13 +47,13 @@ PanisSuperTromboneIII = {
     \clef bass
     \key g \dorian \time 3/4 \tempoPanisSuper
     R2.*15 %15
-    r4 g'2~\fE
+    r4 \mvTr g'2~\fE^\tuttiE
     g4 fis a~
     a g b~
     b a g
-    f!8.^\critnote e16 d8 f f8.(\trill e32 f) %20
-    g8. f16 e8 g g8.(\trill f32 g)
-    a8. g16 f8 a a8.(\trill g32 a)
+    f!8. e16 d8 f f8.\trill e32 f %20
+    g8. f16 e8 g g8.\trill f32 g
+    a8. g16 f8 a a8.\trill g32 a
     b8. a16 g8 b4 g8
     a2 cis,4
     d d d %25
@@ -80,8 +80,8 @@ PanisSuperTromboneIII = {
     R2.*2
     r4 b,\f b'
     a2.
-    b2 es,4 %50
-    e f2
+    b2 \hide Staff.BarLine es,4 %50
+    e f2 \undo \hide Staff.BarLine
     b,4 r r
     R2.*3 %55
     r4 b' b8 b
@@ -123,8 +123,8 @@ PanisSuperTromboneIII = {
     R2.
     r4 c c'
     fis,2.
-    g2 c,4~ %95
-    c d2
+    g2 \hide Staff.BarLine c, %95
+    d \undo \hide Staff.BarLine
     g,4 r r
     R2.*5 %102
     R2.\fermata \bar "|." %103 finis

@@ -321,9 +321,9 @@ PanisSuperBassoNotes = {
     g4 fis a~
     a g b~
     b a g
-    f!8.[ e16] d8[ f] f8.([\trill e32 f)] %20
-    g8.[ f16] e8[ g] g8.([\trill f32 g)]
-    a8.[ g16] f8[ a] a8.([\trill g32 a)]
+    f!8.[ e16] d8[ f] f8.[\trill e32 f] %20
+    g8.[ f16] e8[ g] g8.[\trill f32 g]
+    a8.[ g16] f8[ a] a8.[\trill g32 a]
     b8.[ a16] g8 b4 g8
     a2 cis,4
     d d d %25
@@ -350,8 +350,8 @@ PanisSuperBassoNotes = {
     R2.*2
     r4 b,\f b'
     a2.
-    b2 es,4( %50
-    e) f2
+    b2 \hide Staff.BarLine es,4( %50
+    e) f2 \undo \hide Staff.BarLine
     b,4 r r
     R2.*3 %55
     r4 b' b8 b
@@ -377,8 +377,8 @@ PanisSuperBassoNotes = {
     d d d
     g2 g4
     c,2 c4
-    d2 g4(
-    es8[ c)] d2 %80
+    d2( g4)
+    es8[( c)] d2 %80
     g,4 g' g
     f!2.
     e!
@@ -393,8 +393,8 @@ PanisSuperBassoNotes = {
     R2.
     r4 c c'
     fis,2.
-    g2 c,4~ %95
-    c d2
+    g2 \hide Staff.BarLine c, %95
+    d \undo \hide Staff.BarLine
     g,4 r r
     R2.*5 %102
     R2.\fermata \bar "|." %103 finis
@@ -462,8 +462,8 @@ PanisSuperBassoLyrics = \lyricmode {
   i, mi -- se --
   re -- re,
   mi -- se --
-  re -- re __
-  no -- %80
+  re --
+  re __ no -- %80
   bis, mi -- se --
   re --
   re
@@ -478,7 +478,7 @@ PanisSuperBassoLyrics = \lyricmode {
 
   mi -- se --
   re --
-  _ re __ %95
+  _ re %95
   no --
   bis. %97 finis
 }

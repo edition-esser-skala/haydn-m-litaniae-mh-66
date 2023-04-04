@@ -221,10 +221,10 @@ PanisSuperViolinoII = {
     g4 fis a~
     a g b~
     b a g
-    f!8. e16 d8 f f8.(\trill e32 f) %10
-    g8. f16 e8 g g8.(\trill f32 g)
-    a8. g16 f8 a a8.(\trill g32 a)
-    b8. a16 g8 b b8.(\trill a32 b)
+    f!8. e16 d8 f f8.\trill e32 f %10
+    g8. f16 e8 g g8.\trill f32 g
+    a8. g16 f8 a a8.\trill g32 a
+    b8. a16 g8 b b8.\trill a32 b
     e,4. f16 g a8 g
     f4 fis g8 a %15
     d,4 r8 g16 f es8 d
@@ -235,24 +235,24 @@ PanisSuperViolinoII = {
     R2.*2
     r4 r b~
     b a g
-    fis fis fis8 fis %25
+    fis fis fis %25
     fis2.
     g4 g g
     a2.
     g4 g2~
     g4 fis a~ %30
-    a g \once \tieDashed b~
+    a g b~
     b c a
     a2 a4
     f2.
     f2 r4 %35
     r d\p f
     f2 f4
-    f2 es4
-    d2 r4
+    f2( es4)
+    d f( d)
     c4. d8 c4 %40
     c c2
-    b4 d' f,
+    b4 d'( f,)
     g4. g8 g4
     g g2
     f4 r r %45
@@ -260,23 +260,23 @@ PanisSuperViolinoII = {
     a2.
     g
     c,4 f2
-    f2 g4~ %50
-    g f2
+    f2 \hide Staff.BarLine g %50
+    f \undo \hide Staff.BarLine
     d8 b'16 c d8 b b, b'
     c, c'16 d es8 c c, c'
-    d, d'16 es? f8 d d, d'
-    es, c f e? f f %55
+    d, d'16 es f8 d d, d'
+    es, c f es f f %55
     b,4 b' b8 b
     c2 f,4
     f8 f e!4 e
     f f r
     r b, b' %60
     c2 f,4
-    f e e
+    f e! e
     f f r
-    r c' c~
-    c b b %65
-    a2 g4
+    r c' c
+    c( b) b %65
+    a a( g)
     fis fis fis
     g2.
     fis4 fis\p fis
@@ -301,12 +301,12 @@ PanisSuperViolinoII = {
     g2.
     fis4 r r
     R2. %90
-    r4 c\f c'
+    r4 c!\f c'
     h2 g4
     g r r
     r a a
-    g2 g4~ %95
-    g g fis
+    g2 \hide Staff.BarLine g %95
+    g4 fis \undo \hide Staff.BarLine
     g8 g16 a b8 g g, g'
     a, a'16 b c8 a a, a'
     b, b'16 c d8 b b, b'

@@ -92,21 +92,21 @@ PanisSuperAltoNotes = {
     g4 fis a~
     a g b~
     b a g
-    f!8.[ e16] d8[ f] f8.([\trill e32 f)] %10
-    g8.[ f16] e8[ g] g8.([\trill f32 g)]
-    a8.[ g16] f8[ a] a8.([\trill g32 a)]
-    b8.[ a16] g8[ b] b8.([\trill a32 b)]
+    f!8.[ e16] d8[ f] f8.[\trill e32 f] %10
+    g8.[ f16] e8[ g] g8.[\trill f32 g]
+    a8.[ g16] f8[ a] a8.[\trill g32 a]
+    b8.[ a16] g8[ b] b8.[\trill a32 b]
     e,4. f16[ g] a8[ g]
     f4 fis g8[ a] %15
-    d,4 r8 g16([ f)] es8([ d)]
+    d,4 r8 g16([ f] es8) d
     c4 r8 a'16[ g] fis8[ es]
     d4 r8 b'16[ a] g8[ f]
     g4 a2
     a8.([ g16)] f4 r %20
     R2.*2
     r4 r b~
-    b a( g)
-    fis fis fis8^\critnote fis8 %25
+    b a g
+    fis fis fis8 fis %25
     fis2.
     g4 g g
     a2.
@@ -114,7 +114,7 @@ PanisSuperAltoNotes = {
     g4 fis a~ %30
     a g b~
     b c a
-    \once \tieDashed a2~ a4
+    a2 a4
     f2.
     f2 r4 %35
     r d\p f
@@ -131,8 +131,8 @@ PanisSuperAltoNotes = {
     a2.
     g
     c,4 f2
-    f2 g4~ %50
-    g f2
+    f2 \hide Staff.BarLine g %50
+    f \undo \hide Staff.BarLine
     f4 r r
     R2.*3 %55
     r4 b b8 b
@@ -141,7 +141,7 @@ PanisSuperAltoNotes = {
     f f r
     r b, b' %60
     c2 f,4
-    f( e) e
+    f( e!) e
     f f r
     r c' c
     c( b) b( %65
@@ -170,12 +170,12 @@ PanisSuperAltoNotes = {
     g2.
     fis4 r r
     R2. %90
-    r4 c\fE c'
+    r4 c!\f c'
     h2( g4)
     g r r
     r a a
-    g2 g4~ %95
-    g g( fis)
+    g2 \hide Staff.BarLine g %95
+    g4( fis) \undo \hide Staff.BarLine
     g r r
     R2.*5 %102
     R2.\fermata \bar "|." %103 finis
@@ -200,17 +200,17 @@ PanisSuperAltoLyrics = \lyricmode {
   no -- bis, %20
 
   mi -- %23
-  se --
+  _ se --
   re -- re, mi -- se -- %25
   re --
   re, mi -- se --
   re --
   re, pa --
-  nis su -- %30
+  nis, pa -- %30
+  nis su --
   per -- sub --
   stan -- ti --
   a --
-  _
   lis, %35
   ver -- bum
   ca -- ro
@@ -226,7 +226,7 @@ PanisSuperAltoLyrics = \lyricmode {
   re --
   re,
   mi -- se --
-  re -- re __ %50
+  re -- re %50
   no --
   bis.
 
@@ -269,7 +269,7 @@ PanisSuperAltoLyrics = \lyricmode {
   re --
   re,
   mi -- se --
-  re -- re __ %95
+  re -- re %95
   no --
   bis. %97 finis
 }

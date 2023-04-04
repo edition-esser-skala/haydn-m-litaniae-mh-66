@@ -51,7 +51,7 @@ PanisSuperTromboneII = {
     \clef tenor
     \key g \dorian \time 3/4 \tempoPanisSuper
     R2.*19 %19
-    r4 d2~\fE %20
+    r4 \mvTr d2~\fE^\tuttiE %20
     d4 cis e~
     e d f~
     f e d
@@ -61,8 +61,8 @@ PanisSuperTromboneII = {
     b4 r r
     r d d
     d g,8 b b a16 b
-    c8. b16 a8 c c8.(\trill b32 c) %30
-    d8. c16 b8 d d8.(\trill c32) d
+    c8. b16 a8 c c8.\trill b32 c %30
+    d8. c16 b8 d d8.\trill c32 d
     es4 g,2
     a8. b16 c4 c~
     c b b
@@ -81,8 +81,8 @@ PanisSuperTromboneII = {
     r4 f,\f f'
     e2.
     f4 c c
-    b2 b4~ %50
-    b b a
+    b2 \hide Staff.BarLine b %50
+    b4 a \undo \hide Staff.BarLine
     b r r
     R2.*3 %55
     r4 d d8 d
@@ -96,7 +96,7 @@ PanisSuperTromboneII = {
     r a a
     g2. %65
     d'4 d2
-    c4 a a
+    d4 a a
     c2.
     a4 a\p a
     c2. %70
@@ -119,13 +119,13 @@ PanisSuperTromboneII = {
     a4 a\p a
     c2.
     a4 r r
-    r g\fE g' %90
+    r g\f g' %90
     fis2 fis,4
     g d'2
     c4 r r
     r a d
-    d2 es4~ %95
-    es d2
+    d2 \hide Staff.BarLine es %95
+    d \undo \hide Staff.BarLine
     d4 r r
     R2.*5 %102
     R2.\fermata \bar "|." %103 finis

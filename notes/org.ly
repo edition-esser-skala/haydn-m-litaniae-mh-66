@@ -434,12 +434,12 @@ PanisSuperOrgano = {
     f, f'16 g a8 f f, f'
     g, g'16 a b8 g g, g'
     a, a'16 g a8 a a, a'
-    d, d'16 cis d8 d, e fis %15
+    d, d'16 c! d8 d, e fis %15
     g g16 f es8 d c b
     a a'16 g fis8 es d c
     b b'16 a g8 f es d
     c c'16 b c8 c, cis a
-    d f16 e d8 f d, d'^\critnote %20
+    d f16 e d8 f d, d' %20
     e g16 f e8 g e, e'
     f a16 g f8 a f, f'
     g b16 a g8 b g, g'
@@ -448,14 +448,14 @@ PanisSuperOrgano = {
     c,! es'16 d c8 c c, c'
     b, d'16 c b8 b b, b'
     fis, a'16 g fis8 fis fis, fis'
-    g, g'16 a b8 g^\critnote g, g'
+    g, g'16 a b8 g g, g'
     a, a'16 b c8 a a, a' %30
     b, b'16 c d8 b b, b'
     c, c'16 d es8 c c, c'
     f,,! f'16 g a8 f f, f'
     b, b'16 c d8 b b, b'
     f4 r8 f16 es d8 c %35
-    b[ b] \mvTr b\p-\senzaOrg b b b
+    b \mvTrr b\pp-\senzaOrg b b b b
     b b b b b b
     b b b b b b
     b b b b b b
@@ -471,10 +471,10 @@ PanisSuperOrgano = {
     a, a'16 g a8 a a, a'
     b, b b' b es, es %50
     e e f f f, f
-    b-\soloE b'16 c d8 b b, b'
+    b b'16-\soloE c d8 b b, b'
     c, c'16 d es8 c c, c'
-    d, d'16 es? f8 d d, d'
-    es, c f e f f, %55
+    d, d'16 es f8 d d, d'
+    es, c f es f f, %55
     b b'16 c d8-\tuttiE b b, b'
     a, a'16 b c8 a a, a'
     g, g'16 a b8 g g, g'
@@ -487,17 +487,17 @@ PanisSuperOrgano = {
     g, g'16 a b8 g g, g' %65
     d fis16 d g8 g, b g
     d' d'16 cis d8 d d, d'
-    c, c'16 h c8 c c, c'
-    d, d'16 cis d8\p d d, d'
-    c, c'16 h? c8 c c, c' %70
-    d, d' d[\f c b a]
-    g g16 a b8 g g, g'
+    c,! c'16 b c8 c c, c'
+    d, d'16 c d8\p d d, d'
+    c, c'16 b c8 c c, c' %70
+    d, d' d,[\f c-! b-! a-!]
+    g g'16 a b8 g g, g'
     a, a'16 b c8 a a, a'
     b, b'16 c d8 b b, b'
     c, c'16 d es8 c c, c' %75
     d, d'16 c d8 d d, d'
     g,, g'16 fis g8 g g, g'
-    c, c'16 h? c8 c c, c'
+    c, c'16 b c8 c c, c'
     d, d'16 c d8 d, g f!
     es c d c d d, %80
     g g' g g g g
@@ -505,18 +505,18 @@ PanisSuperOrgano = {
     e! e e e e e
     es es es es es es
     d d'16 cis d8 d d, d' %85
-    c, c'16 h? c8 c c, c'
-    d, d'16 cis d8\p d d, d'
-    c, c'16 h? c8 c c, c'
-    d, d'16 cis d8\f d d, d'
-    a, a'16 gis a8 a a, a' %90
-    d, d'16 cis  d8 d d, d'
+    c,! c'16 b c8 c c, c'
+    d, d'16\p c d8 d d, d'
+    c, c'16 b c8 c c, c'
+    d, d'16\f cis d8 d d, d'
+    a, a'16 g a8 a a, a' %90
+    d, d'16 c d8 d d, d'
     g,, g'16 f g8 g g, g'
     c, c'16 b c8 c c, c'
     fis, fis16 e fis8 fis fis, fis'
     g g g, g c c %95
     a a d d d, d
-    g-\soloE g'16 a b8 g g, g'
+    g g'16-\soloE a b8 g g, g'
     a, a'16 b c8 a a, a'
     b, b'16 c d8 b b, b'
     c, c'16 d es8 c c, c' %100
@@ -528,8 +528,8 @@ PanisSuperOrgano = {
 
 PanisSuperBassFigures = \figuremode {
   r2.
-  <7>4 <6 4\+> <\t \t>
-  <7> <6 4> <\t \t>
+  <7 [5-]>4 <6 4\+> <\t \t>
+  <7 [5+]> <6 4> <\t \t>
   <7 _-> <6 4> <\t \t>
   <6 5>2 <[_-]>8 <_+> %5
   r2.
@@ -540,28 +540,28 @@ PanisSuperBassFigures = \figuremode {
   <7>4 <6 4\+> <\t \t>
   <7 [5+]> <6 4> <\t \t>
   <7> <6 4> <5>
-  <[_+]>2.
+  <_+>2.
   r4 <_+> \bo <[6!]>8 \bc <[\t]> %15
   r4. \bo <[6 4]>8 <_-> \bc <[6 \l]>
   <7 [5-]>4 <5> <\t>
   <7 [5+]> <5> <\t>
   <7 _-> <6 \t> <5 _!>
-  <_!>2. %20
-  \bo <7 [5]>4 <6\\ \t> \bc <\t [\t]>
+  <[_!]>2. %20
+  <7>4 <6\\> <\t>
   <7 [5+]> <6> <\t>
   <7> <6> <5>
   <9 _+> <8 \t> <[6 5]>
   <_+>2. %25
-  <4\+ _->
-  <6>
-  <6 5>
+  <4\+ _->2 \bassFigureExtendersOn q8 q
+  <6>2 q8 q \bassFigureExtendersOff
+  <6 5>2.
   r
   <7 [5-]>4 \bo <6 4\+ [_-]> \bc <\t \t [\t]> %30
   <7 [5+]> <6 4> <\t \t>
-  <7 _-> <6> <[6] _->
-  <7-> <6> <7->
+  <7 _-> <6> <7 [_-]>
+  <7-> <6> <7[-]>
   <9> <6>2
-  <6 4>4 <5 3> \bo <[6 \l]>8 \bc <[6 _-]> %35
+  <6 4>4 <[5] 3>2 %35
   r2.
   r
   r
@@ -574,8 +574,8 @@ PanisSuperBassFigures = \figuremode {
   r %45
   <6!>
   r
-  <7>
-  <6 5->
+  r4 <7>2
+  <[6]>4 <6 5->2
   r2 <6 5>4 %50
   <\t \t> <4> <3>
   r2.
@@ -583,52 +583,52 @@ PanisSuperBassFigures = \figuremode {
   <7> <6 4> <\t \t>
   <6 5> <4> <3> %55
   r2.
-  <6>
-  <7>4 <6 4!>2
+  <6>2 \bassFigureExtendersOn q8 q \bassFigureExtendersOff
+  <7>4 <6 4!> <\t \t>
   r2.
   r %60
-  <6>
-  <7>4 <6 4>2
+  <6>2 \bassFigureExtendersOn q8 q \bassFigureExtendersOff
+  <7>4 <6 4> <\t \t>
   r2.
-  <7->
-  <6- 4>4 <6>2 %65
+  <7->2 \bassFigureExtendersOn q8 q \bassFigureExtendersOff
+  <6[-] 4>4 <6>2 %65
   <_+>4 <9 4> <6>
-  <[7] _+>2.
+  <_+>2.
   <_->
   <_+>
   <_-> %70
-  <_+>2 <6>8 <6\\>
+  <_+>4. <4\+ 2>8 <6> <6\\>
   r2.
   <7 [5-]>4 <6 4\+> <\t \t>
   <9 7> <6 4> <\t \t>
-  <9 7 _-> <6 4> <[5 _-]> %75
-  <9- _+> <8 \t> <7 \t>
+  <9 7 [_-]> <6 4> <[5] _-> %75
+  <9[-] _+> \bassFigureExtendersOn <8 _+> <7 _+> \bassFigureExtendersOff
   <7! _!>2.
-  \bo <[5] _->2 \bc <[6] \t>4
-  <7 _+>2 <_->4
-  r8 <6 [_-]> <6 4>4 <5 _+> %80
+  <[5] _->2 <6 \t>4
+  <7 _+>2 <[_-]>4
+  r8 <6 [_-]> <6 4>4 <[5] _+> %80
   r2.
-  <4 _->
+  <4! _->
   <6>
   <6\\ [5-]>
   <_+>2. %85
   <_->
-  <[_+]>
+  <_+>
   <_->
   <_+>
   <7 _+> %90
-  <[7] _+>
+  <7! _+>
   <7! _!>
   <_->
   <6>2 <5>4
-  r2 <[6 5 _-]>4 %95
+  r2 <6 5 _->4 %95
   <\t \t \t> <5 4> <\t _+>
   r2.
-  <7>4 <6 4\+> <\t \t>
-  <7> <6 4> <\t \t>
-  <7 _-> <[6 4]> <\t \t> %100
-  <9 _+> <8 \t>8 <[6] 5> r4
-  r <6 4> <5 _+>
+  <7 [5-]>4 <6 4\+> <\t \t>
+  <7 [5+]> <6 4> <\t \t>
+  <7 _-> <6 4> <_-> %100
+  <9[-] _+> <8 \t>8 <5>4.
+  r4 <6 4> <[5] _+>
   r2. %103 finis
 }
 
