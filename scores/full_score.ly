@@ -623,13 +623,14 @@
 }
 
 % approximate durations:
-% 1 -    3:00 min
-% 2 -    6:45 min
-% 3 -    3:00 min
-% 4 -    6:15 min
+% 1 -    3:40 min
+% 2 -    7:40 min
+% 3 -    3:30 min
+% 4 -    6:20 min
 % 5 -    6:30 min
-% 6 -    3:30 min
-% 7 -    3:00 min
-% 8 -    3:15 min
+% 6 -    4:00 min
+% 7 -    0:30 min
+% 8 -    2:45 min
+% 9 -    3:50 min
 % ---------------
-% TOTAL 35:15 min
+% TOTAL 38:45 min

@@ -84,7 +84,7 @@ PanisVivusViolinoII = {
     g'4.\f g8 \appoggiatura f e4 d8 r
     c4. c8 f8.( g32 a) g8 r
     a,16( c) c-! c-! a' c, a c g c c c g' c, g c
-    f, c' c c f c f, c' e, c' c c e c g c
+    f, c' c c f c f, c' e, c' c c e c e, c'
     a d d d h e e e c f f f d g g g %30
     e c' h a g g g g g c h a g g g g
     g8 c,4 h8 c4 r16 g,(\p a h)
