@@ -1,13 +1,13 @@
-\version "2.22.0"
+\version "2.24.0"
 
 \include "../definitions.ly"
 \include "score_settings/coro.ly"
 
 \book {
   \bookpart {
-    \section "1" "Kyrie eleison"
-    \addTocEntry
-    \paper { indent = 2\cm page-count = #4 }
+    \section "1" "Kyrie"
+    \addTocLabel "kyrie"
+    \paper { indent = 2\cm }
     \score {
       <<
         \new ChoirStaff <<
@@ -45,31 +45,21 @@
   }
   \bookpart {
     \section "2" "Panis vivus"
-    \addTocEntry
+    \addTocLabel "panisvivus"
     \paper {
-      system-system-spacing.basic-distance = #25
-      system-system-spacing.minimum-distance = #25
+      system-system-spacing.basic-distance = #20
+      system-system-spacing.minimum-distance = #20
+      systems-per-page = #6
+      indent = 1.5\cm
     }
     \score {
       <<
         \new ChoirStaff <<
           \new Staff {
-            \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \PanisVivusSopranoNotes }
+            \set Staff.instrumentName = \markup \center-column { "S, T, B" "solo" }
+            \new Voice = "Soli" { \dynamicUp \PanisVivusSoliNotes }
           }
-          \new Lyrics \lyricsto Soprano \PanisVivusSopranoLyrics
-
-          \new Staff {
-            \set Staff.instrumentName = "T"
-            \new Voice = "Tenore" { \dynamicUp \PanisVivusTenoreNotes }
-          }
-          \new Lyrics \lyricsto Tenore \PanisVivusTenoreLyrics
-
-          \new Staff {
-            \set Staff.instrumentName = "B"
-            \new Voice = "Basso" { \dynamicUp \PanisVivusBassoNotes }
-          }
-          \new Lyrics \lyricsto Basso \PanisVivusBassoLyrics
+          \new Lyrics \lyricsto Soli \PanisVivusSoliLyrics
         >>
         \new Staff { \PanisVivusOrgano }
         \new FiguredBass { \PanisVivusBassFigures }
@@ -78,7 +68,7 @@
   }
   \bookpart {
     \section "3" "Panis supersubstantialis"
-    \addTocEntry
+    \addTocLabel "panissuper"
     \score {
       <<
         \new ChoirStaff <<
@@ -113,10 +103,10 @@
   }
   \bookpart {
     \section "4" "Præcelsum"
-    \addTocEntry
+    \addTocLabel "praecelsum"
     \paper {
-      system-system-spacing.basic-distance = #19
-      system-system-spacing.minimum-distance = #19
+      system-system-spacing.basic-distance = #20
+      system-system-spacing.minimum-distance = #20
       systems-per-page = #6
     }
     \score {
@@ -135,7 +125,7 @@
   }
   \bookpart {
     \section "5" "Stupendum"
-    \addTocEntry
+    \addTocLabel "stupendum"
     \score {
       <<
         \new ChoirStaff <<
@@ -170,7 +160,7 @@
   }
   \bookpart {
     \section "6" "Dulcissimum"
-    \addTocEntry
+    \addTocLabel "dulcissimum"
     \score {
       <<
         \new ChoirStaff <<
@@ -205,7 +195,8 @@
   }
   \bookpart {
     \section "7" "Viaticum"
-    \addTocEntry
+    \addTocLabel "viaticum"
+    \paper { systems-per-page = #2 }
     \score {
       <<
         \new ChoirStaff <<
@@ -239,8 +230,43 @@
     }
   }
   \bookpart {
-    \section "8" "Agnus Dei"
-    \addTocEntry
+    \section "7" "Pignus futuræ gloriæ"
+    \addTocLabel "pignus"
+    \score {
+      <<
+        \new ChoirStaff <<
+          \new Staff {
+            \set Staff.instrumentName = "S"
+            \new Voice = "Soprano" { \dynamicUp \PignusSopranoNotes }
+          }
+          \new Lyrics \lyricsto Soprano \PignusSopranoLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "A"
+            \new Voice = "Alto" { \dynamicUp \PignusAltoNotes }
+          }
+          \new Lyrics \lyricsto Alto \PignusAltoLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "T"
+            \new Voice = "Tenore" { \dynamicUp \PignusTenoreNotes }
+          }
+          \new Lyrics \lyricsto Tenore \PignusTenoreLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "B"
+            \new Voice = "Basso" { \dynamicUp \PignusBassoNotes }
+          }
+          \new Lyrics \lyricsto Basso \PignusBassoLyrics
+        >>
+        \new Staff { \PignusOrgano }
+        \new FiguredBass { \PignusBassFigures }
+      >>
+    }
+  }
+  \bookpart {
+    \section "9" "Agnus Dei"
+    \addTocLabel "agnusdei"
     \score {
       <<
         \new ChoirStaff <<

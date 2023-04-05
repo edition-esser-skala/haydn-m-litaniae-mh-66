@@ -1,4 +1,4 @@
-\version "2.22.0"
+\version "2.24.0"
 
 \include "../definitions.ly"
 #(define option-instrument-name "trb 1")
@@ -6,9 +6,9 @@
 
 \book {
   \bookpart {
-    \section "1" "Kyrie eleison"
-    \addTocEntry
-    \paper { indent = 2.5\cm }
+    \section "1" "Kyrie"
+    \addTocLabel "kyrie"
+    \paper { systems-per-page = #7 indent = 2.5\cm }
     \score {
       <<
         \new Staff {
@@ -17,10 +17,11 @@
         }
       >>
     }
+    \tacet "section" "Panis vivus"
   }
   \bookpart {
     \section "3" "Panis supersubstantialis"
-    \addTocEntry
+    \addTocLabel "panissuper"
     \score {
       <<
         \new Staff { \PanisSuperTromboneI }
@@ -29,25 +30,30 @@
   }
   \bookpart {
     \section "4" "Præcelsum"
-    \addTocEntry
+    \addTocLabel "praecelsum"
     \score {
       <<
-        \new Staff { \PraecelsumTromboneI }
+        \new Staff {
+          \set Staff.instrumentName = \markup \center-column { "trb 1" "solo" }
+          \PraecelsumTromboneI
+        }
       >>
     }
   }
   \bookpart {
     \section "5" "Stupendum"
-    \addTocEntry
+    \addTocLabel "stupendum"
     \score {
       <<
         \new Staff { \StupendumTromboneI }
       >>
     }
+    \tacet "section" "Dulcissimum"
   }
   \bookpart {
     \section "7" "Viaticum"
-    \addTocEntry
+    \addTocLabel "viaticum"
+    \paper { systems-per-page = #2 }
     \score {
       <<
         \new Staff { \ViaticumTromboneI }
@@ -55,8 +61,17 @@
     }
   }
   \bookpart {
-    \section "8" "Agnus Dei"
-    \addTocEntry
+    \section "7" "Pignus futuræ gloriæ"
+    \addTocLabel "pignus"
+    \score {
+      <<
+        \new Staff { \PignusTromboneI }
+      >>
+    }
+  }
+  \bookpart {
+    \section "9" "Agnus Dei"
+    \addTocLabel "agnusdei"
     \paper { systems-per-page = #6 }
     \score {
       <<

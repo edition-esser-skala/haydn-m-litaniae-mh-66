@@ -1,4 +1,4 @@
-\version "2.22.0"
+\version "2.24.0"
 
 \include "../definitions.ly"
 #(define option-instrument-name "b")
@@ -6,9 +6,9 @@
 
 \book {
   \bookpart {
-    \section "1" "Kyrie eleison"
-    \addTocEntry
-    \paper { indent = 2\cm systems-per-page = #7 }
+    \section "1" "Kyrie"
+    \addTocLabel "kyrie"
+    \paper { indent = 2\cm }
     \score {
       <<
         \new Staff {
@@ -20,7 +20,7 @@
   }
   \bookpart {
     \section "2" "Panis vivus"
-    \addTocEntry
+    \addTocLabel "panisvivus"
     \score {
       <<
         \new Staff { \PanisVivusOrgano }
@@ -29,7 +29,7 @@
   }
   \bookpart {
     \section "3" "Panis supersubstantialis"
-    \addTocEntry
+    \addTocLabel "panissuper"
     \score {
       <<
         \new Staff { \PanisSuperOrgano }
@@ -38,7 +38,7 @@
   }
   \bookpart {
     \section "4" "Præcelsum"
-    \addTocEntry
+    \addTocLabel "praecelsum"
     \score {
       <<
         \new Staff { \PraecelsumOrgano }
@@ -47,7 +47,7 @@
   }
   \bookpart {
     \section "5" "Stupendum"
-    \addTocEntry
+    \addTocLabel "stupendum"
     \score {
       <<
         \new Staff { \StupendumOrgano }
@@ -56,7 +56,7 @@
   }
   \bookpart {
     \section "6" "Dulcissimum"
-    \addTocEntry
+    \addTocLabel "dulcissimum"
     \score {
       <<
         \new Staff { \DulcissimumOrgano }
@@ -65,7 +65,8 @@
   }
   \bookpart {
     \section "7" "Viaticum"
-    \addTocEntry
+    \addTocLabel "viaticum"
+    \paper { systems-per-page = #2 }
     \score {
       <<
         \new Staff { \ViaticumOrgano }
@@ -73,9 +74,17 @@
     }
   }
   \bookpart {
-    \section "8" "Agnus Dei"
-    \addTocEntry
-    \paper { systems-per-page = #7 }
+    \section "7" "Pignus futuræ gloriæ"
+    \addTocLabel "pignus"
+    \score {
+      <<
+        \new Staff { \PignusOrgano }
+      >>
+    }
+  }
+  \bookpart {
+    \section "9" "Agnus Dei"
+    \addTocLabel "agnusdei"
     \score {
       <<
         \new Staff { \AgnusDeiOrgano }

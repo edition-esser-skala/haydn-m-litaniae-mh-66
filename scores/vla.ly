@@ -1,4 +1,4 @@
-\version "2.22.0"
+\version "2.24.0"
 
 \include "../definitions.ly"
 #(define option-instrument-name "vla")
@@ -6,8 +6,8 @@
 
 \book {
   \bookpart {
-    \section "1" "Kyrie eleison"
-    \addTocEntry
+    \section "1" "Kyrie"
+    \addTocLabel "kyrie"
     \paper { indent = 2\cm }
     \score {
       <<
@@ -20,7 +20,7 @@
   }
   \bookpart {
     \section "2" "Panis vivus"
-    \addTocEntry
+    \addTocLabel "panisvivus"
     \score {
       <<
         \new Staff { \PanisVivusViola }
@@ -29,7 +29,7 @@
   }
   \bookpart {
     \section "3" "Panis supersubstantialis"
-    \addTocEntry
+    \addTocLabel "panissuper"
     \score {
       <<
         \new Staff { \PanisSuperViola }
@@ -38,7 +38,7 @@
   }
   \bookpart {
     \section "4" "Præcelsum"
-    \addTocEntry
+    \addTocLabel "praecelsum"
     \score {
       <<
         \new Staff { \PraecelsumViola }
@@ -47,7 +47,7 @@
   }
   \bookpart {
     \section "5" "Stupendum"
-    \addTocEntry
+    \addTocLabel "stupendum"
     \score {
       <<
         \new Staff { \StupendumViola }
@@ -56,7 +56,7 @@
   }
   \bookpart {
     \section "6" "Dulcissimum"
-    \addTocEntry
+    \addTocLabel "dulcissimum"
     \score {
       <<
         \new Staff { \DulcissimumViola }
@@ -65,7 +65,8 @@
   }
   \bookpart {
     \section "7" "Viaticum"
-    \addTocEntry
+    \addTocLabel "viaticum"
+    \paper { systems-per-page = #2 }
     \score {
       <<
         \new Staff { \ViaticumViola }
@@ -73,8 +74,18 @@
     }
   }
   \bookpart {
-    \section "8" "Agnus Dei"
-    \addTocEntry
+    \section "7" "Pignus futuræ gloriæ"
+    \addTocLabel "pignus"
+    \score {
+      <<
+        \new Staff { \PignusViola }
+      >>
+    }
+  }
+  \bookpart {
+    \section "9" "Agnus Dei"
+    \addTocLabel "agnusdei"
+    \paper { systems-per-page = #6 }
     \score {
       <<
         \new Staff { \AgnusDeiViola }

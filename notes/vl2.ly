@@ -473,6 +473,7 @@ StupendumViolinoII = {
   \relative c' {
     \clef treble
     \key b \major \time 4/4 \tempoStupendum
+      \override Score.SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/8)
     r16. d32\fE f16. d32 d'4 r16. es,32 g16. es32 es'4
     r16. a,,32 c16. a32 c'4 r16. b,32 d16. b32 b'4
     r16. a,32 c16. a32 c'4 r16. f,32 b16. a32 b4
@@ -487,7 +488,9 @@ StupendumViolinoII = {
     r16. f,!32 as16. f32 f'4 r16. es,32 g16. es32 c'4
     r16. g32 b16. g32 g'4 r16. fis,32 a16. fis32 fis'4 \noBreak
     r16. d,32 fis16. d32 d'4 r2\fermata \bar "||"
-    \tempoDonum \newSpacingSection b4 f r8 b c d \noBreak %15
+    \tempoDonum \newSpacingSection
+      \revert Score.SpacingSpanner.common-shortest-duration
+      b4 f r8 b c d \noBreak %15
     g,8. a16 a4\trill r8 b c d
     g, g,16. g'32 a8 a,16. a'32 b8 b,16. b'32 c8 c,16. c'32
     d16 c b c d c d es c8 f, r c'~
@@ -573,6 +576,7 @@ StupendumViolinoII = {
     e4 r r e \noBreak
     f2 r\fermata \bar "||" %100
     \tempoTremendum \newSpacingSection
+      \override Score.SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/8)
       r16. d32\f f16. d32 d'4 r16. es,32 g16. es32 es'4
     r16. a,,32 c16. a32 c'4 r16. b,32 d16. b32 b'4
     r16. a,32 c16. a32 c'4 r16. f,32 b16. a32 b4

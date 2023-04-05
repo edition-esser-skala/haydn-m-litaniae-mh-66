@@ -196,7 +196,7 @@ ViaticumTromboneII = {
   }
 }
 
-PignusTenoreNotes = {
+PignusTromboneII = {
   \relative c' {
     \clef tenor
     \twotwotime \key d \dorian \time 2/2 \tempoPignus

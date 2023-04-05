@@ -1,19 +1,19 @@
 \version "2.24.0"
 
 \include "../definitions.ly"
-#(define option-instrument-name "trb 2")
+#(define option-instrument-name "fag")
 \include "score_settings/one-staff.ly"
 
 \book {
   \bookpart {
     \section "1" "Kyrie"
     \addTocLabel "kyrie"
-    \paper { systems-per-page = #7 indent = 2.5\cm }
+    \paper { systems-per-page = #7 indent = 3\cm }
     \score {
       <<
         \new Staff {
-          \set Staff.instrumentName = "Trombone II"
-          \KyrieTromboneII
+          \set Staff.instrumentName = \markup \center-column { "Fagotto" "o Trombone III" }
+          \KyrieFagotto
         }
       >>
     }
@@ -24,7 +24,7 @@
     \addTocLabel "panissuper"
     \score {
       <<
-        \new Staff { \PanisSuperTromboneII }
+        \new Staff { \PanisSuperFagotto }
       >>
     }
     \tacet "section" "Præcelsum"
@@ -34,7 +34,7 @@
     \addTocLabel "stupendum"
     \score {
       <<
-        \new Staff { \StupendumTromboneII }
+        \new Staff { \StupendumFagotto }
       >>
     }
     \tacet "section" "Dulcissimum"
@@ -42,10 +42,10 @@
   \bookpart {
     \section "7" "Viaticum"
     \addTocLabel "viaticum"
-    \paper { systems-per-page = #2 }
+    \paper { systems-per-page = #1 }
     \score {
       <<
-        \new Staff { \ViaticumTromboneII }
+        \new Staff { \ViaticumFagotto }
       >>
     }
   }
@@ -54,7 +54,7 @@
     \addTocLabel "pignus"
     \score {
       <<
-        \new Staff { \PignusTromboneII }
+        \new Staff { \PignusFagotto }
       >>
     }
   }
@@ -64,7 +64,7 @@
     \paper { systems-per-page = #6 }
     \score {
       <<
-        \new Staff { \AgnusDeiTromboneII }
+        \new Staff { \AgnusDeiFagotto }
       >>
     }
   }

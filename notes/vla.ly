@@ -442,6 +442,7 @@ StupendumViola = {
   \relative c' {
     \clef alto
     \key b \major \time 4/4 \tempoStupendum
+      \override Score.SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/8)
     b4\fE r16. d32 f16. d32 b4 r16. g'32 b16. g32
     c,4 r16. a'32 c16. a32 f4 r16. d32 f16. d32
     es4 r16. c32 es16. c32 f,4 r16. d''32 b16. g32
@@ -456,7 +457,9 @@ StupendumViola = {
     h4 r16. h32 d16. h32 c4 r16. c32 g16. c32
     b4 r16. g32 g'16. g,32 a4 r16. d32 fis16. d32 \noBreak
     d'4 r16. d,32 fis16. d32 d,4 r\fermata \bar "||"
-    \tempoDonum \newSpacingSection r2 r4 r8 f'~ \noBreak %15
+    \tempoDonum \newSpacingSection
+      \revert Score.SpacingSpanner.common-shortest-duration
+      r2 r4 r8 f'~ \noBreak %15
     f es r es4 d8 r f~
     f es r es4 es8 r f~
     f g16 a b8 b, f'4 r8 f
@@ -524,6 +527,7 @@ StupendumViola = {
     e4 r r e, \noBreak
     f2 r\fermata \bar "||" %100
     \tempoTremendum \newSpacingSection
+      \override Score.SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/8)
       b4\f r16. d32 f16. d32 b4 r16. g'32 b16. g32
     es4 r16. es32 c'16. a32 f4 r16. d32 f16. d32
     es4 r16. c32 es16. c32 f,4 r16. d''32 b16. g32
