@@ -486,14 +486,14 @@ StupendumViolinoII = {
     r16. a,32 c16. a32 a'4 r16. g,32 b16. g32 g'4
     r16. f,!32 as16. f32 f'4 r16. es,32 g16. es32 c'4
     r16. g32 b16. g32 g'4 r16. fis,32 a16. fis32 fis'4 \noBreak
-    r16. d,32 fis16. d32 d'4 r2\fermata \bar "|"
+    r16. d,32 fis16. d32 d'4 r2\fermata \bar "||"
     \tempoDonum \newSpacingSection b4 f r8 b c d \noBreak %15
     g,8. a16 a4\trill r8 b c d
     g, g,16. g'32 a8 a,16. a'32 b8 b,16. b'32 c8 c,16. c'32
     d16 c b c d c d es c8 f, r c'~
     c b r b4 a8 r c~
     c b r b4 a8 r c %20
-    d16. b32 a16. g32 f8 e f4 r8 \once \tieDashed f'~
+    d16. b32 a16. g32 f8 e f4 r8 f'
     f f,16. f'32 f8 f es es f g
     a,! a a4\trill b8 b b4\trill
     c8 c c4\trill b16. a32 b16. c32 b8 a
@@ -501,25 +501,25 @@ StupendumViolinoII = {
     f es r es4 d8 r f~
     f es r c d16 f g a b8 b,16. b'32
     a8 a16 g f8 a4 g8 r g~
-    g f r a'4^\critnote g8 r g
-    f a, b a16. g32 a4 c %30
+    g f r a'4 g8 r g
+    f a, b g a4 c %30
     b r r2
     r g4 r
     g b4. a16 g f8 r
     r2 r4 c'\f
-    f, r8 c'4^\critnote b8 r b~ %35
+    f, r8 c'4 b8 r b~ %35
     b a r f b b,16. b'32 c8 c,16. c'32
     d8 d,16. d'32 e8 e,16. e'32 f16. e32 f16. g32 f8 e
     f4 r r8 f,\p g a
     d,8. e16 e4\trill r8 f g a
     d,8. e16 e4\trill r8 f f a %40
     c c c c c c c c
-    c, c c c b4 d8\fE fis
-    g4 r r8 g\pE a b
+    c, c c c b4 d8\f fis
+    g4 r r8 g\p a b
     e,8. fis16 fis4\trill r8 g a b
     e,8. fis16 fis4\trill r8 g g4 %45
     r2 r8 fis'\f g a
-    b, g'[\p a b] c,4 r
+    b, g'\p a b c,4 r
     r8 c d es d4 r
     r8 b c d c4 r
     r8 a b c b b c d %50
@@ -535,7 +535,7 @@ StupendumViolinoII = {
     g b,16.\p b'32 b8 b,16. b'32 c4 r %60
     b8 b,16. b'32 b8 b,16. b'32 c4 r
     b8 b,16. b'32 b8 b,16. b'32 a8 a g fis
-    r4 r8 d'4\f^\critnote c8 r c~
+    r4 r8 d'4\f c8 r c~
     c b r g fis fis16.\p fis'32 fis8 fis,16. fis'32
     g4 r fis8 fis,16. fis'32 fis8 fis,16. fis'32 %65
     g4 r fis8 fis,16. fis'32 fis8 fis,16. fis'32
@@ -543,19 +543,19 @@ StupendumViolinoII = {
     g g r fis g b16. a32 g8 f
     e e e e r f f f
     f f e e f c'16.\f b32 a16. g32 f16. es!32 %70
-    d4 d8\pE es f4 r8 d'
+    d4 d8\p es f4 r8 d'
     d d c c b4 r8 f
     f f es es d d d d
     c4 r8 c'4\f b8 r b
-    a\pE a a a f f f f %75
+    a a\p a a f f f f %75
     d d d d f f f f
     g g g g g g g g
-    f4 r c' f,
-    r4 r8 f4 es8 r es~
+    f4 r c'-! f,-!
+    r4 f4. es8 r es~
     es d r f4 es8 r es~ %80
     es d r es f f f f
-    es4 b'' es, b~
-    b8 as r as4 g8 r \once \tieDashed b~
+    es4 b''-! es,-! b~
+    b8 as r as4 g8 r b~
     b as r as' g g,16. g'32 es8 es,16. es'32
     es4 r d8 d,16. d'32 d8 d,16. d'32 %85
     d4 r c8 c,16. c'32 c8 c,16. c'32
@@ -567,11 +567,11 @@ StupendumViolinoII = {
     b4\f f r8 b c d
     g,8. a16 a4\trill b r8 f~
     f es r es4 d8 b'' b,16. b'32 %95
-    g8 g,16. g'32 es8 es,16. es'32 c8 a b \once \tieDashed c~
+    g8 g,16. g'32 es8 es,16. es'32 c8 a b c
     c16. a32 b16. c32 b8 a b b, d f
     b\p b b b g g g g
     e4 r r e \noBreak
-    f2 r\fermata \bar "|" %100
+    f2 r\fermata \bar "||" %100
     \tempoTremendum \newSpacingSection
       r16. d32\f f16. d32 d'4 r16. es,32 g16. es32 es'4
     r16. a,,32 c16. a32 c'4 r16. b,32 d16. b32 b'4
@@ -586,7 +586,7 @@ StupendumViolinoII = {
     r16. c,32 b16. a32 a'4 r16. g,32 b16. g32 g'4
     r16. g,32 b16. g32 es'4 r16. g,32 b16. g32 g'4
     r16. d,32 fis16. d32 fis'4 r16. e,32 g16. e32 g'4
-    r16. d,32 fis16. d32 fis'4 r16. d,32 f?16. d32 d'4
+    r16. d,32 fis16. d32 fis'4 r16. d,32 f16. d32 d'4
     r16. d,32 f16. d32 d'4 r16. c,32 es16. c32 es'4 %115
     r16. d,32 f16. d32 d'4 r16. c,32 es16. c32 c'4
     r16. c32 b16. a32 es'4 r16. d,32 f16. d32 d'4

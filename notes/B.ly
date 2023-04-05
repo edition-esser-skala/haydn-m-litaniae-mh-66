@@ -495,12 +495,12 @@ StupendumBassoNotes = {
     f4 r8. f16 f8 f, r8. f'16
     f8 f, r4 r2
     r r8 f'4 f8
-    es!8. es16 es8 es d^\critnote d16 d d8 d
+    es!8. es16 es8 es d d16 d d8 d
     c2 b8 b b' b %10
     fis4. fis8 g4 g8 g
     d4 d es8 es es es
     es2 d \noBreak
-    R1\fermata \bar "|"
+    R1\fermata \bar "||"
     \tempoDonum \newSpacingSection R1*12 %26
     r2 \mvTr f4\pE^\solo b,
     r8 f' g a d,4 e
@@ -508,10 +508,10 @@ StupendumBassoNotes = {
     f8 g16([ a)] b8. b16 a4 g8 a %30
     b b, b'4. a8 a4~
     a8 g r4 r b8 b
-    b16([ c a b] g[ a f g] e4 f8) g
+    b16([ c a b] g[ a f g] e4) f8([ g)]
     f4( e)\trill f r
     R1*3 %37
-    r8 a a a \once \tieDashed a2~
+    r8 a a a a2~
     a8 g r g g8. f16 f8 a
     a g r g g f r4 %40
     r r8 f es'!4 c8 b
@@ -530,9 +530,9 @@ StupendumBassoNotes = {
     fis4) g8([ a)] g4( fis)\trill
     g r r2 %55
     R1*44 \noBreak %99
-    R1\fermata \bar "|" %100
+    R1\fermata \bar "||" %100
     \tempoTremendum \newSpacingSection R1 \noBreak
-    r4 r8. \mvTr f16\f^\tutti b8 b, b' b
+    r4 r8. \mvTr f16\fE^\tuttiE b8 b, b' b
     b a16 g a8 a b4.( g16[ es]
     c4) f8 r16 f b8 b, b b
     f'4 f8 f f f e4 %105
@@ -561,10 +561,10 @@ StupendumBassoNotes = {
 
 StupendumBassoLyrics = \lyricmode {
   Stu -- pen -- dum su -- %2
-  pra o -- mni -- a, su -- pra
+  per o -- mni -- a, su -- per
   o -- mni -- a, stu -- pen -- dum su --
-  pra o -- mni -- a mi -- ra -- cu -- %5
-  la, stu -- pen -- dum, stu -- pen -- dum,
+  per o -- mni -- a mi -- ra -- cu -- %5
+  la, stu -- pen -- dum, stu -- pen -- dum.
 
   Sa -- cra --
   tis -- si -- ma Do -- mi -- ni -- cae pas -- si --
@@ -579,13 +579,13 @@ StupendumBassoLyrics = \lyricmode {
   ple -- ni -- tu -- di -- nem, mi -- se -- %30
   re -- re, mi -- se -- re --
   re, mi -- se --
-  re -- re
+  re -- re __
   no -- bis.
 
   Me -- mo -- ri -- a -- %38
   le prae -- ci -- pu -- um a --
-  mo -- ris di -- vi -- nae, %40
-  di -- vi -- nae a --
+  mo -- ris di -- vi -- ni, %40
+  di -- vi -- ni a --
   mo -- ris,
   di -- vi -- nae af --
   flu -- en -- ti -- a lar --
@@ -598,7 +598,7 @@ StupendumBassoLyrics = \lyricmode {
   mi -- se -- re --
   re no -- bis,
   mi -- se -- re --
-  re no --
+  re __ no --
   bis. %55
 
   Tre -- men -- dum ac vi -- %102
@@ -606,9 +606,9 @@ StupendumBassoLyrics = \lyricmode {
   tum, tre -- men -- dum ac vi --
   vi -- fi -- cum Sa -- cra -- men -- %105
   tum, tre -- men -- dum, tre --
-  men -- dum,
+  men -- dum.
 
-  tre -- men -- dum ac vi -- %110
+  Tre -- men -- dum ac vi -- %110
   vi -- fi -- cum Sa -- cra -- men -- tum,
   mi -- se -- re -- re no --
   bis,

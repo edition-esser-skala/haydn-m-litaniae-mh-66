@@ -482,7 +482,7 @@ StupendumAltoNotes = {
     a4. a8 g4 d8 d
     f!4 f es8 es es es
     cis2 d \noBreak
-    R1\fermata \bar "|"
+    R1\fermata \bar "||"
     \tempoDonum \newSpacingSection R1*45 %59
     \mvTr d4\pE^\solo d es2 %60
     d8 d d d es4. es8
@@ -492,13 +492,13 @@ StupendumAltoNotes = {
     g2 fis4 fis %65
     g4. g8 fis4 r
     R1*2
-    e4. d'8 c4. f,8
+    e4. d'8 \appoggiatura d c4. f,8
     g8. b16 a8 g a16([ g)] f8 r4 %70
     r f8. b,16 b4 r
     r2 r8 b'([ c)] d
-    g,4 a b2
+    g,4 a b2\trill
     a4 r r2
-    c4. a8 f4. es8 %75
+    c4. a8 \appoggiatura g f4. es!8 %75
     d8.([ es16)] f4 r2
     R1
     c'8. f,16 f4 f8 f f f
@@ -519,10 +519,10 @@ StupendumAltoNotes = {
     b4 r r2
     R1*4 %97
     b4. b8 b4 d,
-    d1^\critnote \noBreak
-    c2 r\fermata \bar "|" %100
+    d1\trill \noBreak
+    c2 r\fermata \bar "||" %100
     \tempoTremendum \newSpacingSection R1*2
-    r4 r8. \mvTr f16\f^\tutti b8 b, b' b
+    r4 r8. \mvTr f16\fE^\tuttiE b8 b, b' b
     b a16 g a8 a f8. f16 b4
     b8([ a16 g] a8) a g2 %105
     f4 r8. a16 a8 a, r8. a'16
@@ -551,10 +551,10 @@ StupendumAltoNotes = {
 
 StupendumAltoLyrics = \lyricmode {
   Stu -- pen -- dum %3
-  su -- pra o -- mni -- a, o --
+  su -- per o -- mni -- a, o --
   mni -- a mi -- ra -- cu -- %5
   la, stu -- pen -- dum, stu --
-  pen -- dum,
+  pen -- dum.
   Sa -- cra --
   tis -- si -- ma Do -- mi -- ni -- cae pas -- si --
   o -- nis com -- me -- mo -- %10
@@ -597,15 +597,15 @@ StupendumAltoLyrics = \lyricmode {
   bis,
 
   mi -- se -- re -- re %98
-  \xE no --
-  bis. \x %100
+  no --
+  bis. %100
 
   Tre -- men -- dum ac vi -- %103
   vi -- fi -- cum, ac vi -- vi -- fi -- cum
   Sa -- cra -- men -- %105
   tum, tre -- men -- dum, tre --
-  men -- dum,
-  pa --
+  men -- dum.
+  Pa --
   nis o -- mni -- po -- ten -- ti -- a
   ver -- bi ca -- ro %110
   fa -- ctus, mi -- se --

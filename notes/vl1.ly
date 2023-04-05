@@ -482,38 +482,38 @@ StupendumViolinoI = {
     r16. c,32 a'16. c,32 c'4 r16. b,32 d16. b32 b'4
     r16. h,32 d16. h32 as'4 r16. g,32 c16. g32 g'4
     r16. cis,32 g'16. cis,32 b'4 r16. d,32 fis16. d32 d'4 \noBreak
-    r16. d,,32 fis16. d32 d'4 r2\fermata \bar "|"
+    r16. d,,32 fis16. d32 d'4 r2\fermata \bar "||"
     \tempoDonum \newSpacingSection R1*3 %17
     f4 b, r8 f' g a
     d,8. e16 e4\trill r8 f g a
     d, d,16. d'32 e8 e,16. e'32 f8 f,16. f'32 f8 f,16. f'32 %20
     f16. d32 c16. b32 a8 g\trill f f' g as
-    h, h h4\trillE c r8 es
+    h, h h4\trill c r8 es
     es es,16. es'32 es8 es es es,16. es'32 es8 es
     es es,16. es'32 es8 es d16. c32 d16. es32 d8 c\trill
     b4 f\p r8 b c d %25
     g,8. a16 a4\trill r8 b c d
     g, g,16. g'32 a8 a,16. a'32 b8 c d d,16. d'32
     c8 c16 b a8 c4 b8 r b~
-    b a r c'4^\critnote b8 r b
+    b a r c'4 b8 r b
     a f4 e8 f4 es %30
     d r r2
     r b4 r
     b d4. c16 b a8 r
     r2 c'4\f f,
-    r8 f g a d,8. e16 e8.(\trill d32 e) %35
+    r8 f g a d,8. e16 e8.\trill d32 e %35
     r8 f g a d, d,16. d'32 e8 e,16. e'32
     f8 f,16. f'32 g8 g,16. g'32 a16. g32 a16. b32 a8 g\trill
     f4 r r8 f,\p g a
     d,8. e16 e4\trill r8 f g a
     d,8. e16 e4\trill r8 f a c %40
     es! es es es es es es es
-    es, es es es d d16.\fE d'32 d8 c
-    b4 r r8 g\pE a b
+    es, es es es d d16.\f d'32 d8 c
+    b4 r r8 g\p a b
     e,8. fis16 fis4\trill r8 g a b
     e,8. fis16 fis4\trill r8 b b4 %45
     r2 r8 fis'\f g a
-    b, b'[\p c d] es, c r4
+    b, b'\p c d es, c r4
     r8 a' b c d, b r4
     r8 g' a b c, a r4
     r8 fis' g a b, b c d %50
@@ -522,7 +522,7 @@ StupendumViolinoI = {
     c' r c es!~
     es8 d16 c b8 r r2
     d'4\f g, r8 g a b %55
-    e,8. fis16 g8.\trillE fis16 g8 g, a b
+    e,8. fis16 fis4\trill g8 g, a b
     e,8. fis16 fis4\trill g8 g' a b
     cis, cis cis4\trill d r8 c
     fis fis,16. fis'32 fis8 fis g16. d32 c16. b32 b8 a
@@ -537,35 +537,35 @@ StupendumViolinoI = {
     a es' d c b d16. c32 b8 a
     g g g g r a a a
     d d c b a c16.\f b32 a16. g32 f16. es!32 %70
-    d4 d'8\pE a b4 r8 f'
+    d4 d'8\p a b4 r8 f'
     f f es es d4 r8 d
     d d c c b b b b
-    a f'\f g a d,8. e16 e4\trillE
-    f8\pE f f f c c c c %75
+    a f'\f g a d,8. e16 e4\trill
+    f8 f\p f f c c c c %75
     b b b b b b b b
     b b h h c c c c
-    c4 c' f, r
+    c4 c'-! f,-! r
     r8 b, c d g,8. a16 a4\trill
     r8 b c d g,8. a16 a4\trill %80
     r8 b as as as as as as
     g4 r r8 es' f g
     c,8. d16 d4\trill r8 es f g
-    c,8. d16 d4\trillE es8 es,16. es'32 g8 g,16. g'32
+    c,8. d16 d4\trill es8 es,16. es'32 g8 g,16. g'32
     g4 r f8 f,16. f'32 f8 f,16. f'32 %85
     f4 r es8 es,16. es'32 es8 es,16. es'32
     es4 r d8 d,16. d'32 d8 es
-    d d c c b f' g as
-    h, h h4\trill c8 es f g
-    a, a a4\trill b r %90
+    d d c c b f'\f g as
+    h,\p h h4\trill c8 es\f f g
+    a,\p a a4\trill b r %90
     R1*2
     r2 b'4\f f
     r8 es es4 b8 b' c d
     g, g,16. g'32 a8 a,16. a'32 b8 b,16. b'32 g8 g,16. g'32 %95
-    es8 es,16. es'32 c8 c,16. c'32 a8 g' f \once \tieDashed es~
+    es8 es,16. es'32 c8 c,16. c'32 a8 g' f es
     es16. c32 d16. es32 d8 c\trill b b, d f
     b\p b b b g g g g
     e4 r r e \noBreak
-    f2 r\fermata \bar "|" %100
+    f2 r\fermata \bar "||" %100
     \tempoTremendum \newSpacingSection
       r16. b32\f d16. b32 b'4 r16. g,32 b16. g32 g'4 \noBreak
     r16. c,,32 es16. c32 es'4 r16. d,32 f16. d32 d'4

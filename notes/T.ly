@@ -265,16 +265,16 @@ StupendumTenoreNotes = {
     d4. d8 d4 g,8 g
     h4 h c8 c c c
     b4.( g8) a2 \noBreak
-    R1\fermata \bar "|"
+    R1\fermata \bar "||"
     \tempoDonum \newSpacingSection R1*45 %59
     \mvTr b4\pE^\solo b c2 %60
     b8 b b b c4. c8
     b4 b8 b a8. a16 g8 fis
     g8. fis16 g4 r2
     r a4 a
-    b2 a4 a %65
+    b4. b8 a4 a %65
     b4. b8 a4 r
-    fis4. es'8 d4. g,8
+    fis4. es'8 \appoggiatura es d4. g,8
     a8. c16 b8 a b16([ a)] g8 r4
     R1*2 %70
     b8. f16 f4 r8 b([ c)] d
@@ -282,8 +282,8 @@ StupendumTenoreNotes = {
     f es d2\trill
     c4 r r2
     R1 %75
-    f4. d8 b4. as8
-    g8( es'4) d8 c4. b8
+    f4. d8 \appoggiatura c b4. as8
+    g8( es'4) d8 \appoggiatura d c4. b8
     a8.([ b16)] c4 r2
     R1*2 %80
     r2 f8. b,16 b4
@@ -301,10 +301,10 @@ StupendumTenoreNotes = {
     b4 r r2
     R1*4 %97
     d4. d8 d4 b
-    b1^\critnote \noBreak
-    a2 r\fermata \bar "|" %100
+    b1\trill \noBreak
+    a2 r\fermata \bar "||" %100
     \tempoTremendum \newSpacingSection R1 \noBreak
-    r2 r4 r8. \mvTr b16\f^\tutti
+    r2 r4 r8. \mvTr b16\fE^\tuttiE
     es8 es, es' es es d16 c d8 d
     d([ c16 b)] c4 r8. b16 f'8 f,
     f f f' f16 f d8 d c4 %105
@@ -333,10 +333,10 @@ StupendumTenoreNotes = {
 
 StupendumTenoreLyrics = \lyricmode {
   Stu -- %2
-  pen -- dum su -- pra o --
+  pen -- dum su -- per o --
   mni -- a, stu -- pen -- dum
-  su -- pra o -- mni -- a mi -- ra -- cu -- %5
-  la, stu -- pen -- dum, stu -- pen -- dum,
+  su -- per o -- mni -- a mi -- ra -- cu -- %5
+  la, stu -- pen -- dum, stu -- pen -- dum.
 
   Sa -- cra --
   tis -- si -- ma Do -- mi -- ni -- cae pas -- si --
@@ -349,8 +349,8 @@ StupendumTenoreLyrics = \lyricmode {
   ctum et au -- gu -- stis -- si --
   mum, au -- gu -- stis -- si -- mum my --
   ste -- ri -- um,
-  sa -- cro --
-  san -- ctum my -- %65
+  au -- gu --
+  stis -- si -- mum my -- %65
   ste -- ri -- um,
   mi -- se -- re -- re,
   mi -- se -- re -- re no -- bis,
@@ -379,17 +379,17 @@ StupendumTenoreLyrics = \lyricmode {
   bis,
 
   mi -- se -- re -- re %98
-  \xE no --
-  bis. \x %100
+  no --
+  bis. %100
 
   Tre --
   men -- dum ac vi -- vi -- fi -- cum Sa -- cra --
   men -- tum, tre -- men -- dum
   ac vi -- vi -- fi -- cum Sa -- cra -- men -- %105
   tum, tre -- men -- dum, tre --
-  men -- dum,
+  men -- dum.
 
-  tre -- %110
+  Tre -- %110
   men -- dum ac vi -- vi -- fi -- cum Sa -- cra --
   men -- tum, mi -- se -- re -- re no --
   bis,

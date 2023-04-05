@@ -242,7 +242,7 @@ StupendumTromboneI = {
     \clef alto
     \key b \major \time 4/4 \tempoStupendum
     R1*2
-    r4 r8. f16\fE b8 b, r \once \tieDashed b'~
+    r4 r8. f16\fE b8 b, r b'~
     b a16 g a8. a16 f4 b~
     b8 a16 g a8 a g4. g8 %5
     f4 r8. a16 a8 a, r8. a'16
@@ -250,17 +250,17 @@ StupendumTromboneI = {
     r r8 f'4 f8
     f8. f16 f8 f fis fis16 fis fis8 fis
     fis2 g8 g g g %10
-    a4. a8 g4 d8 d-\critnote
+    a4. a8 g4 d8 d
     f!4 f es8 es es es
-    cis2 d
-    R1\fermata \bar "|"
+    cis2 d \noBreak
+    R1\fermata \bar "||"
     \tempoDonum R1*85 %99
-    R1\fermata \bar "|" %100
+    R1\fermata \bar "||" %100
     \tempoTremendum
-      b'16(-.\f b-. b-. b-.) b(-. b-. b-. b-.) g(-. g-. g-. g-.) g(-. g-. g-. g-.)
-    a(-. a-. a-. a-.) a(-. a-. a-. a-.) b(-. b-. b-. b-.) b(-. b-. b-. b-.)
-    es,(-. es-. es-. es-.) c'(-. c-. c-. c-.) b(-. b-. b-. b-.) b(-. b-. b-. b-.)
-    b^\markup \remarkE "simile" b a g a a a a f f f f b b b b
+      b'16(-.\fE b-. b-. b-.) b(-. b-. b-. b-.) g(-. g-. g-. g-.) g(-. g-. g-. g-.)
+    a a a a a a a a b b b b b b b b
+    es, es es es c' c c c b b b b b b b b
+    b b a g a a a a f f f f b b b b
     b b a g a a a a g g g g g g g g %105
     f f f f a a a a a a a a a a a a
     a a a a a a a a f f f f f f f f

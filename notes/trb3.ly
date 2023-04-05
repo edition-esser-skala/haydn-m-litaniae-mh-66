@@ -139,7 +139,7 @@ StupendumTromboneIII = {
     r4 r8. f16\fE b8 b, r b'~
     b a16 g a8. a16 b4 b8 g16 es
     c8. c16 f8 r16 f b8 b, r b
-    f' f4 f8 f f e e %5
+    f' f4 f8 f f e8. e16 %5
     f4 r8. f16 f8 f, r8. f'16
     f8 f, r4 r2
     r r8 f'4 f8
@@ -147,35 +147,36 @@ StupendumTromboneIII = {
     c2 b8 b b' b %10
     fis4. fis8 g4 g8 g
     d4 d es8 es es es
-    es2 d
-    R1\fermata \bar "|"
+    es2 d \noBreak
+    R1\fermata \bar "||"
     \tempoDonum R1*85 %99
-    R1\fermata \bar "|" %100
-    \tempoTremendum R1
-    r4 r8. f16\fE b8 b, b' b
-    b a16 g a8 a b4. g16 es
-    c4 f8 r16 f b8 b, b b
-    f'4 f8 f f f e4 %105
-    f r8. f16 f8 f, r8. f'16
-    f8 f, r4 r2
-    R1*2
-    r4 r8. c'16 g'8 g, g' g %110
-    g fis16 e fis8 fis g4 g
-    es8 es es es cis2
-    d r
-    R1
-    r4 r8. g16 c8 c, c' c %115
-    c h16 a! h8 h c4^\critnote c,
-    r r8. f16 b8 b, b' b
-    b a16 g a8 a g4 c,
-    f r r r8. b,16
-    f'8 f, f' f f f e4 %120
-    f r8.^\critnote a16 b8 a r8. a16
-    b8 a r4 f2
-    f4 f f8 f f f
-    f2 b,
-    R1 %125
-    R\fermata \bar "|."  %126 finis
+    R1\fermata \bar "||" %100
+    \tempoTremendum b16(-.\fE b-. b-. b-.) b(-. b-. b-. b-.) es(-. es-. es-. es-.) es(-. es-. es-. es-.) \noBreak
+    f f f f f f f f b, b b b b b b b
+    c c c c a' a a a b b b b b b g es
+    c c c c f, f f f b b b b b b b b
+    f f f f f' f f f f f f f e e e e
+    f f f f f f f f f, f f f f f f f
+    f f f f f' f f f b, b b b b b b b
+    c c c c c c c c f f f f f f f f
+    es! es es es es es es es d d d d d d d d
+    c c c c c c c c b b b b g g g g
+    a a a a fis' fis fis fis g g g g g g g g
+    es es es es es es es es cis cis cis cis cis cis cis cis
+    d d d d d d d d cis cis cis cis cis cis cis cis
+    d d d d d d d d g g g g g g g g
+    g, g g g g g g g c c c c c c c c
+    d d d d g g g g c, c c c c c c c
+    f f f f f f f f b, b b b b b b b
+    f' f f f f f f f g g g g c, c c c
+    f f f f f f f f b b b b b, b b b
+    f' f f f f f f f f f f f e e e e
+    f f f f f f f f b, b f' f f f f f
+    b, b f' f f f f f f, f f f f f f f
+    f f f f f f f f f f f f f f f f
+    f f f f f f f f b b b b b b b b
+    es es es es es es es es f f f f f f f f
+    b, b b b b b b b b2\fermata \bar "|."
   }
 }
 

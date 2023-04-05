@@ -284,7 +284,7 @@ StupendumSopranoNotes = {
     c4. c8 b4 b8 b
     as4 as g8 g g g
     g2 fis \noBreak
-    R1\fermata \bar "|"
+    R1\fermata \bar "||"
     \tempoDonum \newSpacingSection R1*10 %24
     \mvTr b4\pE^\solo f r8 b c d %25
     g,4 a r8 b c d
@@ -294,7 +294,7 @@ StupendumSopranoNotes = {
     r4 d8 e f f, es'4 %30
     d d4. c8 c4~
     c8 b b b b16[( c a b] g[ a f g])
-    e4. d'4 c16([ b)] a8 b
+    e4 d'4. c16([ b)] a8 b
     a4( g)\trill f r
     R1*3 %37
     r8 c' c c c2~
@@ -316,9 +316,9 @@ StupendumSopranoNotes = {
     es8 d16([ c)] b8 c b4( a)\trill
     g r r2 %55
     R1*44 \noBreak %99
-    R1\fermata \bar "|" %100
+    R1\fermata \bar "||" %100
     \tempoTremendum \newSpacingSection R1*2
-    r2 r4 r8. \mvTr b16\f^\tutti
+    r2 r4 r8. \mvTr b16\fE^\tuttiE
     es8 es, es' es es d16 c d8 d
     d c16 b c8 c b2 %105
     a8 r16 f'16 f8 f, r8. f'16 f8 f,
@@ -347,9 +347,9 @@ StupendumSopranoNotes = {
 
 StupendumSopranoLyrics = \lyricmode {
   Stu -- %3
-  pen -- dum su -- pra o --
+  pen -- dum su -- per o --
   mni -- a mi -- ra -- cu -- %5
-  la, stu -- pen -- dum, stu -- pen -- dum,
+  la, stu -- pen -- dum, stu -- pen -- dum.
 
   Sa -- cra --
   tis -- si -- ma Do -- mi -- ni -- cae pas -- si --
@@ -370,9 +370,9 @@ StupendumSopranoLyrics = \lyricmode {
   no -- bis.
 
   Me -- mo -- ri -- a -- %38
-  le prae -- ci -- pu -- um a --
-  mo -- ris di -- vi -- nae, di -- %40
-  vi -- nae a -- mo --
+  le prae -- ci -- pu -- um di --
+  vi -- ni a -- mo -- ris, di -- %40
+  vi -- ni a -- mo --
   _ ris,
   di -- vi -- nae af --
   flu -- en -- ti -- a lar --
@@ -391,9 +391,9 @@ StupendumSopranoLyrics = \lyricmode {
   Tre -- %103
   men -- dum ac vi -- vi -- fi -- cum, ac vi --
   vi -- fi -- cum Sa -- cra -- men -- %105
-  tum, tre -- men -- dum, tre -- men -- dum,
+  tum, tre -- men -- dum, tre -- men -- dum.
 
-  pa --
+  Pa --
   nis o -- mni -- po -- ten -- ti -- a
   ver -- bi ca -- ro %110
   fa -- ctus, mi -- se --
