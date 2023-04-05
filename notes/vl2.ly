@@ -778,131 +778,138 @@ ViaticumViolinoII = {
     g4 r r g8\p e
     cis cis r e r e r e
     r e r e' r d r f, %5
-    r d r d r d r d \noBreak
-    r e r cis cis2\fermata \bar "||"
-    \time 2/2 \tempoPignus R1*13 %20
+    r d r d r d r d
+    r e r cis cis2\fermata \bar "||" %7 finis
+  }
+}
+
+PignusViolinoII = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key d \dorian \time 2/2 \tempoPignus
+    R1*13
     d2\fE a'4 a
     b2 a
     r4 g f e
     d2~ d8 g f e
-    d2~ d8 g f e %25
+    d2~ d8 g f e
     d4 b' g8 e a4
     f4.\trillE e8 d2
     r4 d2 c!4
     f2 gis
-    r4 a8 g f4 e8 d %30
+    r4 a8 g f4 e8 d
     c4 a'8 g f4 e8 d
     c4 a'2 gis4
     a f2 \once \tieDashed e4~
     e d2 cis4
-    d2 e4 r %35
+    d2 e4 r
     g e cis d
     d g a2
     r4 a g cis,
     d a' g cis,
-    d f b a~ %40
+    d f b a~
     a g2 f4~
     f g c, f~
     f e e e
     g2 f
-    r4 c f f %45
+    r4 c f f
     a4. a8 g2
     r4 c, g' g
     b2 a4 a~
     a g2 f4~
-    f e c f %50
+    f e c f
     f e r2
     c e4 e-\critnote
     as2 g
     r4 f e c
-    as'4. as8 g4 g8 f %55
+    as'4. as8 g4 g8 f
     e2 f8 e f g
     a!4 f b b~
     b e, a2~
     a4 d, g4. f8
-    e4 f2 e4 %60
+    e4 f2 e4
     f a a a
     c2 b~
     b4 a g fis
     g2 r
-    d c4 c'~ %65
+    d c4 c'~
     c h! a gis
     r a8 g f4 e8 d
     c4 a'8 g f4 e8 d
     c2 r4 d
-    gis2~ gis8 a h4~ %70
+    gis2~ gis8 a h4~
     h8 e, a2 gis4
     a r r2
     a, e'4 e
     f2 e
-    R1 %75
+    R1
     e2~ e8 b' a g
     f2~ f8 b a g
     f2 fis
     g r
-    r4 d4. a'8 g f %80
+    r4 d4. a'8 g f
     e2~ e8 a g f
     e2. e4
     f2 a,8 d c b
     a4 f'8 g a c b a
-    b f f4 r2 %85
+    b f f4 r2
     R1*2
     b,2 f'4 f
     as2 g
-    r4 c, g' g %90
+    r4 c, g' g
     b4. b8 a!2
     r4 d, a' a
     c!2 b4 a
     b a g f!
-    es a fis g~ %95
+    es a fis g~
     g a g fis
     g2. f8 e
     d2 cis4. d8
     e4 g2 \once \tieDashed g4~
-    g f e a %100
+    g f e a
     gis2 a4 cis,
     d e f g
     f e8 d e4 a
     gis2 a4 cis,
-    d e f g %105
+    d e f g
     f e8 d e4 a~
     a g2 f4~
     f e2 d4~
     d cis d2
-    d cis %110
+    d cis
     a' d,4 d
     cis2 d
     r4 e f d
     g2 f
-    e4 d cis h8 cis %115
+    e4 d cis h8 cis
     d4. d8 cis2
     R1
     r4 f e d
     cis2~ cis8 f e d
-    cis2~ cis8 f e d %120
+    cis2~ cis8 f e d
     cis4 d g2
     f e4 e
     d r d' c~
     c b2 a4~
-    a g2 f4~ %125
+    a g2 f4~
     f e2 d4
     d cis8 h cis2
     d r
     r4 e e f
-    b2 a4 g %130
+    b2 a4 g
     f d'8 c b4 a8 g
     f4 d'8 c b4 a8 g
     f2. f4
     f1\fermata
-    R %135
+    R
     f2 f
     f e4 d
     e1
     d8 g' f e d b a g
-    a g' f e d b a g %140
+    a g' f e d b a g
     a g' f e d b a g
     a4 d,2 cis4
-    d2 r\fermata \bar "|." %143 finis
+    d2 r\fermata \bar "|."
   }
 }
 

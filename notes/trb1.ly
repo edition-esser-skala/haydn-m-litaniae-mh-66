@@ -290,6 +290,20 @@ ViaticumTromboneI = {
   \relative c' {
     \clef alto
     \key d \dorian \time 4/4 \tempoViaticum
+    r2 r4 e\fE
+    d8. d16 d4 r8 d cis e
+    g4 r r g8\p e
+    cis2~ cis16 d cis d cis8 e
+    g8. g16 g4 r2 %5
+    r4 f8 f f4 e8 d
+    e1\fermata \bar "||" %7 finis
+  }
+}
+
+PignusTromboneI = {
+  \relative c' {
+    \clef alto
+    \key d \dorian \time 4/4 \tempoViaticum
     r2 r4 \mvTr e\fE
     d8. d16 d4 r8 d cis e
     g4 r r g8\p e

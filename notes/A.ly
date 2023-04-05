@@ -794,132 +794,11 @@ ViaticumAltoNotes = {
     \key d \dorian \time 4/4 \autoBeamOff \tempoViaticum
     r2 r4 \mvTr e\fE^\tuttiE
     d8. d16 d4 r8 d cis e
-    g4 r r g8\pE e
+    g4 r r g8\p e
     cis2~ cis16[ d cis d] cis8[ e]
     g8. g16 g4 r2 %5
-    r4 f8 f f4 e8([ d)] \noBreak
-    e1\fermata \bar "||"
-    \time 2/2 \tempoPignus R1*13 %20
-    d2\fE a'4 a
-    b2 a
-    r4 g f e
-    d2~ d8[ g f e]
-    d2~ d8[ g f e] %25
-    d4 b' g8[ e] a4
-    f4.\trill e8 d2
-    r4 d2 c!4
-    f2 gis
-    r4 a8([ g] f4) e8([ d)] %30
-    c4 a'8[ g] f4 e8[ d]
-    c4 a'2 gis4
-    a f2 \once \tieDashed e4~
-    e d2 cis4
-    d2 e4 r %35
-    g( e) cis( d)
-    d( g) a2
-    r4 a( g) cis,
-    d(^\critnote a' g) cis,
-    d f b \once \tieDashed a~ %40
-    a g2 f4~
-    f g c, f~
-    f e2 e4
-    g2 f
-    r4 c f f %45
-    a4. a8 g2
-    r4 c,( g') g
-    b2 a4 a~
-    a g2 f4~
-    f e c f %50
-    f e r2
-    c e4 e
-    as2 g
-    r4 f e c
-    as'4. as8 g4 g8[ f] %55
-    e2 f8[ e f g]
-    a!4 f b b~
-    b e, a2~
-    a4 d, g4. f8
-    e4 f2 e4 %60
-    f a a a
-    c2 b~
-    b4 a( g) fis
-    g2 r
-    d c4 c'~ %65
-    c h! a gis
-    r a8([ g] f4) e8([ d)]
-    c4( a'8[ g] f4 e8[ d)]
-    c2 r4 d
-    gis2~ gis8[ a] h4~ %70
-    h8[ e,] a2 gis4
-    a r r2
-    a, e'4 e
-    f2 e
-    R1 %75
-    e2~ e8[ b' a g]
-    f2~ f8[ b a g]
-    f2 fis
-    g r
-    r4 d4. a'8[ g f] %80
-    e2~ e8[ a g f]
-    e2. e4
-    f2 a,8[ d c b]
-    a4 f'8[ g] a[ c b a]
-    b f f4 r2 %85
-    R1*2
-    b,2 f'4 f
-    as2 g
-    r4 c, g' g %90
-    b4. b8 a!2
-    r4 d,( a') a
-    c!2 b4 a
-    b a g f!
-    es a fis g~ %95
-    g a g( fis)
-    g2. f8[ e]
-    d2 cis4. d8
-    e4 g2 g4~
-    g f( e) a %100
-    gis2 a4 cis,(
-    d e) f( g)
-    f( e8[ d] e4) a
-    gis2 a4 cis,(
-    d) e f g %105
-    f( e8[ d]) e4 a~
-    a g2 f4~
-    f e2 d4~
-    d cis d2
-    d cis %110
-    a' d,4 d
-    cis2 d
-    r4 e f d
-    g2 f
-    e4 d cis h8[ cis] %115
-    d4. d8 cis2
-    R1
-    r4 f e d
-    cis2~ cis8[ f e d]
-    cis2~ cis8[ f e d] %120
-    cis4 d g2
-    f e4 e
-    d r d' c~
-    c b2 a4~
-    a g2 f4~ %125
-    f e2 d4
-    d( cis8[ h] cis2)
-    d r
-    r4 e e f
-    b2( a4) g %130
-    f d'8[ c] b?4 a8[ g]
-    f4 d'8[ c] b?4 a8[ g]
-    f2. f4
-    f1\fermata
-    R %135
-    f2 f
-    f e4( d)
-    e1
-    d2 r
-    R1*3 %142
-    R1\fermata \bar "|." %143 finis
+    r4 f8 f f4 e8([ d)]
+    e1\fermata \bar "||" %7 finis
   }
 }
 
@@ -930,126 +809,255 @@ ViaticumAltoLyrics = \lyricmode {
   en -- _
   _ ti -- um, %5
   mo -- ri -- en -- ti --
-  um.
+  um. %7 finis
+}
 
-  Pi -- gnus fu -- %21
+PignusAltoNotes = {
+  \relative c' {
+    \clef treble
+    \key d \dorian \time 2/2 \autoBeamOff \tempoPignus R1*13
+    \mvTr d2\fE^\tuttiE a'4 a
+    b2 a
+    r4 g f e
+    d2~ d8[ g f e]
+    d2~ d8[ g f e]
+    d4 b' g8[ e] a4
+    f4.\trill e8 d2
+    r4 d2 c!4
+    f2 gis
+    r4 a8([ g] f4) e8([ d)]
+    c4 a'8[ g] f4 e8[ d]
+    c4 a'2 gis4
+    a f2 \once \tieDashed e4~
+    e d2 cis4
+    d2 e4 r
+    g( e) cis( d)
+    d( g) a2
+    r4 a( g) cis,
+    d(^\critnote a' g) cis,
+    d f b \once \tieDashed a~
+    a g2 f4~
+    f g c, f~
+    f e2 e4
+    g2 f
+    r4 c f f
+    a4. a8 g2
+    r4 c,( g') g
+    b2 a4 a~
+    a g2 f4~
+    f e c f
+    f e r2
+    c e4 e
+    as2 g
+    r4 f e c
+    as'4. as8 g4 g8[ f]
+    e2 f8[ e f g]
+    a!4 f b b~
+    b e, a2~
+    a4 d, g4. f8
+    e4 f2 e4
+    f a a a
+    c2 b~
+    b4 a( g) fis
+    g2 r
+    d c4 c'~
+    c h! a gis
+    r a8([ g] f4) e8([ d)]
+    c4( a'8[ g] f4 e8[ d)]
+    c2 r4 d
+    gis2~ gis8[ a] h4~
+    h8[ e,] a2 gis4
+    a r r2
+    a, e'4 e
+    f2 e
+    R1
+    e2~ e8[ b' a g]
+    f2~ f8[ b a g]
+    f2 fis
+    g r
+    r4 d4. a'8[ g f]
+    e2~ e8[ a g f]
+    e2. e4
+    f2 a,8[ d c b]
+    a4 f'8[ g] a[ c b a]
+    b f f4 r2
+    R1*2
+    b,2 f'4 f
+    as2 g
+    r4 c, g' g
+    b4. b8 a!2
+    r4 d,( a') a
+    c!2 b4 a
+    b a g f!
+    es a fis g~
+    g a g( fis)
+    g2. f8[ e]
+    d2 cis4. d8
+    e4 g2 g4~
+    g f( e) a
+    gis2 a4 cis,(
+    d e) f( g)
+    f( e8[ d] e4) a
+    gis2 a4 cis,(
+    d) e f g
+    f( e8[ d]) e4 a~
+    a g2 f4~
+    f e2 d4~
+    d cis d2
+    d cis
+    a' d,4 d
+    cis2 d
+    r4 e f d
+    g2 f
+    e4 d cis h8[ cis]
+    d4. d8 cis2
+    R1
+    r4 f e d
+    cis2~ cis8[ f e d]
+    cis2~ cis8[ f e d]
+    cis4 d g2
+    f e4 e
+    d r d' c~
+    c b2 a4~
+    a g2 f4~
+    f e2 d4
+    d( cis8[ h] cis2)
+    d r
+    r4 e e f
+    b2( a4) g
+    f d'8[ c] b?4 a8[ g]
+    f4 d'8[ c] b?4 a8[ g]
+    f2. f4
+    f1\fermata
+    R
+    f2 f
+    f e4( d)
+    e1
+    d2 r
+    R1*3
+    R1\fermata \bar "|."
+  }
+}
+
+PignusAltoLyrics = \lyricmode {
+  Pi -- gnus fu --
   tu -- rae,
   fu -- tu -- rae
   glo --
-  _ %25
+  _
   _ _ _ _
   _ ri -- ae,
   mi -- se --
   re -- re,
-  mi -- se -- %30
+  mi -- se --
   re -- _ _ _
   _ _ _
   _ _ _
   _ re
-  no -- bis, %35
+  no -- bis,
   mi -- se --
   re -- re,
   mi -- se --
   re -- re
-  no -- _ _ _ %40
+  no -- _ _ _
   _ _
   _ bis, pi --
   gnus fu --
   tu -- rae,
-  fu -- tu -- rae %45
+  fu -- tu -- rae
   glo -- ri -- ae,
   mi -- se --
   re -- re, mi --
   se -- re --
-  _ _ re %50
+  _ _ re
   no -- bis,
   pi -- gnus fu --
   tu -- rae,
   fu -- tu -- rae
-  glo -- ri -- ae, glo -- %55
+  glo -- ri -- ae, glo --
   _ _
   _ ri -- ae, mi --
   se -- re --
   _ _ _
-  _ re no -- %60
+  _ re no --
   bis, pi -- gnus fu --
   tu -- rae __
   glo -- ri --
   ae,
-  mi -- se -- re -- %65
+  mi -- se -- re --
   _ _ re,
   mi -- se --
   re --
   re no --
-  _ _ %70
+  _ _
   _ _
   bis,
   pi -- gnus fu --
   tu -- rae
-  %75
+
   glo --
   _
   _ ri --
   ae,
-  glo -- _ %80
+  glo -- _
   _
   _ ri --
   ae, glo --
   _ _ _
-  _ ri -- ae, %85
+  _ ri -- ae,
 
-  pi -- gnus fu -- %88
+  pi -- gnus fu --
   tu -- rae,
-  fu -- tu -- rae %90
+  fu -- tu -- rae
   glo -- ri -- ae,
   mi -- se --
   re -- _ _
   _ _ _ _
-  _ _ re, mi -- %95
+  _ _ re, mi --
   _ se --
   re -- _
   _ _ _
   re, mi -- se --
-  re -- re %100
+  re -- re
   no -- bis, mi --
   se --
   re -- re
   no -- bis, mi --
-  se -- re -- re %105
+  se -- re -- re
   no -- bis, mi --
   se -- re --
   _ _
   _ re
-  no -- bis, %110
+  no -- bis,
   pi -- gnus fu --
   tu -- rae,
   fu -- tu -- rae
   glo -- _
-  _ _ _ _ %115
+  _ _ _ _
   _ ri -- ae,
 
   fu -- tu -- rae
   glo --
-  _ %120
+  _
   _ _ _
   _ _ ri --
   ae, mi -- se --
   re -- re, __
-  mi -- se -- %125
+  mi -- se --
   re -- re
   no --
   bis,
   pi -- gnus fu --
-  tu -- rae %130
+  tu -- rae
   glo -- _ _ _
   _ _ _ _
   _ ri --
   ae,
-  %135
+
   mi -- se --
   re -- re __
   no --
-  bis. %139 finis
+  bis.
 }
 
 AgnusDeiAltoNotes = {

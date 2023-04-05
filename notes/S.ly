@@ -593,123 +593,11 @@ ViaticumSopranoNotes = {
     \key d \dorian \time 4/4 \autoBeamOff \tempoViaticum
     r4 \mvTr g'\fE^\tuttiE cis8. cis16 cis4
     r8 a d f g,4 r
-    r e'8\pE cis \once \tieDashed b2~
+    r e'8\p cis b2~
     b16[ a b a] g4. e8 e4~
     e r r a8 a %5
-    gis4. gis8 a2~ \noBreak
-    a1\fermata \bar "||"
-    \time 2/2 \tempoPignus R1*19 %26
-    a2\fE d4 d
-    f2 e
-    r4 d c h
-    a2~ a8[ d c h] %30
-    a2~ a8[ d c h]
-    a4 f' d8[ h] e4
-    cis d b8[ g] c4
-    a b g8[ e] a4
-    f f e2 %35
-    r4 g2 f4
-    b2 cis
-    r4 d8([ c] b4) a8([ g)]
-    f4( d'8[ c!] b4) a8[( g])
-    f4 d'2 c4~ %40
-    c b2 a4
-    R1
-    c,2 g'4 g
-    b2 a
-    r4 c, a' a %45
-    c4. c8 b2
-    r4 c,( b') b
-    d2 c4 c~
-    c b2 a4~
-    a g2 f4 %50
-    c'1~
-    c~
-    c~
-    c
-    c %55
-    r4 c2 d8([ e)]
-    f4 a, d2~
-    d4 g, c2~
-    c4 f, b2~
-    b4 a g2 %60
-    f r
-    R1*2
-    g2 d'4 d
-    f!2 e %65
-    r4 d c h
-    a2~ a8[ d c h]
-    a2~ a8[ d c h]
-    a4 h8[ c] d[ e] f4~
-    f e8[ d] e4 d %70
-    c2 h
-    a4 d c h
-    a2 gis
-    a2. gis4
-    a8[ d c h] a2~ %75
-    a8[ d c h] a2~
-    a8[ g' f e] d2~
-    d8[ g f e] d2~
-    d8[ c h a] g2~
-    g8[ c h a] g2~ %80
-    g8[ f' e d] c2~
-    c8[ f e d] c2~
-    c8[ b a g] f2~
-    f8[ b a g] f2~
-    f4 d'2 c4 %85
-    b es?2 d4~
-    d c b a
-    \once \tieDashed b1~
-    b2. h4
-    \once \tieDashed c1~ %90
-    c2. cis4
-    d1
-    d,2 r
-    g d'4 d
-    es2 d %95
-    r4 c b a
-    b2. a8[ g]
-    a2. g8[ f]
-    g4 cis d e
-    a,1 %100
-    r2 r4 e'(
-    f cis) d( e)
-    d( a) a2
-    r r4 e'(
-    f) cis d e %105
-    d( a) a r
-    d2 c
-    b a
-    g2. f4
-    f2 e %110
-    R1*4
-    a2 e'4 e %115
-    f2 e
-    r4 d cis b
-    a1~
-    a8[ d cis h!] a2~
-    a8[ d cis h] a2~ %120
-    a4 f'2 e4~
-    e d2 cis4
-    d f2 e4~
-    e d2 c4~
-    c b2 a4~ %125
-    a g2 f4
-    e2 e
-    d a'4 a
-    b2 a
-    r4 g' f e %130
-    d2~ d8[ g f e]
-    d2~ d8[ g f e]
-    d2. d4
-    d1\fermata
-    f2 gis, %135
-    gis gis
-    a1~
-    a
-    a2 r
-    R1*3 %142
-    R1\fermata \bar "|." %143 finis
+    gis4. gis8 a2~
+    a1\fermata \bar "||" %7 finis
   }
 }
 
@@ -719,115 +607,236 @@ ViaticumSopranoLyrics = \lyricmode {
   mo -- ri -- en --
   _ ti -- um, __
   mo -- ri -- %5
-  en -- ti -- um. __
+  en -- ti -- um.
+  __ %7 finis
+}
 
-  Pi -- gnus fu -- %27
+PignusSopranoNotes = {
+  \relative c' {
+    \clef treble
+    \key d \dorian \time 2/2 \autoBeamOff \tempoPignus R1*19
+    \mvTr a'2\fE^\tuttiE d4 d
+    f2 e
+    r4 d c h
+    a2~ a8[ d c h]
+    a2~ a8[ d c h]
+    a4 f' d8[ h] e4
+    cis d b8[ g] c4
+    a b g8[ e] a4
+    f f e2
+    r4 g2 f4
+    b2 cis
+    r4 d8([ c] b4) a8([ g)]
+    f4( d'8[ c!] b4) a8[( g])
+    f4 d'2 c4~
+    c b2 a4
+    R1
+    c,2 g'4 g
+    b2 a
+    r4 c, a' a
+    c4. c8 b2
+    r4 c,( b') b
+    d2 c4 c~
+    c b2 a4~
+    a g2 f4
+    c'1~
+    c~
+    c~
+    c
+    c
+    r4 c2 d8([ e)]
+    f4 a, d2~
+    d4 g, c2~
+    c4 f, b2~
+    b4 a g2
+    f r
+    R1*2
+    g2 d'4 d
+    f!2 e
+    r4 d c h
+    a2~ a8[ d c h]
+    a2~ a8[ d c h]
+    a4 h8[ c] d[ e] f4~
+    f e8[ d] e4 d
+    c2 h
+    a4 d c h
+    a2 gis
+    a2. gis4
+    a8[ d c h] a2~
+    a8[ d c h] a2~
+    a8[ g' f e] d2~
+    d8[ g f e] d2~
+    d8[ c h a] g2~
+    g8[ c h a] g2~
+    g8[ f' e d] c2~
+    c8[ f e d] c2~
+    c8[ b a g] f2~
+    f8[ b a g] f2~
+    f4 d'2 c4
+    b es?2 d4~
+    d c b a
+    \once \tieDashed b1~
+    b2. h4
+    \once \tieDashed c1~
+    c2. cis4
+    d1
+    d,2 r
+    g d'4 d
+    es2 d
+    r4 c b a
+    b2. a8[ g]
+    a2. g8[ f]
+    g4 cis d e
+    a,1
+    r2 r4 e'(
+    f cis) d( e)
+    d( a) a2
+    r r4 e'(
+    f) cis d e
+    d( a) a r
+    d2 c
+    b a
+    g2. f4
+    f2 e
+    R1*4
+    a2 e'4 e
+    f2 e
+    r4 d cis b
+    a1~
+    a8[ d cis h!] a2~
+    a8[ d cis h] a2~
+    a4 f'2 e4~
+    e d2 cis4
+    d f2 e4~
+    e d2 c4~
+    c b2 a4~
+    a g2 f4
+    e2 e
+    d a'4 a
+    b2 a
+    r4 g' f e
+    d2~ d8[ g f e]
+    d2~ d8[ g f e]
+    d2. d4
+    d1\fermata
+    f2 gis,
+    gis gis
+    a1~
+    a
+    a2 r
+    R1*3
+    R1\fermata \bar "|."
+  }
+}
+
+PignusSopranoLyrics = \lyricmode {
+  Pi -- gnus fu --
   tu -- rae,
   fu -- tu -- rae
-  glo -- %30
+  glo --
   _
   _ _ _ _
   _ _ _ _
   _ _ _ _
-  _ ri -- ae, %35
+  _ ri -- ae,
   mi -- se --
   re -- re,
   mi -- se --
   re -- re
-  no -- _ _ %40
+  no -- _ _
   _ bis,
 
   pi -- gnus fu --
   tu -- rae,
-  fu -- tu -- rae %45
+  fu -- tu -- rae
   glo -- ri -- ae,
   mi -- se --
   re -- re, mi --
   se -- re --
-  _ re %50
+  _ re
   no --
 
-  bis, %55
+  bis,
   mi -- se --
   re -- re, mi --
   se -- re --
   _ _
-  re no -- %60
+  re no --
   bis,
 
-  pi -- gnus fu -- %64
-  tu -- rae, %65
+  pi -- gnus fu --
+  tu -- rae,
   fu -- tu -- rae
   glo --
   _
   _ _ _ _
-  _ _ _ %70
+  _ _ _
   _ ri --
   ae, fu -- tu -- rae
   glo -- _
   _ _
-  _ _ %75
+  _ _
   _
   _
   _
   _
-  _ %80
   _
   _
   _
   _
-  _ _ %85
+  _
+  _ _
   _ _ _
   _ ri -- ae,
   mi --
   se --
-  re -- %90
+  re --
   re
   no --
   bis,
   pi -- gnus fu --
-  tu -- rae, %95
+  tu -- rae,
   fu -- tu -- rae
   glo -- _
   _ _
   _ _ _ ri --
-  ae, %100
+  ae,
   mi --
   se --
   re -- re,
   mi --
-  se -- re -- re %105
+  se -- re -- re
   no -- bis,
   mi -- se --
   re -- _
   _ re
-  no -- bis, %110
+  no -- bis,
 
-  pi -- gnus fu -- %115
+  pi -- gnus fu --
   tu -- rae,
   fu -- tu -- rae
   glo --
   _
-  _ %120
+  _
   _ _
   _ ri --
   ae, mi -- se --
   re -- re, __
-  mi -- se -- %125
+  mi -- se --
   re -- re
   no -- bis,
   pi -- gnus fu --
   tu -- rae,
-  fu -- tu -- rae %130
+  fu -- tu -- rae
   glo --
   _
   _ ri --
   ae,
-  mi -- se -- %135
+  mi -- se --
   re -- re
   no --
 
-  bis. %139 finis
+  bis.
 }
 
 AgnusDeiSopranoNotes = {

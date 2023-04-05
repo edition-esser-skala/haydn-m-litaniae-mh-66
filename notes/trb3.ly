@@ -189,6 +189,20 @@ ViaticumTromboneIII = {
     cis,4 r r2
     r r4 g'8\p e
     cis8. cis16 cis4 r2 %5
+    r4 b8 b a4. a8
+    a1\fermata \bar "||" %7 finis
+  }
+}
+
+PignusTromboneIII = {
+  \relative c {
+    \clef bass
+    \key d \dorian \time 4/4 \tempoViaticum
+    r2 r4 g'\fE
+    f8. f16 f4 r8 f e g
+    cis,4 r r2
+    r r4 g'8\p e
+    cis8. cis16 cis4 r2 %5
     r4 b8 b a4. a8 \noBreak
     a1\fermata \bar "||"
     \time 2/2 \tempoPignus d2\fE a'4 a \noBreak

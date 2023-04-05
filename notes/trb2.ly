@@ -191,6 +191,20 @@ ViaticumTromboneII = {
     b4 r r2
     r4 e8\p cis b4. b8
     b2 r %5
+    r4 d8 d d4 cis8 h
+    cis1\fermata \bar "||" %7 finis
+  }
+}
+
+PignusTromboneII = {
+  \relative c' {
+    \clef tenor
+    \key d \dorian \time 4/4 \tempoViaticum
+    r2 r4 b\fE
+    a8. a16 a4 r8 b b b
+    b4 r r2
+    r4 e8\p cis b4. b8
+    b2 r %5
     r4 d8 d d4 cis8 h \noBreak
     cis1\fermata \bar "||"
     \time 2/2 \tempoPignus R1*6 %13
