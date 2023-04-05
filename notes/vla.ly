@@ -701,124 +701,128 @@ PignusViola = {
   \relative c' {
     \clef alto
     \twotwotime \key d \dorian \time 2/2 \tempoPignus
-    R1*6
+    R1*6 %6
     a2\fE d4 d
     f2 e
     r4 d c h
+    a2~ a8 d c h %10
     a2~ a8 d c h
-    a2~ a8 d c h
-    a4 f'^\critnote d8 h e4
+    a4 f' d8 h e4
     cis d g,8 e a4
     f4.\trillE e8 d2
-    r4 g2 f4
+    r4 g2 f4 %15
     b2 cis
     r4 d8 c b4 a8 g
     f4 d'8 c b4 a8 g
     f4 d'2 cis4
-    d d8 e f4 e
+    d d8 e f4 e %20
     d h! gis a
     d2 e
     f4 c d e
     f c d e
-    f d e2
+    f d e2 %25
     a,4 r r2
     R1
     r4 d2 cis4
     d g, a d8 c
-    b2 a4 g
+    b2 a4 g %30
     f2 g
     a4 f g2
     a4 r r2
     d2 c
-    b a
+    b a %35
     a4 g r2
     c,2 f4 f
     b2 a
     r4 c, g' g
-    c4. c8 b2
-    r4 c, a' a
+    c4. c8 b2 %40
+    r4 c, a'-\critnote a
     d2 c
-    b? a
-    a4 g8 a b? c d e
-    f4 f, b2
+    b a
+    a4 g8 a b c d e
+    f4 f, b2 %45
     as4 f g e'
     f c b2
-    as4 f g2
+    as4 f g2~
     g c
-    R1*4
+    R1*4 %53
     f,2 c'4 c
-    es2 d
+    es2 d %55
     r4 c b a
     g8 fis g a b c d c
     h2 c4 d8 e
     f4. f8 e2
-    r4 e f gis,
+    r4 e f gis, %60
     a e' f gis,
     a2 r
     R1
     a2 e'4 e
-    f2 e
+    f2 e %65
     r4 d c h
     a d e d
     c2~ c8 f e d
     c2 cis
-    d r
-    a~ a8 e' d c
+    d r %70
+    a~ a8 e' d c!
     h2~ h8 e d c
     h2. h4
     c2 r
-    r4 g4. d'8 c b
+    r4 g4. d'8 c b %75
     a4 f4. b8 a g
     f2~ f8 es' d c
     d4 b2 a4
     g b a2
-    g f4 es
+    g f4 es %80
     d2 d'4 d
     f2 es
     e e,
     g f4 g
-    a fis2 fis4
+    a fis2 fis4 %85
     a2 g4 fis
     g a b a8 b
     c4 c2 b4
     c2 d
-    g, r
+    g, r %90
     R1
-    r4 e' d cis
+    r4 e'! d cis
     d2 cis4 f
     d2 e
-    a, a
+    a, a %95
     a4 d2 cis4
     d2 e
     a, a
     a4 d2 cis4
-    R1
+    R1 %100
     g2 a
     b4 g a a
     a2 a
-    R1*5
-    a2 e'4 e
-    f2 e
-    r4 d cis h
+    f'1
+    e2 d %105
+    g f
+    e d
+    a r
+    a e'4 e
+    f2 e %110
+    r4 d cis b
     a2~ a8 d cis h
     a2~ a8 d cis h
     a4 d b8 g cis4
-    d g,8 a a4 a
+    d f,8 g a4 a %115
     a r g2
     f4 f' e2
     d c
     b a4 a
-    a1
+    a1 %120
     a2 r
-    r4 cis cis d^\critnote
+    r4 cis cis d
     e2 cis
     d4 a b cis
-    d a b cis
+    d a b cis %125
     d2. f4
     d1\fermata
     R
     d2 d
-    d cis4 h
+    d cis4 h %130
     cis1
     d2 r4 cis'
     d2 r4 cis

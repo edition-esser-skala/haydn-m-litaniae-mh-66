@@ -1555,302 +1555,302 @@ PignusOrgano = {
   \relative c {
     \clef bass
     \twotwotime \key d \dorian \time 2/2 \tempoPignus
-    \mvTr d2\fE-\colOrg-\tuttiE a'4 a
-    b2 a
-    r4 g f e
-    d2~ d8 g f e
-    d2~ d8 g f e
-    d4 b' g8 e a4
+    \mvTr d2-!\fE-\colOrg-\tuttiE a'4-! a-!
+    b2-! a-!
+    r4 g-! f-! e-!
+    d2~-! d8 g-! f-! e-!
+    d2~-! d8 g-! f-! e-! %5
+    d4-! b'-! g8-! e-! a4-!
     << {
       a2 d4 d
       f2 e
       r4 d c h
-      a2~ a8 d c h
+      a2~ a8 d c h %10
       a2~ a8 d c h
       a4 f' d8 h e4
       cis d g, a
     } \\ {
-      f4. e8 d2
+      f4.\trill e8 d2
       r4 d2 c!4
       d2 e
-      r4 a8 g f4 e8 d
+      r4 a8 g f4 e8 d %10
       c4 a'8 g f4 e8 d
-      c4 a'2 \once \tieDashed g4~
+      c4 a'2 g!4~
       g f e cis
     } >>
     d d8 e f4 d
-    g e cis d
+    g e cis d %15
     g2 a
     b4 f g a
     b f g a
     b g a2
-    d, \clef "treble_8" f'4 e
+    d, \clef "treble_8" f'4 e %20
     d h! gis a
     d2 e
     f4 c d e
     f c d e
-    f d e2
+    f d e2 %25
     a,4 \clef treble << {
       d'4 b8 g c!4
       a b g8 e a4
     } \\ {
-      f2 \once \tieDashed e4~
+      f2 e4~
       e d2 cis4
     } >>
     \clef bass d,2 a'4 a
     b2 a
-    r4 g f e
+    r4 g f e %30
     d2~ d8 g f e
     d2~ d8 g f e
     d4 b' g8 e a4
     f g e8 c f4
-    d e f h,!
-    c1~-\tasto
+    d e f h,! %35
+    c1~
+    c~-\tasto
     c~
     c~
-    c~
-    c~
+    c~ %40
     c~
     c~
     c
     c2 g'4 g
-    as2 g
+    as2 g %45
     r4 f e c
-    as'4. as8 g2
+    as'2 g
     r4 f e c
     b'2 a!
-    r4 d8 c b4 g8 f
-    e4 c'8 b? a4 f8 e
+    r4 d8 c b4 g8 f %50
+    e4 c'8 b a4 f8 e
     d4 b'8 a g4 e8 d
     c4 f c2
     f, r
-    r4 fis' g g,
+    r4 fis' g g, %55
     c2 d
     b4. a8 g2
     r4 gis' a a,
     d2 e
-    f4 c d e
+    f4 c d e %60
     f c d e
     f2 \clef treble << {
       d''8 e f4~
       f e8 d e4 d
     } \\ {
       r4 d,
-      \once \tieDashed gis2~ gis8 a h4
+      gis2~ gis8 a h4
     } >>
     \clef "treble_8" a,2 e'4 e
-    \clef bass a,,2 e'4 e
+    \clef bass a,,2 e'4 e %65
     f2 e
     r4 d c h
     a2~ a8 d c h
-    a2~ a8 g' f e
-    d2~ d8 g f e
-    d2~ d8 c' h a
+    a2~ a8 g'! f e
+    d2~ d8 g f e %70
+    d2~ d8 c'! h! a
     g2~ g8 c h a
     g2~ g8 f e d
     c2~ c8 f e d
-    c2~ c8 b' a g
+    c2~ c8 b' a g %75
     f2~ f8 \clef "treble_8" b[ a g]
     f2~ f8 es' d c
     \clef bass b,2 f'4 f
     g2 f
-    r4 es d c
-    b4. b8 b2
-    r4 d es d
-    c2 c
-    r4 e! f e
-    d2~ d8 g f e
+    r4 es d c %80
+    b2~ b8 es d c
+    b4 d es d
+    c2~ c8 f e d
+    c4 e f e
+    d2~ d8 g fis e %85
     d2 \clef "treble_8" d
     g4 a b a8 b
     c4 c2 b4
     c2 d
-    \clef bass g,, d'4 d
-    f2 e!
+    \clef bass g,, d'4 d %90
+    f!2 e!
     r4 \clef "treble_8" e' d cis
     \clef bass d,2 a'4 a
     b2 a
-    \clef "treble_8" a1
+    \clef "treble_8" a1 %95
     \clef bass d,2 a'4 a
     b4. b8 a2
     \clef "treble_8" a1
     \clef bass d,2 a'4 a
-    b2 a
+    b2 a %100
     g f
     e d4 f
     a2 a,
     a1~-\tasto
+    a~ %105
     a~
     a~
     a~
     a~
+    a~ %110
     a~
     a~
     a~
     a~
-    a~
-    a~
-    a
-    d4 d' b8 g c4
+    a %115
+    d4 d' b8 g c!4
     a b g8 e a4
     fis g e8 c f4
     d e cis8 a d4
-    a1
+    a1 %120
     d2 r
     r4 g g f
     g2 a
     b4 f g a
-    b f g a
-    b2. b4
-    b,1\fermata
+    b f g a %125
+    b1
+    b,\fermata
     b2 r
     b r
-    a4 a a a
+    a4 a a a %130
     a a a a
     d2 r4 e
     f2 r4 g
     f2 r4 e
-    f b a a,
-    d2 r\fermata \bar "|." %143 finis
+    f b a a, %135
+    d2 r\fermata \bar "|." %136 finis
   }
 }
 
 PignusBassFigures = \figuremode {
+  r1
+  r
+  r
+  r
+  r %5
   r
   r
   r
   r
+  r %10
   r
   r
   r
   r
-  r
-  r
-  r
-  r
-  r
-  r2 <[6]>
-  <_-> <6 5>
+  <_->2 <6 5> %15
   <_-> <6 _+>4 <5 \t>
   <[5]>4 <6> <_-> <8 6>8 <7 5>
   <5>4 <6> <_-> <8 6>8 <7 5>
   <5>4 <_-> <4> <_+>
-  r2 \bo <[6]>4 \bc <[\t]>
-  r2 <6 5>
-  r <6 _+>4 <5 \t>
+  r2 \bo <[6]>4 \bc <[\t]> %20
+  r2 <6 5>4 <[_!]>
+  r2 <6 _+>4 <5 \t>
   <[5]>4 <6>2 <8 6>8 <7 5>
   <5>4 <6>2 <8 6>8 <7 5>
-  <[5]>2 <4>4 <_+>
-  <[_+]>1
+  <[5]>2 <4>4 <_+> %25
+  q1
   r
   r2 <4>4 <_+>
   <6 3> <\t 4> <7 _+> <6 4>
-  r <_-> <5+> <\t>
+  r <_-> <5+> <\t> %30
   r2 <6- 4>8 <\t \t> <5+> <\t>
   r2 <6- 4>8 <\t \t> <5+> <\t>
-  r2 <6 5 [_-]>
-  <6 5>4 <[_-]> <6 5->2
-  <6- 5>4 <[6 5-]>2 <7>4
+  r2 <6 5 [_-]>4 <[_!]>
+  <6 5> <[_-]> <[6] 5->2
+  <6- 5>4 <[6 5-]>2 <7>4 %35
   <6 4>4 <[5] 3>2.
   r1
   r
   r
-  r
+  r %40
   r
   r
   r
   <6 4>4 <[5] 3> <6 [_-]>2
-  <6> <6 [_-]>
+  <6> <6 [_-]> %45
   r4 <_-> <[6]>2
   <6>2 <6 [_-]>
   r4 <_-> <[6]>2
   <4 2>2 <6>
-  r2. <[_-]>4
+  r2. <[_-]>4 %50
   <7 [5-]> <5>2.
-  <7>4 <5> <[_-]>2
+  <7 [5-]>4 <5> <[_-]>2
   <7-> <4>4 <3>
   r1
-  r4 <7-> <_->2
+  r4 <7-> <_->2 %55
   <7 _->4 <6 \t> <6 4> <[5] _+>
   <6>2 <[_-]>
-  r4 <7 _!>2.
-  <7>4 <6!> <6 4> <5 _+>
-  \bo <[5]>4 \bc <[6]>2 \bo <8 6 [_+]>8 \bc <7 5 [\t]>
+  r4 <7 [_!]>2.
+  <7>4 <6!> <6 4> <[5] _+>
+  \bo <[5]>4 \bc <[6]>2 \bo <8 6 [_+]>8 \bc <7 5 [\t]> %60
   <5>4 <[6]>2 \bo <8 6 [_+]>8 \bc <7 5 [\t]>
   r1
   r
   <9>4 <8> <4> <_+>
-  <6 4>2 <6 4>4 <[5] _+>
-  <5> <6> <6 _+> <[5] \t>
+  <6 4>2 <6 4>4 <[5] _+> %65
+  <5> <6> <6 4> <[5] _+>
   r2 <[6]>4 <6\\>
   r1
-  \bo <[_!]>2 \bc <[_+]>
+  r2 <_+>4. \once \bassFigureExtendersOn q8
+  r1 %70
+  r2 <_+>4. \once \bassFigureExtendersOn q8
   r1
-  \bo <[_!]>2 \bc <[_+]>
-  r1
   r
   r
-  r
+  r %75
   r
   r
   r2 <6 4->4 <[5] 3>
   <6- [_-]>2 <7->4 <6>
-  r <6> <[6-]> <6 [_-]>
+  r <6> <[6-]> <6 [_-]> %80
   r1
-  r4 <6- [5-]> <[5-]> <6!>
+  <7->2 <[5-]>4 <6!>
   <_!>1
-  r4 <6 [5-]> r <6\\>
-  <[_+]>1
-  <\t>2 <6- 4>4 <[5] _+>
-  \bo <[_-]>2 \bc <[6]>
+  <7->2. <6\\>4
+  <_+>1 %85
+  r2 <6- 4>4 <[5] _+>
+  <[_-]>1
   <5 _->4 <6 \t> <4\+ 2> <6>
-  \bo <[5] _-> \bc <[6] \t> <6- 4> <[5] _+>
-  <[_-]>2 <6- 4>4 <[5] _!>
-  \bo <[6]>2 \bc <[6\\]>
-  r4 \bo <[6\\ \l]> <6- 4> \bc <[6 \l]>
-  <4> <3> <_+> <6>
+  <5 _-> <6 \t> <6[-] 4> \bo <[5] _+>
+  \bc <[_-]>2 <6- 4>4 <[5] _!> %90
+  <6>2 <6\\>
+  r4 \bo <[6\\ _]> <6- 4> \bc <[5 _]>
+  <4> <3> <_+> <[8] 6>
   <6\\>2 <_+>
-  \bo <[6 4]>4 <5 _+> <6 4> \bc <[7 _+]>
+  <1>1 %95
   r2 <4>4 <_+>
   <6\\>2 <_+>
-  \bo <[6 4]>4 <5 _+> <6 4> \bc <[7 _+]>
+  <1>1
   r2 <4>4 <_+>
-  <7> <6> <7> <6>
+  <7> <6> <7> <6> %100
   \bo <7 [_-]> \bc <6 [\t]> <7> <6>
-  <7 [5-]> <6\\> <4> <6>
-  \bo <[6 4]>2 \bc <[5 _+]>
+  \bo <7 [5-]> \bc <6\\ [\t]> <4> <6>
+  <6 4>2 <[5] _+>
   r1
+  r %105
   r
   r
   r
   r
+  r %110
   r
   r
   r
   r
-  r
-  r
-  r
+  r %115
   r2 <6 5>
   q <6 5 [_-]>
-  <6 5>4 <_-> <6 5->2
+  <6 5>4 <_-> <6 5[-]>2
   <6- 5>4 <[5-]> <6 5>2
-  <4> <_+>
+  <4> <_+> %120
   r1
-  r4 <4\+ _-> <[\t 2]> <6>
+  r4 <4\+ _-> <\t 2> <6>
   <6 _->2 <6 _+>4 <5 \t>
   \bo <[5]>4 \bc <[6]> <_-> \bo <8 6 [_+]>8 \bc <7 5 [\t]>
-  <5>4 <6> <_-> \bo <8 6 [_+]>8 \bc <7 5 [\t]>
+  <5>4 <6> <_-> \bo <8 6 [_+]>8 \bc <7 5 [\t]> %125
   <5>1
   r
   <6\\>
   <\t>
-  <6 4>2 \bo <[5 _+]>4 \bc <[4 2]>
+  <6 4>2 \bo <[5 _+]>4 \bc <[4 2]> %130
   <[5] _+>1
   r2. <6\\>4
   <6>2. <4\+ _->4
-  <6>2. <6\\>4
-  <[6]>2 <4>4 <_+>
-  r1
+  <6>2. <6\\ [5-]>4
+  <[6]>2 <4>4 <_+> %135
+  r1 %136 finis
 }
 
 AgnusDeiOrgano = {

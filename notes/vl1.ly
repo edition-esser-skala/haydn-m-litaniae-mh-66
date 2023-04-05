@@ -781,120 +781,120 @@ PignusViolinoI = {
   \relative c' {
     \clef treble
     \twotwotime \key d \dorian \time 2/2 \tempoPignus
-    R1*19
-    a'2\fE d4 d
+    R1*19 %19
+    a'2\fE d4 d %20
     f2 e
     r4 d c h
     a2~ a8 d c h
     a2~ a8 d c h
-    a4 f' d8 h e4
+    a4 f' d8 h e4 %25
     cis d b8 g c4
     a b g8 e a4
-    f f e2
+    f4. f8 e2
     r4 g2 f4
-    b2 cis
+    b2 cis %30
     r4 d8 c b4 a8 g
     f4 d'8 c! b4 a8 g
-    f4 d'2 c4~
+    f4 d'2 c!4~
     c b2 a4
-    R1
+    R1 %35
     c,2 g'4 g
     b2 a
     r4 c, a' a
     c4. c8 b2
-    r4 c, b' b
+    r4 c, b' b %40
     d2 c4 c~
     c b2 a4~
     a g2 f4
     c'1~
-    c~
-    c~
+    c~ %45
     c~
     c
+    c
     r4 c2 d8 e
-    f4 a, d2~
+    f4 a, d2~ %50
     d4 g, c2~
     c4 f, b2~
     b4 a g2
     f r
-    R1*2
+    R1*2 %56
     g2 d'4 d
     f!2 e
-    r4 d c h
-    a2~ a8 d c h
+    r4 d c h!
+    a2~ a8 d c h %60
     a2~ a8 d c h
     a4 h8 c d e f4~
     f e8 d e4 d
     c2 h
-    a4 d c h
-    a2 gis
+    a4 d c h %65
+    a2. gis4
     a2. gis4
     a8 d c h a2~
     a8 d c h a2~
-    a8 g' f e d2~
+    a8 g' f e d2~ %70
     d8 g f e d2~
     d8 c h a g2~
     g8 c h a g2~
     g8 f' e d c2~
-    c8 f e d c2~
+    c8 f e d c2~ %75
     c8 b a g f2~
     f8 b a g f2~
     f4 d'2 c4
     b es2 d4~
-    d c b a
-    \once \tieDashed b1~
+    d c b a %80
+    b1~
     b2. h4
-    \once \tieDashed c1~
+    c1~
     c2. cis4
-    d1
+    d1 %85
     d,2 r
     g d'4 d
     es2 d
     r4 c b a
-    b2. a8 g
-    a2. g8 f
+    b2. a8 g %90
+    a2. g8 f!
     g4 cis d e
     a,1
     r2 r4 e'
-    f cis d e
+    f cis d e %95
     d a a2
     r r4 e'
     f cis d e
     d a a r
-    d2 c
+    d2 c! %100
     b a
     g2. f4
     f2 e
-    R1*4
+    R1*4 %107
     a2 e'4 e
     f2 e
-    r4 d cis b
+    r4 d cis b %110
     a1~
     a8 d cis h! a2~
     a8 d cis h a2~
     a4 f'2 e4~
-    e d2 cis4
+    e d2 cis4 %115
     d f2 e4~
     e d2 c4~
     c b2 a4~
     a g2 f4
-    e2 e
+    e2 e %120
     d a'4 a
     b2 a
     r4 g' f e
     d2~ d8 g f e
-    d2~ d8 g f e
+    d2~ d8 g f e %125
     d2. d4
     d1\fermata
     f2 gis,
     gis gis
-    a1~
+    a1~ %130
     a
     a8 g' f e d b a g
     a g' f e d b a g
     a g' f e d b a g
-    a d d, e e2\trill
-    d r\fermata \bar "|."
+    a d d, e e2\trill %135
+    d r\fermata \bar "|." %136 finis
   }
 }
 

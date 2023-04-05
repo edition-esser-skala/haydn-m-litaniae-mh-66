@@ -787,129 +787,129 @@ PignusViolinoII = {
   \relative c' {
     \clef treble
     \twotwotime \key d \dorian \time 2/2 \tempoPignus
-    R1*13
+    R1*13 %13
     d2\fE a'4 a
-    b2 a
+    b2 a %15
     r4 g f e
     d2~ d8 g f e
     d2~ d8 g f e
     d4 b' g8 e a4
-    f4.\trillE e8 d2
+    f4.\trill e8 d2 %20
     r4 d2 c!4
     f2 gis
     r4 a8 g f4 e8 d
     c4 a'8 g f4 e8 d
-    c4 a'2 gis4
-    a f2 \once \tieDashed e4~
+    c4 a'2 gis4 %25
+    a f2 e4~
     e d2 cis4
     d2 e4 r
     g e cis d
-    d g a2
+    d g a2 %30
     r4 a g cis,
     d a' g cis,
     d f b a~
     a g2 f4~
-    f g c, f~
+    f g c, f~ %35
     f e e e
     g2 f
     r4 c f f
     a4. a8 g2
-    r4 c, g' g
+    r4 c, g' g %40
     b2 a4 a~
     a g2 f4~
     f e c f
     f e r2
-    c e4 e-\critnote
+    c e4 e %45
     as2 g
     r4 f e c
     as'4. as8 g4 g8 f
     e2 f8 e f g
-    a!4 f b b~
+    a!4 f b b~ %50
     b e, a2~
     a4 d, g4. f8
     e4 f2 e4
     f a a a
-    c2 b~
+    c2 b4 b~ %55
     b4 a g fis
     g2 r
     d c4 c'~
     c h! a gis
-    r a8 g f4 e8 d
+    r a8 g f4 e8 d %60
     c4 a'8 g f4 e8 d
     c2 r4 d
     gis2~ gis8 a h4~
     h8 e, a2 gis4
-    a r r2
+    a r r2 %65
     a, e'4 e
     f2 e
     R1
     e2~ e8 b' a g
-    f2~ f8 b a g
+    f2~ f8 b a g %70
     f2 fis
     g r
-    r4 d4. a'8 g f
+    r4 d4. a'8 g f!
     e2~ e8 a g f
-    e2. e4
+    e2. e4 %75
     f2 a,8 d c b
     a4 f'8 g a c b a
     b f f4 r2
-    R1*2
+    R1*2 %80
     b,2 f'4 f
     as2 g
     r4 c, g' g
     b4. b8 a!2
-    r4 d, a' a
+    r4 d, a' a %85
     c!2 b4 a
     b a g f!
     es a fis g~
     g a g fis
-    g2. f8 e
+    g2. f8 e %90
     d2 cis4. d8
-    e4 g2 \once \tieDashed g4~
+    e4 g2 g4
     g f e a
     gis2 a4 cis,
-    d e f g
+    d e f g %95
     f e8 d e4 a
     gis2 a4 cis,
     d e f g
-    f e8 d e4 a~
-    a g2 f4~
+    f e8 d e4 \once \tieDashed a~
+    a g2 f4~ %100
     f e2 d4~
-    d cis d2
+    d cis d2~
     d cis
     a' d,4 d
-    cis2 d
+    cis2 d %105
     r4 e f d
     g2 f
     e4 d cis h8 cis
     d4. d8 cis2
-    R1
+    R1 %110
     r4 f e d
     cis2~ cis8 f e d
     cis2~ cis8 f e d
     cis4 d g2
-    f e4 e
-    d r d' c~
+    f e4 e %115
+    d r d' c!~
     c b2 a4~
     a g2 f4~
     f e2 d4
-    d cis8 h cis2
+    d cis8 h cis2 %120
     d r
     r4 e e f
     b2 a4 g
     f d'8 c b4 a8 g
-    f4 d'8 c b4 a8 g
+    f4 d'8 c b4 a8 g %125
     f2. f4
     f1\fermata
     R
     f2 f
-    f e4 d
+    f e4 d %130
     e1
     d8 g' f e d b a g
     a g' f e d b a g
     a g' f e d b a g
-    a4 d,2 cis4
-    d2 r\fermata \bar "|."
+    a4 d,2 cis4 %135
+    d2 r\fermata \bar "|." %136 finis
   }
 }
 
