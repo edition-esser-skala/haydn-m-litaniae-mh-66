@@ -411,7 +411,7 @@ DulcissimumTenoreNotes = {
     \clef "treble_8"
     \key g \dorian \time 3/4 \autoBeamOff \tempoDulcissimum
     R2.*24 %24
-    \mvTr g2.\pE^\soloE %25
+    \mvTr g2.\pE^\solo %25
     a4. b8 c4
     r d( g,)
     a4. b8 c4
@@ -463,10 +463,10 @@ DulcissimumTenoreNotes = {
     R2.*6 %96
     r4 d' d
     c!4. es8[ d c]
-    b4 a \once \tieDashed g~
+    b4 a g~
     g fis a %100
     d c b
-    a4.( c8) b([ a])
+    a4. c8([ b a])
     g4. a8[ b c]
     d4 d, r
     R2.*11 %115
@@ -492,9 +492,9 @@ DulcissimumTenoreNotes = {
     R2.*2
     r4 a a %140
     a2.~
-    a8[ gis? a b c b]
+    a8[ g a b c b]
     a2.~
-    a8[ gis? a b c b]
+    a8[ g a b c b]
     a4 r r %145
     R2.
     g4. g8 g4
@@ -533,7 +533,7 @@ DulcissimumTenoreLyrics = \lyricmode {
   pi -- e -- %55
   ta -- tis,
 
-  vin -- cu -- lum ca -- ri -- %61
+  vin -- cu -- lum cha -- ri -- %61
   ta --
 
   _
@@ -561,7 +561,7 @@ DulcissimumTenoreLyrics = \lyricmode {
   _ _ _
   _ _ %100
   _ _ _
-  _ re
+  _ re __
   no -- _
   _ bis,
 

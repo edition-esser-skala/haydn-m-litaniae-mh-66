@@ -630,7 +630,7 @@ DulcissimumBassoNotes = {
     \clef bass
     \key g \dorian \time 3/4 \autoBeamOff \tempoDulcissimum
     R2.*25 %25
-    \mvTr d2.\pE^\soloE
+    \mvTr d2.\pE^\solo
     g4. a8 b4
     r d,2
     g4. a8 b4
@@ -675,8 +675,8 @@ DulcissimumBassoNotes = {
     b b2 %85
     b8 a a4 r
     R2.
-    r4 d, f~
-    f es d
+    r4 d, f!
+    f( es) d
     d c r %90
     R2.*6 %96
     d2.
@@ -692,7 +692,7 @@ DulcissimumBassoNotes = {
     r r g
     d'( fis,) g
     r r g
-    as4. g8 f4 %110
+    as4. g8 f!4 %110
     g es b'~
     b a! g
     a8[ g a f] c'4~
@@ -726,7 +726,7 @@ DulcissimumBassoNotes = {
     d4 r r
     b4. b8 c4
     es d2
-    g4 r r
+    g,4 r r
     R2.*10 %159
     R2.\fermata \bar "|." %160
   }
@@ -759,7 +759,7 @@ DulcissimumBassoLyrics = \lyricmode {
   _ _ re
   no -- bis, %60
 
-  vin -- cu -- lum ca -- ri -- %62
+  vin -- cu -- lum cha -- ri -- %62
   ta --
 
   _ %65

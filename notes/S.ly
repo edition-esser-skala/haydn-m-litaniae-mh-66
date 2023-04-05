@@ -417,7 +417,7 @@ DulcissimumSopranoNotes = {
     \clef treble
     \key g \dorian \time 3/4 \autoBeamOff \tempoDulcissimum
     R2.*32 %32
-    \mvTr d'2.~\pE^\soloE
+    \mvTr d'2.~\pE^\solo
     d8 c c4 c~
     c8[ b] b2 %35
     b4 a r
@@ -431,7 +431,7 @@ DulcissimumSopranoNotes = {
     c2 d4
     es d r
     R2.*8 %60
-    es4 es8 es es es
+    \appoggiatura f8 es4 es8 es es es
     es2.~
     es8[ d es d es d]
     es2.~
@@ -450,14 +450,14 @@ DulcissimumSopranoNotes = {
     r g c,
     d4. es8 f4
     r es d
-    d cis \once \tieDashed b!~ %95
+    d cis b!~ %95
     b a g
     g fis r
     R2.
     r4 d' d
     c4. es8[ d c] %100
     b4 a g~
-    g fis? a
+    g fis a
     d c b
     b a r
     R2. %105
@@ -485,7 +485,7 @@ DulcissimumSopranoNotes = {
     b8([ c)] d4 r
     r fis, fis'
     g( d es) %135
-    c b( a)
+    \appoggiatura d8 c4 b( a)
     g4 r r
     R2.*2
     r4 c c %140
@@ -495,8 +495,8 @@ DulcissimumSopranoNotes = {
     c8[ h c d es d]
     c4 r r %145
     r a fis'
-    g( d) es(
-    c) b( a)\trill
+    g( d es)
+    \appoggiatura d8 c4 b( a)\trill
     g r r
     R2.*10 %159
     R2.\fermata \bar "|." %160 finis
@@ -518,7 +518,7 @@ DulcissimumSopranoLyrics = \lyricmode {
   re -- re
   no -- bis,
 
-  vin -- cu -- lum ca -- ri -- %61
+  vin -- cu -- lum cha -- ri -- %61
   ta --
 
   _
@@ -582,8 +582,8 @@ DulcissimumSopranoLyrics = \lyricmode {
 
   re, %145
   mi -- se --
-  re -- re __
-  no --
+  re --
+  re no --
   bis. %194 finis
 }
 

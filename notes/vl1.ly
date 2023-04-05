@@ -604,54 +604,54 @@ DulcissimumViolinoI = {
     a4. b8 c4
     r d( g,)
     a4. b8 c4
-    r d g, %5
+    r d( g,) %5
     c4. d8 es4~
     es es8 d d c
     \tuplet 3/2 4 { b a g } g4 r
     r8 d' d d d( b')
     r c, c c c( a') %10
-    r b, b b g' b,
+    r b, b b g'( b,)
     b4\trill a r
-    r8 b'  fis fis fis g
-    r d' fis, fis fis g
-    r b\p fis fis fis g %15
-    r d' fis, fis fis g
-    r es\f c' c c es,
-    r d b' b b d,
-    r c a' a a c,
-    r b b b g' b, %20
+    r8 b'( fis) fis fis( g)
+    r d'( fis,) fis fis( g)
+    r b(\p fis) fis fis( g) %15
+    r d'( fis,) fis fis( g)
+    r es(\f c') c c( es,)
+    r d( b') b b( d,)
+    r c( a') a a( c,)
+    r b( g') g g( d) %20
     r es d c b a
-    r b' g g g d
+    r b'( g) g g( d)
     r es d c b a
     g es d c b a
     g4 g'2\p %25
     a4. b8 c4
-    r d g,
+    r d( g,)
     a4. b8 c4
-    r d g,
+    r d( g,)
     c4. d8 es4~ %30
     es d c
     \tuplet 3/2 4 { b8 a g } g4 r
-    r8 d' d d d b'
-    r c, c c c a'
+    r8 d' d d d( b')
+    r c, c c c( a')
     r b, b b g' b, %35
     b4\trill a a\f
     b b2\p
     c4. d8 es4
-    r f b,
+    r f( b,)
     c4. d8 es4 %40
-    r f f,
+    r f( f,)
     g4. a8 b4
     c d es
     \tuplet 3/2 4 { d8 c b } b4 r
-    r8 f' f f f d'^\critnote %45
-    r es, es es es c'
+    r8 f' f f f( d') %45
+    r es, es es es( c')
     r d, d d b' d,
-    d4\trillE c r
-    r8 a a a a f'
-    r b, b b b g' %50
-    r c, c a' b f
-    es4 d r
+    d4 c r
+    r8 a a a a( f')
+    r b, b b b( g') %50
+    r c, c a' b( f)
+    es4-! d-! r
     r8 d( a) a a( b)
     r f'( a,) a a( b)
     r d( a) a a( b) %55
@@ -659,56 +659,56 @@ DulcissimumViolinoI = {
     as4 r as
     g b h
     c c c
-    c a8\f b c d %60
+    c a8\f b! c d %60
     es4\p r r
     c'( es,) r
     R2.
     c'4( es,) r
     R2. %65
-    \once \slurDashed c'4( es,) r
+    c'4( es,) r
     r es c
     d b b
     a es' c
     d b as %70
     g g' es
-    es2 d4^\critnote
+    es2 d4
     R2.
-    r8 b\f f' f f as
-    r g, es' es es g %75
-    r f, d' d d f
-    r es, c' c c es
-    r d b' b b f
+    r8 b(\f f') f f( as)
+    r g,( es') es es( g) %75
+    r f,( d') d d( f)
+    r es,( c') c c( es)
+    r d( b') b b( f)
     r g f es d c
-    r d' b b b f %80
+    r d'( b) b b( f) %80
     r g f es d c
     b g f es d c
     b4 b'2\p
     c4. d8 es4
-    r f b, %85
+    r f( b,) %85
     c4. d8 es4
     r d c
-    c h as
+    c( h) as~
     as g f
     r c'2 %90
     d4. es8 f4
-    r g c,
+    r g( c,)
     d4. es8 f4
     r es d
-    d cis b! %95
+    d( cis) b!~ %95
     b a g
     g fis r
     fis'2.
     g
-    a2 c,4 %100
-    b c d
+    a2( c,4) %100
+    b( c) d
     r es fis
     g8 d c4 b
     b a r
-    r8 b fis fis fis g %105
-    r d' fis, fis fis g
-    r b fis fis fis g
-    r d' fis, fis fis g
-    r b fis fis fis g
+    r8 b( fis) fis fis( g) %105
+    r d'( fis,) fis fis( g)
+    r b( fis) fis fis( g)
+    r d'( fis,) fis fis( g)
+    r b( fis) fis fis( g)
     as4 as as %110
     g b b
     b a! g
@@ -718,17 +718,17 @@ DulcissimumViolinoI = {
     a4. b8 c4
     r d( g,)
     a4. b8 c4
-    r d g,
+    r d( g,)
     c4. d8 es4~ %120
     es d c
     \tuplet 3/2 4 { b8 a g } g4 r
-    r8 d' d d d b'
-    r c, c c c a'
-    r b, b b g' b, %125
+    r8 d' d d d( b')
+    r c, c c c( a')
+    r b, b b g'( b,) %125
     b4\trill a r
-    r8 d, d d d b'
-    r c, c c c a'
-    r b, b b g' b,
+    r8 d, d d d( b')
+    r c, c c c( a')
+    r b, b b g'( b,)
     b4\trill a c' %130
     b r es
     a, r c
@@ -736,28 +736,28 @@ DulcissimumViolinoI = {
     fis r fis
     g r r %135
     R2.
-    r8 g,\fE d' d d g
-    r g, es' es es g
+    r8 g,(\f d') d d( g)
+    \slurDashed r g,( es') es es( g) \slurSolid
     r d es c a g
     fis4 r r %140
-    \once \slurDashed a'(\p c,) r
+    a'(\p c,) r
     R2.
-    \once \slurDashed a'4( c,) r
+    a'4( c,) r
     R2.
-    \once \slurDashed a'4( c,) r %145
+    a'4( c,) r %145
     fis2.
-    g
-    R
-    r8 b\f fis fis fis g
-    r d' fis, fis fis g %150
-    r b\p fis fis fis g
-    r d' fis, fis fis g
-    r es\f c' c c es,
-    r d b' b b d,
-    r c a' a a c, %155
-    r b g' g g b,
+    g2 r4
+    R2.
+    r8 b(\f fis) fis fis( g)
+    r d'( fis,) fis fis( g) %150
+    r b(\p fis) fis fis( g)
+    r d'( fis,) fis fis( g)
+    r es(\f c') c c( es,)
+    r d( b') b b( d,)
+    r c( a') a a( c,) %155
+    r b( g') g g( d)
     r es d c b a
-    r b' g g g d
+    r b'( g) g g( d)
     r es d c b a
     g4 r r\fermata \bar "|." %160 finis
   }

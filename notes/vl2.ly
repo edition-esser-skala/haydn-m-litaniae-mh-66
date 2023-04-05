@@ -607,60 +607,60 @@ DulcissimumViolinoII = {
     \clef treble
     \key g \dorian \time 3/4 \tempoDulcissimum
     b8(\fE d) g,( d') b( d)
-    c( d) a( d) a(-\critnote d)
-    b( d) g,( d') g( d)
     c( d) a( d) a( d)
+    b d g, d' g d
+    c d a d a d
     b d g, d' g d %5
     c fis c fis b, g'
     a c c b b a
-    g4 d8 c b a
-    g b' b b b d
-    r a a a a c %10
-    r g g g b g
+    g4 d8-! c-! b-! a-!
+    g b' b b b( d)
+    r a a a a( c) %10
+    r g g g b( g)
     g4\trill fis r
-    r8 b' fis fis fis g
-    r d' fis, fis fis g
-    r b\p fis fis fis g %15
-    r d' fis, fis fis g
-    r es\f c' c c es,
-    r d b' b b d,
-    r c a' a a c,
-    r b b b g' b, %20
+    r8 b'( fis) fis fis( g)
+    r d'( fis,) fis fis( g)
+    r b(\p fis) fis fis( g) %15
+    r d'( fis,) fis fis( g)
+    r es(\f c') c c( es,)
+    r d( b') b b( d,)
+    r c( a') a a( c,)
+    r b( g') g g( d) %20
     r c b a g fis
-    r b' g g g d
+    r b'( g) g g( d)
     r c b a g fis
     g es d c b a
-    b d g,\p d' b d %25
-    c d a d a d
-    b d g, d' b d
-    c d a d a d
+    b(\p d) g,( d') b( d) %25
+    c( d) a( d) a( d)
+    b( d) g,( d') g( d)
+    c( d) a d a d
     b d g, d' g d
     c fis c fis b, g' %30
     a c b4 a
     g g,8 a b a
-    \kneeBeam g b' b b b d
-    r a a a a c
+    g b' b b b( d)
+    r a a a a( c)
     r g g g b g %35
     g4\trill fis es\f
-    d8 f b,\p f' d f
-    es f c f c f
+    d8( f) b,(\p f') d( f)
+    es( f) c( f) c( f)
     d f b, f' b f
     es f c f c f %40
-    d f b, f'-\critnote b f
-    f4. es8 d4
+    d f b, f' b f
+    f4 es d
     r r c'
     f, d8 es f es
-    d d' d d d f %45
-    r c c c c es
-    r b b b d b
-    b4\trillE a r
-    r8 f f f f a
-    r g g g g b %50
+    d d' d d d( f) %45
+    r c c c c( es)
+    r b b b d( b)
+    b4 a r
+    r8 f f f f( a)
+    r g g g g( b) %50
     r a a c d4
-    c b r
+    \parOn c-\parenthesize-! \parOff b-\parenthesize-! r
     f'8 f, f2~
     \tuplet 3/2 4 { f8 g f es f es d c b }
-    f'' f, \once \tieDashed f2~ %55
+    f'' f, f2~ %55
     \tuplet 3/2 4 { f8 g f es f es d c b }
     f'4 r f
     b, g' g
@@ -671,7 +671,7 @@ DulcissimumViolinoII = {
     R2.
     es'4( a,) r
     R2. %65
-    \once \slurDashed es'4( a,) r
+    es'4( a,) r
     r c a
     b d, b
     c c' a
@@ -679,40 +679,40 @@ DulcissimumViolinoII = {
     es es' c
     c2 b4
     R2.
-    r8 b\f f' f f as
-    r g, es' es es g %75
-    r f, d' d d f
-    r es, c' c c es
-    r d b' b b d,
-    r g f es d c
-    r d' b b b f %80
-    r g f es d c
+    r8 b(\f f') f f( as)
+    r g,( es') es es( g) %75
+    r f,( d') d d( f)
+    r es,( c') c c( es)
+    r d( b') b b( f)
+    r es d c b a
+    r d'( b) b b( f) %80
+    r es d c b a
     b g f es d c
-    b f' d\p f b, f'
+    b( f') d(\p f) b,( f')
     es f c f c f
     d f b, f' b f %85
     es f c f c f
     d4 f fis
-    g2 f4
+    g2 f4~
     f es d
     g,8 g' c, g' es g %90
     f g d g d g
     es g c, g' c g
     f g d g d g
     es4 g gis
-    a e g %95
+    a e g~ %95
     g fis b!
     b a r
     a2.
     b
-    c2 fis,4 %100
+    c2( fis,4) %100
     g a b
     r c a
     b a g
     g fis r
     d'8 d, d2~ %105
     \tuplet 3/2 4 { d8 es d c d c b a g }
-    d'' d, \once \tieDashed d2~
+    d'' d, d2~
     \tuplet 3/2 4 { d8 es d c d c b a g }
     d'' d, d2
     f!4 f f %110
@@ -728,42 +728,42 @@ DulcissimumViolinoII = {
     c fis c fis b, g' %120
     a c b4 a
     g d8 c b a
-    g b' b b b d
-    r a a a a c
-    r g g g b g %125
+    g b' b b b( d)
+    r a a a a( c)
+    r g g g b( g) %125
     g4\trill fis r
-    r8 b, b b b d
-    r a a a a c
-    r g g g g g'
-    g4\trill fis fis %130
+    r8 b, b b b( d)
+    r a a a a( c)
+    r g g g \once \slurDashed b( g')
+    g4\trill fis a %130
     g r g
     fis r fis
     g r cis
     d r a
     g r r %135
     R2.
-    r8 g\fE d' d d g
-    r g, es' es es g
+    r8 g(\f d') d d( g)
+    \slurDashed r g,( es') es es( g) \slurSolid
     r d es c a g
     fis4 r r %140
-    \once \slurDashed c'(\p fis,) r
+    c'(\p fis,) r
     R2.
-    \once \slurDashed c'4( fis,) r
+    c'4( fis,) r
     R2.
-    \once \slurDashed c'4( fis,) r %145
+    c'4( fis,) r %145
     a2.
-    g
-    R
-    r8 b'\f fis fis fis g
-    r d' fis, fis fis g %150
-    r b\p fis fis fis g
-    r d' fis, fis fis g
-    r es\f c' c c es,
-    r d b' b b d,
-    r c a' a a c, %155
-    r b g' g g b,
+    g2 r4
+    R2.
+    r8 b'(\f fis) fis fis( g)
+    r d'( fis,) fis fis( g) %150
+    r b(\p fis) fis fis( g)
+    r d'( fis,) fis fis( g)
+    r es(\f c') c c( es,)
+    r d( b') b b( d,)
+    r c( a') a a( c,) %155
+    r b( g') g g( d)
     r c b a g fis
-    r b' g g g d
+    r b'( g) g g( d)
     r c b a g fis
     g4 r r\fermata \bar "|." %160 finis
   }

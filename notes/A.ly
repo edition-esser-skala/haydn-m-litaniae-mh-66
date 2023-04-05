@@ -629,7 +629,7 @@ DulcissimumAltoNotes = {
     \clef treble
     \key g \dorian \time 3/4 \autoBeamOff \tempoDulcissimum
     R2.*32 %32
-    \mvTr b'2.~\pE^\soloE
+    \mvTr b'2.~\pE^\solo
     b8 a a4 a~
     a8[ g] g2 %35
     g4 fis r
@@ -643,7 +643,7 @@ DulcissimumAltoNotes = {
     a2 b4
     c b r
     R2.*9 %61
-    a4 a8 a a a
+    \appoggiatura b8 a4 a8 a a a
     a2.~
     a8[ b a b a b]
     a2.~ %65
@@ -662,8 +662,8 @@ DulcissimumAltoNotes = {
     c4 c2
     c8 h h4 r
     R2.
-    r4 g g~ %95
-    g fis b!
+    r4 g! g %95
+    g( fis) b!
     b a r
     fis2.
     g
@@ -724,7 +724,7 @@ DulcissimumAltoLyrics = \lyricmode {
   re -- re
   no -- bis,
 
-  vin -- cu -- lum ca -- ri -- %62
+  vin -- cu -- lum cha -- ri -- %62
   ta --
 
   _ %65
