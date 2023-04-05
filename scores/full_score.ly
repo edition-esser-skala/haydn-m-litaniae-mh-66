@@ -5,26 +5,27 @@
 
 \book {
   \bookpart {
-    \section "1" "Kyrie eleison"
+    \section "1" "Kyrie"
     \addTocLabel "kyrie"
     \paper { indent = 3\cm }
-    \score {
+    \score { %\articulate
       <<
         \new StaffGroup <<
-          \new GrandStaff <<
+          \new GrandStaff \with { \smallGroupDistance } <<
+            \set GrandStaff.instrumentName = "Trombone"
             \new Staff {
-              \set Staff.instrumentName = \markup \center-column { "Trombone" "I" }
+              \set Staff.instrumentName = "I"
               \KyrieTromboneI
             }
             \new Staff {
               \set Staff.instrumentName = "II"
               \KyrieTromboneII
             }
-            \new Staff {
-              \set Staff.instrumentName = "III"
-              \KyrieTromboneIII
-            }
           >>
+          \new Staff {
+            \set Staff.instrumentName = \markup \center-column { "Fagotto" "[o Trombone III]" }
+            \KyrieFagotto
+          }
         >>
         \new StaffGroup <<
           \new GrandStaff \with { \smallGroupDistance } <<
@@ -78,7 +79,7 @@
         \new FiguredBass { \KyrieBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 60 }
+      \midi { \tempo 4 = 50 }
     }
   }
   \bookpart {
@@ -91,12 +92,14 @@
       top-markup-spacing.minimum-distance = #0
       markup-system-spacing.basic-distance = #10
       markup-system-spacing.minimum-distance = #10
-      systems-per-page = #2
+      system-system-spacing.basic-distance = #17
+      system-system-spacing.minimum-distance = #17
+      systems-per-page = #3
     }
-    \score {
+    \score { %\articulate
       <<
-        \new StaffGroup <<
-          \new GrandStaff \with { \smallGroupDistance } <<
+        \new StaffGroup \with { \setGroupDistance #11 #12 } <<
+          \new GrandStaff \with { \setGroupDistance #11 #11 } <<
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
@@ -112,24 +115,12 @@
             \PanisVivusViola
           }
         >>
-        \new ChoirStaff <<
+        \new ChoirStaff \with { \setGroupDistance #12 #13 } <<
           \new Staff {
-            \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \PanisVivusSopranoNotes }
+            \set Staff.instrumentName = \markup \center-column { "S, T, B" "solo" }
+            \new Voice = "Soli" { \dynamicUp \PanisVivusSoliNotes }
           }
-          \new Lyrics \lyricsto Soprano \PanisVivusSopranoLyrics
-
-          \new Staff {
-            \set Staff.instrumentName = "T"
-            \new Voice = "Tenore" { \dynamicUp \PanisVivusTenoreNotes }
-          }
-          \new Lyrics \lyricsto Tenore \PanisVivusTenoreLyrics
-
-          \new Staff {
-            \set Staff.instrumentName = "B"
-            \new Voice = "Basso" { \dynamicUp \PanisVivusBassoNotes }
-          }
-          \new Lyrics \lyricsto Basso \PanisVivusBassoLyrics
+          \new Lyrics \lyricsto Soli \PanisVivusSoliLyrics
         >>
         \new StaffGroup <<
           \new Staff {
@@ -141,32 +132,27 @@
         \new FiguredBass { \PanisVivusBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 90 }
+      \midi { \tempo 4 = 80 }
     }
   }
   \bookpart {
     \section "3" "Panis supersubstantialis"
     \addTocLabel "panissuper"
-    \score {
+    \paper {
+      top-system-spacing.basic-distance = #10
+      top-system-spacing.minimum-distance = #10
+      top-markup-spacing.basic-distance = #0
+      top-markup-spacing.minimum-distance = #0
+      markup-system-spacing.basic-distance = #10
+      markup-system-spacing.minimum-distance = #10
+      system-system-spacing.basic-distance = #17
+      system-system-spacing.minimum-distance = #17
+      systems-per-page = #2
+    }
+    \score { %\articulate
       <<
-        \new StaffGroup <<
-          \new GrandStaff <<
-            \new Staff {
-              \set Staff.instrumentName = \markup \center-column { "trb" "1" }
-              \PanisSuperTromboneI
-            }
-            \new Staff {
-              \set Staff.instrumentName = "2"
-              \PanisSuperTromboneII
-            }
-            \new Staff {
-              \set Staff.instrumentName = "3"
-              \PanisSuperTromboneIII
-            }
-          >>
-        >>
-        \new StaffGroup <<
-          \new GrandStaff \with { \smallGroupDistance } <<
+        \new StaffGroup \with { \setGroupDistance #11 #11 } <<
+          \new GrandStaff \with { \setGroupDistance #11 #11 } <<
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
@@ -182,7 +168,7 @@
             \PanisSuperViola
           }
         >>
-        \new ChoirStaff <<
+        \new ChoirStaff \with { \setGroupDistance #12 #13 } <<
           \new Staff {
             \set Staff.instrumentName = "S"
             \new Voice = "Soprano" { \dynamicUp \PanisSuperSopranoNotes }
@@ -190,19 +176,19 @@
           \new Lyrics \lyricsto Soprano \PanisSuperSopranoLyrics
 
           \new Staff {
-            \set Staff.instrumentName = "A"
+            \set Staff.instrumentName = \markup \center-column { "A" "trb 1" }
             \new Voice = "Alto" { \dynamicUp \PanisSuperAltoNotes }
           }
           \new Lyrics \lyricsto Alto \PanisSuperAltoLyrics
 
           \new Staff {
-            \set Staff.instrumentName = "T"
+            \set Staff.instrumentName = \markup \center-column { "T" "trb 2" }
             \new Voice = "Tenore" { \dynamicUp \PanisSuperTenoreNotes }
           }
           \new Lyrics \lyricsto Tenore \PanisSuperTenoreLyrics
 
           \new Staff {
-            \set Staff.instrumentName = "B"
+            \set Staff.instrumentName = \markup \center-column { "B" "fag" }
             \new Voice = "Basso" { \dynamicUp \PanisSuperBassoNotes }
           }
           \new Lyrics \lyricsto Basso \PanisSuperBassoLyrics
@@ -217,19 +203,15 @@
         \new FiguredBass { \PanisSuperBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 100 }
+      \midi { \tempo 4 = 90 }
     }
   }
   \bookpart {
     \section "4" "Præcelsum"
     \addTocLabel "praecelsum"
     \paper { systems-per-page = #2 }
-    \score {
+    \score { %\articulate
       <<
-        \new Staff {
-          \set Staff.instrumentName = "trb 1"
-          \PraecelsumTromboneI
-        }
         \new StaffGroup <<
           \new GrandStaff \with { \smallGroupDistance } <<
             \set GrandStaff.instrumentName = "vl"
@@ -247,6 +229,10 @@
             \PraecelsumViola
           }
         >>
+        \new Staff \with { \smallStaffDistance } {
+          \set Staff.instrumentName = \markup \center-column { "trb 1" "solo" }
+          \PraecelsumTromboneI
+        }
         \new ChoirStaff <<
           \new Staff {
             \set Staff.instrumentName = "A"
@@ -270,23 +256,24 @@
   \bookpart {
     \section "5" "Stupendum"
     \addTocLabel "stupendum"
-    \score {
+    \score { %\articulate
       <<
         \new StaffGroup <<
-          \new GrandStaff <<
+          \new GrandStaff \with { \smallGroupDistance } <<
+            \set GrandStaff.instrumentName = "trb"
             \new Staff {
-              \set Staff.instrumentName = \markup \center-column { "trb" "1" }
+              \set Staff.instrumentName = "1"
               \StupendumTromboneI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
               \StupendumTromboneII
             }
-            \new Staff {
-              \set Staff.instrumentName = "3"
-              \StupendumTromboneIII
-            }
           >>
+          \new Staff {
+            \set Staff.instrumentName = "fag"
+            \StupendumFagotto
+          }
         >>
         \new StaffGroup <<
           \new GrandStaff \with { \smallGroupDistance } <<
@@ -340,7 +327,7 @@
         \new FiguredBass { \StupendumBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 60 }
+      \midi { \tempo 4 = 60 } % 90 – 60
     }
   }
   \bookpart {
@@ -353,12 +340,14 @@
       top-markup-spacing.minimum-distance = #0
       markup-system-spacing.basic-distance = #10
       markup-system-spacing.minimum-distance = #10
+      system-system-spacing.basic-distance = #17
+      system-system-spacing.minimum-distance = #17
       systems-per-page = #2
     }
-    \score {
+    \score { %\articulate
       <<
-        \new StaffGroup \with { \smallGroupDistance } <<
-          \new GrandStaff \with { \smallGroupDistance } <<
+        \new StaffGroup \with { \setGroupDistance #11 #11 } <<
+          \new GrandStaff \with { \setGroupDistance #11 #11 } <<
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
@@ -374,7 +363,7 @@
             \DulcissimumViola
           }
         >>
-        \new ChoirStaff \with { \smallChoirDistance } <<
+        \new ChoirStaff \with { \setGroupDistance #12 #13 } <<
           \new Staff {
             \set Staff.instrumentName = "S"
             \new Voice = "Soprano" { \dynamicUp \DulcissimumSopranoNotes }
@@ -409,32 +398,27 @@
         \new FiguredBass { \DulcissimumBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 140 }
+      \midi { \tempo 4 = 120 }
     }
   }
   \bookpart {
     \section "7" "Viaticum"
     \addTocLabel "viaticum"
-    \score {
+    \paper {
+      top-system-spacing.basic-distance = #10
+      top-system-spacing.minimum-distance = #10
+      top-markup-spacing.basic-distance = #0
+      top-markup-spacing.minimum-distance = #0
+      markup-system-spacing.basic-distance = #10
+      markup-system-spacing.minimum-distance = #10
+      system-system-spacing.basic-distance = #17
+      system-system-spacing.minimum-distance = #17
+      systems-per-page = #2
+    }
+    \score { %\articulate
       <<
-        \new StaffGroup <<
-          \new GrandStaff <<
-            \new Staff {
-              \set Staff.instrumentName = \markup \center-column { "trb" "1" }
-              \ViaticumTromboneI
-            }
-            \new Staff {
-              \set Staff.instrumentName = "2"
-              \ViaticumTromboneII
-            }
-            \new Staff {
-              \set Staff.instrumentName = "3"
-              \ViaticumTromboneIII
-            }
-          >>
-        >>
-        \new StaffGroup <<
-          \new GrandStaff \with { \smallGroupDistance } <<
+        \new StaffGroup \with { \setGroupDistance #11 #11 } <<
+          \new GrandStaff \with { \setGroupDistance #11 #11 } <<
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
@@ -450,7 +434,7 @@
             \ViaticumViola
           }
         >>
-        \new ChoirStaff <<
+        \new ChoirStaff \with { \setGroupDistance #12 #13 } <<
           \new Staff {
             \set Staff.instrumentName = "S"
             \new Voice = "Soprano" { \dynamicUp \ViaticumSopranoNotes }
@@ -458,19 +442,19 @@
           \new Lyrics \lyricsto Soprano \ViaticumSopranoLyrics
 
           \new Staff {
-            \set Staff.instrumentName = "A"
+            \set Staff.instrumentName = \markup \center-column { "A" "trb 1" }
             \new Voice = "Alto" { \dynamicUp \ViaticumAltoNotes }
           }
           \new Lyrics \lyricsto Alto \ViaticumAltoLyrics
 
           \new Staff {
-            \set Staff.instrumentName = "T"
+            \set Staff.instrumentName = \markup \center-column { "T" "trb 2" }
             \new Voice = "Tenore" { \dynamicUp \ViaticumTenoreNotes }
           }
           \new Lyrics \lyricsto Tenore \ViaticumTenoreLyrics
 
           \new Staff {
-            \set Staff.instrumentName = "B"
+            \set Staff.instrumentName = \markup \center-column { "B" "fag" }
             \new Voice = "Basso" { \dynamicUp \ViaticumBassoNotes }
           }
           \new Lyrics \lyricsto Basso \ViaticumBassoLyrics
@@ -485,29 +469,101 @@
         \new FiguredBass { \ViaticumBassFigures }
       >>
       \layout { }
+      \midi { \tempo 4 = 50 }
+    }
+  }
+  \bookpart {
+    \section "7" "Pignus futuræ gloriæ"
+    \addTocLabel "pignus"
+    \paper {
+      top-system-spacing.basic-distance = #10
+      top-system-spacing.minimum-distance = #10
+      top-markup-spacing.basic-distance = #0
+      top-markup-spacing.minimum-distance = #0
+      markup-system-spacing.basic-distance = #10
+      markup-system-spacing.minimum-distance = #10
+      system-system-spacing.basic-distance = #17
+      system-system-spacing.minimum-distance = #17
+      systems-per-page = #2
+    }
+    \score { %\articulate
+      <<
+        \new StaffGroup \with { \setGroupDistance #11 #11 } <<
+          \new GrandStaff \with { \setGroupDistance #11 #11 } <<
+            \set GrandStaff.instrumentName = "vl"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \PignusViolinoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \PignusViolinoII
+            }
+          >>
+          \new Staff {
+            \set Staff.instrumentName = "vla"
+            \PignusViola
+          }
+        >>
+        \new ChoirStaff \with { \setGroupDistance #12 #13 } <<
+          \new Staff {
+            \set Staff.instrumentName = "S"
+            \new Voice = "Soprano" { \dynamicUp \PignusSopranoNotes }
+          }
+          \new Lyrics \lyricsto Soprano \PignusSopranoLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = \markup \center-column { "A" "trb 1" }
+            \new Voice = "Alto" { \dynamicUp \PignusAltoNotes }
+          }
+          \new Lyrics \lyricsto Alto \PignusAltoLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = \markup \center-column { "T" "trb 2" }
+            \new Voice = "Tenore" { \dynamicUp \PignusTenoreNotes }
+          }
+          \new Lyrics \lyricsto Tenore \PignusTenoreLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = \markup \center-column { "B" "fag" }
+            \new Voice = "Basso" { \dynamicUp \PignusBassoNotes }
+          }
+          \new Lyrics \lyricsto Basso \PignusBassoLyrics
+        >>
+        \new StaffGroup <<
+          \new Staff {
+            \set Staff.instrumentName = \markup \center-column { "org" "b" }
+            % \transpose c c,
+            \PignusOrgano
+          }
+        >>
+        \new FiguredBass { \PignusBassFigures }
+      >>
+      \layout { }
       \midi { \tempo 2 = 100 }
     }
   }
   \bookpart {
-    \section "8" "Agnus Dei"
+    \section "9" "Agnus Dei"
     \addTocLabel "agnusdei"
-    \score {
+    \score { %\articulate
       <<
         \new StaffGroup <<
-          \new GrandStaff <<
+          \new GrandStaff \with { \smallGroupDistance } <<
+            \set GrandStaff.instrumentName = "trb"
             \new Staff {
-              \set Staff.instrumentName = \markup \center-column { "trb" "1" }
+              \set Staff.instrumentName = "1"
               \AgnusDeiTromboneI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
               \AgnusDeiTromboneII
             }
-            \new Staff {
-              \set Staff.instrumentName = "3"
-              \AgnusDeiTromboneIII
-            }
           >>
+          \new Staff {
+            \set Staff.instrumentName = "fag"
+            \AgnusDeiFagotto
+          }
         >>
         \new StaffGroup <<
           \new GrandStaff \with { \smallGroupDistance } <<
@@ -561,7 +617,7 @@
         \new FiguredBass { \AgnusDeiBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 60 }
+      \midi { \tempo 4 = 50 }
     }
   }
 }

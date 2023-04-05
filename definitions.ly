@@ -1,15 +1,11 @@
 \version "2.22.0"
 
 #(define option-movement-title-format "number-title")
-#(define option-init-toc #t)
 #(define option-print-all-bar-numbers #f)
 \include "ees.ly"
 
 
-smallChoirDistance = \setGroupDistance #11 #12
-
-
-tempoKyrie = \tempoMarkup "Adagio ma non troppo"
+tempoKyrie = \tempoMarkup "Adagio mà non troppo"
 tempoPanisVivus = \tempoMarkup "Vivace"
 tempoPanisSuper = \tempoMarkup "Andante"
 tempoPraecelsum = \tempoMarkup "Larghetto"
@@ -18,13 +14,13 @@ tempoStupendum = \tempoMarkup "Grave"
   tempoTremendum = \tempoMarkup "Grave"
 tempoDulcissimum = \tempoMarkup "Allegretto"
 tempoViaticum = \tempoMarkup "Adagio"
-  tempoPignus = \tempoMarkup "Vivace"
-tempoAgnusDei = \tempoMarkup "Adagio ma non tanto"
+tempoPignus = \tempoMarkup "Vivace"
+tempoAgnusDei = \tempoMarkup "Adagio mà non tanto"
 
 
 \include "notes/trb1.ly"
 \include "notes/trb2.ly"
-\include "notes/trb3.ly"
+\include "notes/fag.ly"
 \include "notes/vl1.ly"
 \include "notes/vl2.ly"
 \include "notes/vla.ly"

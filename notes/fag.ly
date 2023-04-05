@@ -1,6 +1,6 @@
 \version "2.22.0"
 
-KyrieTromboneIII = {
+KyrieFagotto = {
   \relative c {
     \clef bass
     \key d \dorian \time 4/4 \tempoKyrie
@@ -42,7 +42,7 @@ KyrieTromboneIII = {
   }
 }
 
-PanisSuperTromboneIII = {
+PanisSuperFagotto = {
   \relative c {
     \clef bass
     \key g \dorian \time 3/4 \tempoPanisSuper
@@ -131,7 +131,7 @@ PanisSuperTromboneIII = {
   }
 }
 
-StupendumTromboneIII = {
+StupendumFagotto = {
   \relative c {
     \clef bass
     \key b \major \time 4/4 \tempoStupendum
@@ -180,7 +180,7 @@ StupendumTromboneIII = {
   }
 }
 
-ViaticumTromboneIII = {
+ViaticumFagotto = {
   \relative c {
     \clef bass
     \key d \dorian \time 4/4 \tempoViaticum
@@ -194,7 +194,7 @@ ViaticumTromboneIII = {
   }
 }
 
-PignusTromboneIII = {
+PignusFagotto = {
   \relative c {
     \clef bass
     \twotwotime \key d \dorian \time 2/2 \tempoPignus
@@ -325,7 +325,7 @@ PignusTromboneIII = {
   }
 }
 
-AgnusDeiTromboneIII = {
+AgnusDeiFagotto = {
   \relative c {
     \clef bass
     \key d \dorian \time 4/4 \tempoAgnusDei

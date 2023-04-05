@@ -1,5 +1,16 @@
 # Changelog
 
+## 3.0.0 - 2023-04-06
+
+### Added
+
+- MIDI files
+
+### Changed
+
+- use the autograph manuscript as principal source (resulting in numerous corrections)
+
+
 ## 2.0.0 - 2021-12-03
 
 ### Changed

@@ -173,7 +173,7 @@
     \addTocEntry
     \score {
       <<
-        \new ChoirStaff \with { \smallChoirDistance } <<
+        \new ChoirStaff <<
           \new Staff {
             \set Staff.instrumentName = "S"
             \new Voice = "Soprano" { \dynamicUp \DulcissimumSopranoNotes }
