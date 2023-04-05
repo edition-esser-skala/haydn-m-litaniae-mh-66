@@ -1857,104 +1857,104 @@ AgnusDeiOrgano = {
   \relative c {
     \clef bass
     \key d \dorian \time 4/4 \tempoAgnusDei
-    \mvTr d8\pE-\soloE d d d e e e e
+    \mvTr d8\pE-\solo d d d e e e e
     f f f f a, a a a
     b b b b b b a a
     g g c c f f\f f f
-    fis\p fis fis fis g g c, c %5
-    d d d d d d\fE d d
-    gis,\p gis gis gis a a' f d
-    e f\f e dis e\p e e e
+    fis fis\p fis fis g g c, c %5
+    d d d d d d\f d d
+    gis, gis\p gis gis a a' f d
+    e f\f e dis e e\p e e
     a,\fp a' a a a a a a
     gis\fp gis gis gis a a a a %10
-    c, c c c d d d d
-    e e e e a, a g! g
+    c,\fp c c c d\fp d d d
+    e-!\fp e e-!\fp e a, a\p g! g
     f f f f f f fis fis
     g g g g c c d d
     es es es es es es d d %15
     c c f f b, b\f b b
-    h\pE h h h c c f, f
-    g g g g c c\fE c c
-    cis\pE cis cis cis c c b c
-    d es\fE d cis d\pE d d d %20
-    g,\fpE g' g g g g g g
-    fis\fpE fis fis fis g g g g
-    b, b b b c c c c
-    d d d d g, g' \mvTr g\fE-\tuttiE g
+    h h\p h h c c f, f
+    g g g g c c\f c c
+    cis cis\p cis cis c c b c
+    d es\f d cis d d\p d d %20
+    g,\fp g' g g g g g g
+    fis\fp fis fis fis g g g g
+    b,\fp b b b c\fp c c c
+    d\fp d d\fp d g, \mvTr g'\fE-\tuttiE g g
     g g g g g g g g %25
-    f f f f f f f f
+    f! f f f f f f f
     e e e e e e d d
-    cis cis cis cis d d'16 cis d8 d,
-    cis cis' r cis, d d'16 cis d8 d,
-    a' a, r4 d8\pE d'16 cis d8 d, %30
-    cis cis' r cis, d d'16 cis d8 d,
-    a' a, r g\fE f f fis fis
+    cis cis cis cis d d'16. cis32 d8 d,
+    cis cis' r cis, d d'16. cis32 d8 d,
+    a' a, r4 d8\p d'16. cis32 d8 d, %30
+    cis cis' r cis, d d'16. cis32 d8 d,
+    a' a, r g\f f f fis fis
     g g a a b b g g
     a a a gis a a a a
-    d, d' f\p d a' a, r cis %35
+    d, \mvTr d'\p-\solo f d a' a, r cis %35
     d e f d g4 r
-    r g8\fE g g4 f
+    r \mvTr g8\fE-\tutti g g4 f
     a,8 a a a a a a a
     a a a a a a a a
-    a\pE a a a b b b b %40
+    a\p a a a b b b b %40
     a a a a a a a a
-    \mvTr d,\fpE-\soloE d' d d d d d d
-    cis\fpE cis cis cis d d d d
+    d,\fE \mvTr d'\p-\solo d d d d d d
+    cis\fp cis cis cis d d d d
     f,\fp f f f g\fp g g g
-    a\fp a a a \mvTr d\f-\tutti d d d %45
+    a\fp a a\fp a \mvTr d\fE-\tutti d d d %45
     d d d d d d d d
     d1
-    d\fermata \bar "|." %48 FINIS
+    d\fermata \bar "|." %48 finis
   }
 }
 
 AgnusDeiBassFigures = \figuremode {
   <6->2 <7>4 <6>8 <5->
   <9 4->8 \bo <[8] 3>4. \bc <[6]>4. <5->8
-  <9 4-> <[8] 3>4. <4! 2>4 <6>
+  <9 4[-]> <[8] 3>4. <4! 2>4 <6>
   <4> <7->2.
   <7->4. <6>8 <_->4 <[5] _->8 <6 \t> %5
-  <6- 4>4 <5 _+> <[6!] 4\+ _!>2
+  <6- 4>4 \bo <[5] _+> \bc <[6!] 4\+ _!>2
   <7 _!>4. <6 \t>8 r4 <6>8 q
-  <6 4>2 \bassFigureExtendersOn q8 q \bassFigureExtendersOff <[5 _+]>4
+  <6 4>2 \bassFigureExtendersOn q8 q \bassFigureExtendersOff <[5] _+>4
   r2 <2>
   <6 5>1 %10
   <6>
   <6 4>4 <[5] _+>2 <6 _->4
   r2 <7->4 <\t>
-  \bo <[9 4]>8 \bc <[8 _-]>4. <6- [_-]>4 <5->
-  <9 4->8 <[8] 3>4. <4! 2>4 <6-> %15
+  <9 4>8 <[8] _->4. <6- [_-]>4 <6- 5->
+  <9 4[-]>8 <[8] 3>4. <4! 2>4 <6-> %15
   <4> <7->2.
-  <7->4. <[6]>8 <_->4 q
+  <7->2 <_->4 q
   <6- 4> <[5] _!> <_->2
-  <7- _!> <4\+ 2>4 <6>8 <_->
+  <7- [_!]> <4\+ 2>4 <6>8 <_->
   <6- 4>2 \bassFigureExtendersOn q8 q \bassFigureExtendersOff <[5] _+>4 %20
-  <_->2 <[6- 4 2]>
+  <_->2 <[6-] 4 2>
   <[6 5]> <_->
   <[6]> <_->
   <6- 4>4 <[5] _+> <_->2
-  <6! _-> <4\+ _-> %25
+  <6[!] _-> <4\+ _-> %25
   <6>1
   <6\\>
   <7->4 <6 5>2.
-  <[6 5]>1
+  <[6]>1
   <6 4>8 <[5] _+>2.. %30
   <[6 5]>1
-  \bo <[6 4]>8 <5 _+>4 \bc <[\t \t]>8 <6>4 <\t>
-  <6- 5 [_-]> <6\\> <6> \bo <8 6- [_-]>8 \bc <7! 5 [\t]>
-  <9- _+> <8 \t> <6 4> <7 _!> <6 4>4 <[5] _+>
-  r4 \bo <[6 \l]> <_+>4. \bc <[6 5]>8 %35
+  <6 4>8 \bo <[5] _+>4 \bc <[\t] \t>8 <6>4 <[\t]>
+  <6- 5 [_-]> <6\\> <6> \bo <8 6- [_-]>8 \bc <7[!] 5 [\t]>
+  \bo <9- [5!] _+> \bc <8 [\t] \t> <6 4> <7 _!> <6 4>4 <[5] _+>
+  r2 <6 4>8 <[5] _+>4 <[6 5]>8 %35
   <9 4>4 <6> <4\+ _->2
   r4 <4\+ _->2 <6>4
-  <1>2 <7 _+>4 <6 4>
+  <1>8 q q q <7 _+>4 <6 4>
   <7 _+> <6 4> <\t \t>2
-  <6\\ 5- _!> <6>4 <6\\> %40
-  <6 4>2 <[5] _+>
-  r <[6- 4] 2>
-  <[6 5]>1
+  <6\\ 5- [_!]> <6>4 <6\\> %40
+  <6[!] 4>2 <[5] _+>
+  r \bo <[6- 4] 2>
+  \bc <[6 5]>1
   <[6]>2 <_->
-  <6 4>4 <[5 _+]> <1>2 %45
-  <7! _+>2 <6- 4>4 <[5 _+]>
+  <6 4>4 <[5] _+> <1>8 q q q %45
+  <7[!] _+>2 <6- 4>4 <[5] _+>
   <6- 5>2 <\t 4>
-  <[5] _+>1 %48 FINIS
+  <[5] _+>1 %48 finis
 }

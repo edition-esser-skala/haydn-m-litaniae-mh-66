@@ -329,30 +329,39 @@ AgnusDeiTromboneIII = {
   \relative c {
     \clef bass
     \key d \dorian \time 4/4 \tempoAgnusDei
-    R1*23 %23
-    r2 r4 g'8\fE g
-    g4 g r^\critnote g %25
-    f f r f
+    R1*8 %8
+    a8\pE a' a a a a a a
+    gis gis gis gis a a a a %10
+    c, c c c d d d d
+    e e e e a,4 r
+    R1*8 %20
+    g8\pE g' g g g g g g
+    fis fis fis fis g g g g
+    b, b b b c c c c
+    d d d d g,4 g'8\fE g
+    g4 g r g %25
+    f! f r f
     e e r8 e d d
     cis4 cis8 r d4. d8
     cis4 cis d2
-    a4 r d4.\pE d8 %30
+    a4 r d4.\p d8 %30
     cis4 cis d2
-    a4 r f\fE fis
+    a4 r f\f fis
     g a b g
     a4. gis8 a2
     d4 r r2 %35
     R1
     r4 g8\fE g g4 f
     a,4 a a2
-    a a
+    a a~
     a\p b %40
     a1
-    d4 r r2
-    R1*2
-    r2 d4\fE d %45
+    d8^\critnote d d d d d d d
+    cis cis cis cis d d d d
+    f, f f f g g g g
+    a a a a d4\f d %45
     d2. d4
     d1
-    d\fermata \bar "|." %48 FINIS
+    d\fermata \bar "|." %48 finis
   }
 }

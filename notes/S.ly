@@ -845,7 +845,7 @@ AgnusDeiSopranoNotes = {
     \clef treble
     \key d \dorian \time 4/4 \autoBeamOff \tempoAgnusDei
     R1*23 %23
-    r2 r4 \mvTr b'8\fE^\tuttiE b
+    r2 r4 \mvTr b'8\fE^\tutti b
     b4 b r b %25
     a a r a
     cis cis r8 cis d a
@@ -855,9 +855,9 @@ AgnusDeiSopranoNotes = {
     a4 a a2
     a4 r d\f d,
     es fis g8 b b4~
-    b8[ a16 g] f4 f( e)
-    d a'8\p d cis4 e8([ g,)] %35
-    g4( f) e b'8\fE b
+    b8[ a16 g] f4 f( e)\trill
+    d \mvTr a'8\pE^\solo d \appoggiatura d cis4 e8([ g,)] %35
+    g4( f)\trill e \mvTr b'8\fE^\tutti b
     b2. a4
     r2 g'4 f
     e d f,2
@@ -867,15 +867,15 @@ AgnusDeiSopranoNotes = {
     R1*3 %45
     c'!4.\f c8 b4 a
     a( b8[ fis] g2)\trill
-    fis1\fermata \bar "|." %48 FINIS
+    fis1\fermata \bar "|." %48 finis
   }
 }
 
 AgnusDeiSopranoLyrics = \lyricmode {
   A -- gnus %24
-  De -- i, qui %25
-  tol -- lis, qui
-  tol -- lis pec -- ca -- ta
+  DE -- i, qui %25
+  tol -- lis pec --
+  ca -- ta, pec -- ca -- ta
   mun -- di: Mi -- se --
   re -- re no --
   bis, mi -- se -- %30
@@ -894,5 +894,5 @@ AgnusDeiSopranoLyrics = \lyricmode {
 
   mi -- se -- re -- re %46
   no --
-  bis. %48 FINIS
+  bis. %48 finis
 }

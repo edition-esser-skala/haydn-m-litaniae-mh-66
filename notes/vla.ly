@@ -827,8 +827,8 @@ PignusViola = {
     d2 r4 cis'
     d2 r4 cis
     d2 r4 cis
-    d b a a,
-    d2 r\fermata \bar "|."
+    d b a a, %135
+    d2 r\fermata \bar "|." %136 finis
   }
 }
 
@@ -840,49 +840,49 @@ AgnusDeiViola = {
     c c f f f f f f
     f f b, b c c c c
     d g g g f f\f f c'
-    a\pE a, a d d d es es %5
+    a a,\p a d d d es es %5
     d d d d h! f'!\f f f
-    h,\p h h e e e f f
-    e dis\f e fis? e\p e e e
-    e16\fp e e e a, a a a f' f f f f f f f
+    h, h\p h e e e f f
+    e dis\f e fis e e\p e e
+    e16(-.\fp e-. e-. e-.) a,(-. a-. a-. a-.) f' f f f f f f f
     e\fp e e e e e e e e e e e e e e e %10
-    e e e e e e e e d d d d d d d d
-    c c c c e e e e e4 r8 b
+    e\fp e e e e e e e d\fp d d d d d d d
+    c\fp c c c e\fp e e e e4 r8 b\p
     c c c c es es es es
     d d d d c c b b
     b b b b c c b b %15
-    c^\critnote c c c b b\fE b b
-    d\pE as as as g c c as'
-    g g g, g g c\fE c g'
-    e!\pE b b b d d d es
-    d cis\fE d e d\pE d d d %20
-    d16\fpE d d d g, g g g es' es es es es es es es
-    d\fpE d d d d d d d d d d d d d d d
-    d d d d d d d d c c c c c c c c
-    b b b b d d d d d8 d d\fE d
-    b b b b e, e cis' cis %25
+    c c c c b b\f b f'
+    d as\p as as g c c as'
+    g g g, g g c\f c g'
+    e! b\p b b d d d es
+    d cis\f d e d d\p d d %20
+    d16\fp d d d g, g g g es' es es es es es es es
+    d\fp d d d d d d d d d d d d d d d
+    d\fp d d d d d d d c\fp c c c c c c c
+    b\fp b b b d\fp d d d d8 d\f d d
+    b b b b e,! e cis' cis %25
     d d d d d d d d
     g, g g g e g a f'
-    e e e e d d'16 cis d8 d,
-    cis cis' r cis, d d'16 cis d8 d,
-    a' a, r4 d8\pE d'16 cis d8 d, %30
-    cis cis' r cis, d d'16 cis d8 d,
-    a' a, r a\fE a a a a
+    e e e e d d'16. cis32 d8 d,
+    cis cis' r cis, d d'16. cis32 d8 d,
+    a' a, r4 d8\p d'16. cis32 d8 d, %30
+    cis cis' r cis, d d'16. cis32 d8 d,
+    a' a, r a\f a a a a
     b b a a g g es' d
     cis cis a h a a a g
-    f4 r a2\pE %35
-    a b8 g' g\f g
+    f4 r a2\p %35
+    a b8 g'\f g g
     g g e e b'4 a
     a,8 a a a e' e d d
     cis cis a a a a a a
     fis\p fis fis fis g g d e %40
     f f e d e e e e
-    d16\fpE a' a a d, d d d b' b b b b b b b
-    a\fpE a a a a a a a a a a a a a a a
-    a\fpE a a a a a a a g\fpE g g g g g g g
+    d16\fp a' a a d, d d d b' b b b b b b b
+    a\fp a a a a a a a a a a a a a a a
+    a\fp a a a a a a a g\fp g g g g g g g
     f\fp f f f a\fp a a a a4 r %45
     fis8\f fis fis fis g d' d c
     b1
-    a\fermata \bar "|." %48 FINIS
+    a\fermata \bar "|." %48 finis
   }
 }
